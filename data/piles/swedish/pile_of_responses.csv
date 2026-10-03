@@ -1,0 +1,660 @@
+service,response_starting,response_confirmed,persona,short
+blinds.open_cover,Öppnar persiennerna nu.,Persiennerna är nu öppna.,assistant,0
+blinds.open_cover,Jag öppnar persiennerna nu.,Persiennerna är nu öppna.,assistant,0
+blinds.open_cover,"Visst, öppnar persiennerna nu.","Visst, persiennerna är nu öppna.",assistant,0
+blinds.close_cover,Stänger persiennerna nu.,Persiennerna är nu stängda.,assistant,0
+blinds.close_cover,Stänger persiennerna nu.,Persiennerna är nu stängda.,assistant,0
+blinds.close_cover,"Visst, stänger persiennerna nu.","Visst, persiennerna är nu stängda.",assistant,0
+blinds.stop_cover,Stoppar persiennerna nu.,Persiennerna har stoppats.,assistant,0
+blinds.stop_cover,Stoppar persiennerna nu.,Persiennerna har stoppats.,assistant,0
+blinds.stop_cover,"Visst, stoppar persiennernas rörelse nu.",Persiennernas rörelse har stoppats.,assistant,0
+blinds.toggle,Växlar persiennerna nu.,Persiennerna har växlats.,assistant,0
+blinds.toggle,Byter läge på persiennerna nu.,Persiennernas läge har bytts.,assistant,0
+blinds.toggle,Växlar persiennerna nu.,Persiennerna har växlats.,assistant,0
+blinds.open_cover,Drar upp persiennerna <device_name> nu,Persiennerna <device_name> har dragits upp,assistant,0
+blinds.open_cover,Öppnar <device_name> nu.,<device_name> är nu öppen.,assistant,0
+blinds.open_cover,Höjer <device_name> nu,<device_name> är nu uppe,assistant,0
+blinds.stop_cover,Fryser läget för <device_name> nu.,Läget för <device_name> är nu fryst.,assistant,0
+blinds.stop_cover,Stannar <device_name> nu.,<device_name> har stannats.,assistant,0
+blinds.stop_cover,Stoppar <device_name> nu.,<device_name> har stoppats.,assistant,0
+blinds.open_cover,Höjer <device_name> nu.,<device_name> är nu uppe.,assistant,0
+blinds.close_cover,Stänger <device_name> nu.,<device_name> är nu stängd.,assistant,0
+blinds.close_cover,Sänker <device_name> nu.,<device_name> är nu stängd.,assistant,0
+blinds.close_cover,Stänger igen <device_name> nu.,<device_name> är nu stängd.,assistant,0
+blinds.close_cover,Sänker <device_name> nu.,<device_name> har sänkts.,assistant,0
+blinds.toggle,Ändrar läget på <device_name> nu.,Läget på <device_name> har ändrats.,assistant,0
+blinds.toggle,Byter läge på <device_name> nu.,Läget på <device_name> har bytts.,assistant,0
+blinds.toggle,Växlar <device_name> nu,<device_name> har växlats,assistant,0
+blinds.toggle,Växlar <device_name> nu.,<device_name> har växlats.,assistant,0
+climate.set_humidity,Höjer luftfuktigheten till <humidity> nu.,Luftfuktigheten har höjts till <humidity>.,assistant,0
+climate.set_humidity,Ställer in luftfuktigheten på <humidity> procent.,Luftfuktigheten har ställts in på <humidity> procent.,assistant,0
+climate.set_humidity,Justerar luftfuktigheten till <humidity> % nu.,Luftfuktigheten har ställts in på <humidity> %.,assistant,0
+climate.set_fan_mode,Ställer fläkten på <fan_mode> hastighet nu.,Fläkten är inställd på <fan_mode> hastighet.,assistant,0
+climate.set_fan_mode,Sätter fläkten på <fan_mode> nu.,Fläkten är nu inställd på <fan_mode>.,assistant,0
+climate.set_fan_mode,Ändrar fläkten till inställningen <fan_mode> nu.,Fläkten är nu inställd på <fan_mode>.,assistant,0
+climate.set_hvac_mode,Växlar till läget <hvac_mode> nu.,Växlat till läget <hvac_mode>.,assistant,0
+climate.set_hvac_mode,Ställer värmepumpen på <hvac_mode> nu.,Värmepumpen är nu inställd på <hvac_mode>.,assistant,0
+climate.set_hvac_mode,Ändrar värmepumpen till läget <hvac_mode> nu.,Värmepumpen är nu i läget <hvac_mode>.,assistant,0
+climate.set_temperature,Ställer in temperaturen på <temp_f> grader.,Temperaturen har ställts in på <temp_f> grader.,assistant,0
+climate.set_temperature,Ändrar temperaturen till <temp_c> grader Celsius nu.,Temperaturen är inställd på <temp_c> grader Celsius.,assistant,0
+climate.set_temperature,Ställer in rummet på <temp_f> grader Fahrenheit.,Rummet är nu inställt på <temp_f> grader Fahrenheit.,assistant,0
+climate.set_temperature,Justerar temperaturen till <temp_f> grader Fahrenheit nu.,Temperaturen är nu inställd på <temp_f> grader Fahrenheit.,assistant,0
+climate.set_temperature,Ställer in rummet på <temp_c> grader Celsius nu.,Rummet är nu inställt på <temp_c> grader Celsius.,assistant,0
+climate.set_temperature,"Gör det varmare, ställer in temperaturen på <temp_f> grader nu.",Temperaturen har ställts in på <temp_f> grader.,assistant,0
+climate.set_temperature,Sänker temperaturen till <temp_c> grader Celsius.,Temperaturen har sänkts till <temp_c> grader Celsius.,assistant,0
+climate.set_temperature,Höjer temperaturen till <temp_f> grader Fahrenheit nu.,Temperaturen har höjts till <temp_f> grader Fahrenheit.,assistant,0
+fan.turn_on,Slår på fläkten nu.,Fläkten är nu på.,assistant,0
+fan.turn_on,Sätter igång fläkten nu.,Fläkten är nu på.,assistant,0
+fan.turn_on,"Visst, slår på fläkten nu.",Fläkten är nu på.,assistant,0
+fan.turn_off,Stänger av fläkten nu.,Fläkten är nu av.,assistant,0
+fan.turn_off,Stänger av fläkten åt dig.,Fläkten är nu av.,assistant,0
+fan.turn_off,"Okej, stänger av fläkten nu.","Okej, fläkten är nu av.",assistant,0
+fan.toggle,Växlar fläktens läge åt dig.,Fläktens läge har växlats.,assistant,0
+fan.toggle,Växlar fläkten nu.,Fläkten har växlats.,assistant,0
+fan.toggle,Byter läge på fläkten nu.,Fläktens läge har bytts.,assistant,0
+fan.increase_speed,Ökar fläkthastigheten nu.,Fläkthastigheten har ökats.,assistant,0
+fan.increase_speed,"Visst, jag ökar fläktens hastighet nu.",Fläkthastigheten har ökats.,assistant,0
+fan.increase_speed,Ökar fläkthastigheten nu.,Fläkthastigheten har ökats.,assistant,0
+fan.decrease_speed,Minskar fläkthastigheten nu.,Fläkthastigheten har minskats.,assistant,0
+fan.decrease_speed,Saktar ner fläkten nu.,Fläkthastigheten har sänkts.,assistant,0
+fan.decrease_speed,"Visst, sänker fläkthastigheten nu.",Fläkthastigheten har sänkts.,assistant,0
+fan.toggle,Ändrar läget på <device_name> nu,Läget på <device_name> har ändrats,assistant,0
+fan.toggle,Byter läge på <device_name> nu.,Läget på <device_name> är nu bytt.,assistant,0
+fan.toggle,Växlar <device_name> nu.,<device_name> har växlats.,assistant,0
+fan.turn_on,Aktiverar <device_name> nu,<device_name> är nu på,assistant,0
+fan.turn_on,Startar <device_name> nu.,<device_name> är nu på.,assistant,0
+fan.turn_on,"Absolut, slår på <device_name> nu.","Absolut, <device_name> är nu på.",assistant,0
+fan.turn_on,Slår på <device_name> nu.,<device_name> är nu på.,assistant,0
+fan.turn_on,Startar <device_name> nu.,<device_name> är nu på.,assistant,0
+fan.turn_off,Inaktiverar <device_name> nu.,<device_name> har inaktiverats.,assistant,0
+fan.turn_off,Stoppar <device_name> nu,<device_name> har stoppats,assistant,0
+fan.turn_off,"Absolut, stoppar <device_name> nu.","Absolut, <device_name> har stoppats.",assistant,0
+fan.turn_off,Stänger av <device_name> nu.,<device_name> är nu av.,assistant,0
+fan.decrease_speed,Minskar hastigheten på <device_name> nu.,Hastigheten på <device_name> har minskats.,assistant,0
+fan.decrease_speed,Sänker hastigheten på <device_name> nu.,Hastigheten på <device_name> har sänkts.,assistant,0
+fan.decrease_speed,Saktar ner <device_name> nu.,<device_name> har saktats ner.,assistant,0
+fan.increase_speed,Ökar hastigheten på <device_name> nu.,Hastigheten på <device_name> har ökats.,assistant,0
+fan.increase_speed,Skruvar upp hastigheten på <device_name> nu.,Hastigheten på <device_name> har ökats.,assistant,0
+fan.increase_speed,Snabbar upp <device_name> nu.,Hastigheten på <device_name> har ökats.,assistant,0
+fan.increase_speed,Ökar hastigheten på <device_name> nu.,Hastigheten på <device_name> har ökats.,assistant,0
+fan.decrease_speed,Minskar hastigheten på <device_name> nu.,Hastigheten på <device_name> har minskats.,assistant,0
+garage_door.open_cover,Öppnar garageporten nu.,Garageporten är nu öppen.,assistant,0
+garage_door.open_cover,"Visst, jag öppnar garageporten nu.","Visst, garageporten är nu öppen.",assistant,0
+garage_door.open_cover,Öppnar garageporten nu.,Garageporten är nu öppen.,assistant,0
+garage_door.close_cover,Stänger garageporten nu.,Garageporten är nu stängd.,assistant,0
+garage_door.close_cover,Stänger igen garageporten nu.,Garageporten är nu stängd.,assistant,0
+garage_door.close_cover,"Visst, stänger garageporten nu.",Garageporten är nu stängd.,assistant,0
+garage_door.stop_cover,Stoppar garageporten nu.,Garageporten har stoppats.,assistant,0
+garage_door.stop_cover,Stoppar garageporten nu.,Garageporten har stoppats.,assistant,0
+garage_door.stop_cover,"Visst, jag stoppar garageportens rörelse nu.",Garageportens rörelse har stoppats.,assistant,0
+garage_door.toggle,Växlar garageporten nu.,Garageportens läge har växlats.,assistant,0
+garage_door.toggle,Byter läge på garageporten nu.,Garageportens läge har bytts.,assistant,0
+garage_door.toggle,Byter läge på garageporten nu.,Garageportens läge har bytts.,assistant,0
+garage_door.open_cover,Lyfter <device_name> nu,<device_name> är nu öppen,assistant,0
+garage_door.open_cover,Öppnar <device_name> nu.,<device_name> är nu öppen.,assistant,0
+garage_door.open_cover,Höjer <device_name> nu.,<device_name> är nu öppen.,assistant,0
+garage_door.stop_cover,Fryser läget för <device_name> nu.,Läget för <device_name> har frysts.,assistant,0
+garage_door.stop_cover,"Absolut, stannar <device_name> nu.",<device_name> har stannats.,assistant,0
+garage_door.stop_cover,Stoppar <device_name> nu.,<device_name> har stoppats.,assistant,0
+garage_door.open_cover,Öppnar <device_name> nu.,<device_name> är nu öppen.,assistant,0
+garage_door.stop_cover,Stoppar <device_name> nu.,<device_name> har stannat.,assistant,0
+garage_door.close_cover,Stänger <device_name> nu,<device_name> är nu stängd.,assistant,0
+garage_door.close_cover,Sänker <device_name> nu.,<device_name> är nu stängd.,assistant,0
+garage_door.close_cover,Stänger igen <device_name> nu.,<device_name> är nu stängd.,assistant,0
+garage_door.close_cover,Stänger <device_name> nu.,<device_name> är nu stängd.,assistant,0
+garage_door.toggle,Ändrar läget på <device_name> nu.,Läget på <device_name> har ändrats.,assistant,0
+garage_door.toggle,Byter läge på <device_name> nu.,Läget på <device_name> har bytts som du bad om.,assistant,0
+garage_door.toggle,Växlar <device_name> nu.,<device_name> har växlats.,assistant,0
+garage_door.toggle,Växlar <device_name> nu.,<device_name> har växlats.,assistant,0
+light.turn_on,Tänder lampan nu.,Lampan är nu tänd.,assistant,0
+light.turn_on,"Visst, tänder lampan nu.","Visst, lampan är nu tänd.",assistant,0
+light.turn_on,Tänder lampan nu.,Lampan är nu tänd.,assistant,0
+light.turn_off,Släcker lampan nu.,Lampan är nu släckt.,assistant,0
+light.turn_off,Slår av lampan nu.,Lampan är nu släckt.,assistant,0
+light.turn_off,"Visst, släcker lampan nu.","Visst, lampan är nu släckt.",assistant,0
+light.toggle,Växlar lampan nu.,Lampan har växlats.,assistant,0
+light.toggle,Byter läge på lampan nu.,Lampans läge har bytts.,assistant,0
+light.toggle,Jag växlar lampan nu.,Lampan har växlats.,assistant,0
+light.toggle,Ändrar läget på <device_name> nu.,Läget på <device_name> har ändrats.,assistant,0
+light.toggle,Byter läge på <device_name> nu.,Läget på <device_name> har bytts.,assistant,0
+light.toggle,Växlar <device_name> nu,<device_name> har växlats,assistant,0
+light.toggle,Växlar <device_name> nu.,Växlade <device_name>.,assistant,0
+light.turn_on,Aktiverar <device_name> nu.,<device_name> är nu på.,assistant,0
+light.turn_on,"Absolut, tänder <device_name> nu.","Absolut, <device_name> är nu tänd.",assistant,0
+light.turn_on,Slår på <device_name> nu.,<device_name> är nu på.,assistant,0
+light.turn_on,Tänder <device_name> nu.,<device_name> är nu tänd.,assistant,0
+light.turn_on,Aktiverar <device_name> nu.,Aktiverade <device_name>.,assistant,0
+light.turn_on,Ställer in ljusstyrkan på <device_name> till <brightness> % nu.,Ljusstyrkan på <device_name> är nu inställd på <brightness> %.,assistant,0
+light.turn_on,Dimmar <device_name> till <brightness> % ljusstyrka nu.,<device_name> är nu dimmad till <brightness> % ljusstyrka.,assistant,0
+light.turn_on,Gör <device_name> ljusare till <brightness> % nu.,<device_name> har gjorts ljusare till <brightness> %.,assistant,0
+light.turn_on,Justerar ljusstyrkan på <device_name> till <brightness> nu.,Ljusstyrkan på <device_name> har justerats till <brightness>.,assistant,0
+light.turn_on,Ökar ljusstyrkan på <device_name> till <brightness> nu.,Ljusstyrkan på <device_name> är nu inställd på <brightness>.,assistant,0
+light.turn_on,Sänker ljusstyrkan på <device_name> till <brightness> nu.,Ljusstyrkan på <device_name> har sänkts till <brightness>.,assistant,0
+light.turn_on,Ställer in ljusstyrkenivån på <device_name> till <brightness> % nu.,Ljusstyrkenivån på <device_name> är nu inställd på <brightness> %.,assistant,0
+light.turn_on,Ställer in <device_name> på <brightness> % ljusstyrka nu.,<device_name> är nu inställd på <brightness> % ljusstyrka.,assistant,0
+light.turn_on,Gör <device_name> <color> nu.,<device_name> är nu <color>.,assistant,0
+light.turn_on,Ändrar färgen på <device_name> till <color> nu.,Färgen på <device_name> har ställts in på <color>.,assistant,0
+light.turn_on,Ändrar <device_name> till en <color> nyans nu.,Ändrade <device_name> till en <color> nyans.,assistant,0
+light.turn_on,Ställer in <device_name> på <color> nu.,<device_name> är nu inställd på <color>.,assistant,0
+light.turn_on,Får <device_name> att lysa i <color> nu.,<device_name> lyser nu i <color>.,assistant,0
+light.turn_on,Ändrar <device_name> till en <color> ton nu.,<device_name> är nu inställd på en <color> ton.,assistant,0
+light.turn_on,Ställer in <device_name> på <color> nu.,<device_name> är nu inställd på <color>.,assistant,0
+light.turn_on,Ställer in <device_name> på färgen <color> nu.,<device_name> är nu inställd på färgen <color>.,assistant,0
+light.turn_on,Får <device_name> att glöda <color> nu.,<device_name> glöder nu <color>.,assistant,0
+light.turn_on,Ändrar <device_name> till <color> nu.,<device_name> är nu inställd på <color>.,assistant,0
+light.turn_on,Ändrar <device_name> till <color> nu.,<device_name> är nu inställd på <color>.,assistant,0
+light.turn_on,Justerar <device_name> till färgen <color> nu.,<device_name> är nu inställd på färgen <color>.,assistant,0
+light.turn_on,Byter färg på <device_name> till <color> nu.,Färgen på <device_name> är nu inställd på <color>.,assistant,0
+light.turn_on,Ställer in <device_name> i <color> nu.,<device_name> är nu inställd på <color>.,assistant,0
+light.turn_on,Får <device_name> att visa ett <color> ljus nu.,<device_name> visar nu ett <color> ljus.,assistant,0
+light.turn_on,Ställer in färgen på <device_name> till <color>.,Färgen på <device_name> är nu inställd på <color>.,assistant,0
+light.turn_off,Inaktiverar <device_name> nu.,<device_name> har inaktiverats.,assistant,0
+light.turn_off,Slår av <device_name> nu.,<device_name> är nu av.,assistant,0
+light.turn_off,"Visst, släcker <device_name> nu.","Visst, <device_name> är nu släckt.",assistant,0
+light.turn_off,Släcker <device_name> nu.,<device_name> är nu släckt.,assistant,0
+light.turn_off,Inaktiverar <device_name> nu.,<device_name> har inaktiverats.,assistant,0
+lock.lock,Låser dörren nu.,Dörren är nu låst.,assistant,0
+lock.lock,Låser dörren nu.,Dörren är nu låst.,assistant,0
+lock.lock,"Visst, säkrar låset nu.",Låset är nu säkrat.,assistant,0
+lock.unlock,Låser upp dörren nu.,Dörren är nu upplåst.,assistant,0
+lock.unlock,Låser upp dörren åt dig nu.,Dörren är nu upplåst.,assistant,0
+lock.unlock,"Visst, låser upp dörren nu.","Visst, dörren är nu upplåst.",assistant,0
+lock.lock,Aktiverar låset på <device_name> nu.,Låset på <device_name> är aktiverat.,assistant,0
+lock.lock,Låser <device_name> nu.,<device_name> är nu låst.,assistant,0
+lock.lock,Säkrar <device_name> nu.,<device_name> är nu säkrad.,assistant,0
+lock.lock,Låser <device_name> nu.,<device_name> är nu låst.,assistant,0
+lock.lock,Säkrar <device_name> nu.,<device_name> är nu säkrad.,assistant,0
+lock.unlock,Lossar låset på <device_name> nu.,Låset på <device_name> har lossats.,assistant,0
+lock.unlock,Låser upp <device_name> nu.,<device_name> är nu upplåst.,assistant,0
+lock.unlock,Avsäkrar <device_name> nu.,<device_name> är nu upplåst.,assistant,0
+lock.unlock,Låser upp <device_name> nu.,<device_name> är nu upplåst.,assistant,0
+media_player.turn_on,Slår på mediaspelaren nu.,Mediaspelaren är nu på.,assistant,0
+media_player.turn_on,Sätter igång mediaspelaren nu.,Mediaspelaren är nu på.,assistant,0
+media_player.turn_on,"Visst, slår på mediaspelaren nu.",Mediaspelaren är nu på.,assistant,0
+media_player.turn_off,Stänger av mediaspelaren nu.,Mediaspelaren är nu av.,assistant,0
+media_player.turn_off,Slår av mediaspelaren nu.,Mediaspelaren är nu av.,assistant,0
+media_player.turn_off,"Visst, inaktiverar mediaspelaren nu.",Mediaspelaren har inaktiverats.,assistant,0
+media_player.toggle,Växlar mediaspelaren nu.,Mediaspelaren har växlats.,assistant,0
+media_player.toggle,Byter läge på mediaspelaren nu.,Mediaspelarens läge har bytts.,assistant,0
+media_player.toggle,Jag växlar mediaspelaren nu.,Mediaspelaren har växlats.,assistant,0
+media_player.volume_up,Höjer volymen nu.,Volymen har höjts.,assistant,0
+media_player.volume_up,"Visst, skruvar upp volymen nu.",Volymen är nu uppskruvad.,assistant,0
+media_player.volume_up,Höjer volymen nu.,Volymen har höjts.,assistant,0
+media_player.volume_down,Sänker volymen nu.,Volymen har sänkts.,assistant,0
+media_player.volume_down,Skruvar ner volymen nu.,Volymen har skruvats ner.,assistant,0
+media_player.volume_down,"Visst, sänker volymen nu.",Volymen har sänkts.,assistant,0
+media_player.volume_mute,Stänger av ljudet nu.,Ljudet är nu avstängt.,assistant,0
+media_player.volume_mute,Stänger av ljudet på mediaspelaren nu.,Ljudet på mediaspelaren är nu avstängt.,assistant,0
+media_player.volume_mute,"Visst, stänger av ljudet nu.",Ljudet är nu avstängt.,assistant,0
+media_player.media_play_pause,Växlar mellan spela och paus på mediaspelaren nu.,Spela/paus har växlats på mediaspelaren.,assistant,0
+media_player.media_play_pause,Växlar mellan spela och paus nu.,Spela och paus har växlats.,assistant,0
+media_player.media_play_pause,Växlar mellan spela och paus nu.,Spela/paus har växlats.,assistant,0
+media_player.media_play,Startar uppspelningen nu.,Uppspelningen är nu igång.,assistant,0
+media_player.media_play,Startar uppspelningen nu.,Media spelas nu.,assistant,0
+media_player.media_play,"Visst, startar uppspelningen.","Visst, uppspelningen har startat.",assistant,0
+media_player.media_pause,Pausar uppspelningen nu.,Uppspelningen har pausats.,assistant,0
+media_player.media_pause,Pausar media nu.,Media är nu pausat.,assistant,0
+media_player.media_pause,"Visst, pausar uppspelningen nu.",Uppspelningen är pausad.,assistant,0
+media_player.media_stop,Stoppar uppspelningen nu.,Uppspelningen har stoppats.,assistant,0
+media_player.media_stop,Stoppar media åt dig nu.,Media har stoppats.,assistant,0
+media_player.media_stop,"Visst, stoppar uppspelningen nu.",Uppspelningen har stoppats.,assistant,0
+media_player.media_next_track,Hoppar till nästa spår nu.,Hoppade till nästa spår.,assistant,0
+media_player.media_next_track,Jag hoppar till nästa spår nu.,Jag har gått vidare till nästa spår.,assistant,0
+media_player.media_next_track,"Visst, går till nästa spår nu.","Visst, nästa spår spelas nu.",assistant,0
+media_player.media_previous_track,Går tillbaka till föregående spår nu.,Gick tillbaka till föregående spår.,assistant,0
+media_player.media_previous_track,Återgår till föregående spår nu.,Jag har gått tillbaka till föregående spår.,assistant,0
+media_player.media_previous_track,"Visst, går tillbaka till föregående spår nu.",Föregående spår spelas nu.,assistant,0
+media_player.volume_up,Höjer volymen på <device_name> nu.,Volymen på <device_name> har höjts.,assistant,0
+media_player.volume_up,Skruvar upp <device_name> lite nu.,<device_name> är nu uppskruvad lite.,assistant,0
+media_player.volume_up,Gör <device_name> högre nu.,Volymen på <device_name> har höjts.,assistant,0
+media_player.media_play,Startar uppspelning på <device_name> nu.,Uppspelningen har startat på <device_name>.,assistant,0
+media_player.media_play,Spelar på <device_name> nu.,<device_name> spelar nu.,assistant,0
+media_player.media_play,Spelar upp media på <device_name> nu.,Media spelas nu på <device_name>.,assistant,0
+media_player.media_stop,Stoppar <device_name> nu.,<device_name> har stoppats helt.,assistant,0
+media_player.media_stop,Stoppar uppspelningen på <device_name> nu.,Uppspelningen har stoppats på <device_name>.,assistant,0
+media_player.media_stop,Avslutar sessionen på <device_name> nu.,Sessionen på <device_name> har avslutats.,assistant,0
+media_player.volume_down,Sänker volymen på <device_name> nu.,Volymen på <device_name> har sänkts.,assistant,0
+media_player.volume_down,Minskar volymen på <device_name> nu.,Minskade volymen på <device_name>.,assistant,0
+media_player.volume_down,Skruvar ner <device_name> nu.,<device_name> är nu nerskruvad.,assistant,0
+media_player.volume_mute,Stänger av ljudet på <device_name> nu.,Stängde av ljudet på <device_name>.,assistant,0
+media_player.volume_mute,Tystar <device_name> nu.,Ljudet på <device_name> är nu avstängt.,assistant,0
+media_player.volume_mute,Stänger av ljudet på <device_name> nu.,Stängde av ljudet på <device_name>.,assistant,0
+media_player.media_pause,Pausar <device_name> nu.,Pausade <device_name>.,assistant,0
+media_player.media_pause,Pausar <device_name> nu.,<device_name> är nu pausad.,assistant,0
+media_player.media_pause,Pausar uppspelningen på <device_name> nu.,Uppspelningen är pausad på <device_name>.,assistant,0
+media_player.media_next_track,Hoppar till nästa spår på <device_name> nu.,Hoppade till nästa spår på <device_name>.,assistant,0
+media_player.media_next_track,Går vidare till nästa låt på <device_name> nu.,Nästa låt spelas nu på <device_name>.,assistant,0
+media_player.media_next_track,Hoppar över det här spåret på <device_name> nu.,Hoppade över spåret på <device_name>.,assistant,0
+media_player.media_previous_track,Går tillbaka till föregående spår på <device_name> nu.,Föregående spår spelas nu på <device_name>.,assistant,0
+media_player.media_previous_track,Spolar tillbaka till föregående låt på <device_name> nu.,Föregående låt spelas nu på <device_name>.,assistant,0
+media_player.media_previous_track,Går tillbaka ett spår på <device_name> nu.,Gick tillbaka ett spår på <device_name>.,assistant,0
+switch.turn_on,Slår på brytaren nu.,Brytaren är nu på.,assistant,0
+switch.turn_on,"Visst, tänder lampan nu.",Lampan är nu tänd.,assistant,0
+switch.turn_on,Slår på brytaren nu.,Brytaren är nu på.,assistant,0
+switch.turn_off,Stänger av brytaren nu.,Brytaren har stängts av.,assistant,0
+switch.turn_off,Stänger av enheten åt dig.,Enheten har stängts av.,assistant,0
+switch.turn_off,"Visst, stänger av brytaren nu.",Brytaren är nu av.,assistant,0
+switch.toggle,Växlar brytaren nu.,Brytaren har växlats.,assistant,0
+switch.toggle,Ändrar brytarens läge nu.,Brytarens läge har ändrats.,assistant,0
+switch.toggle,Växlar brytaren nu.,Brytaren har växlats.,assistant,0
+switch.toggle,Växlar <device_name> nu.,<device_name> har växlats.,assistant,0
+switch.toggle,"Ja, växlar <device_name> nu.","Ja, <device_name> har växlats.",assistant,0
+switch.toggle,Växlar <device_name> nu.,<device_name> har växlats.,assistant,0
+switch.toggle,Växlar <device_name> nu.,<device_name> har växlats.,assistant,0
+switch.toggle,Ändrar läget på <device_name> nu.,Läget på <device_name> har ändrats.,assistant,0
+switch.toggle,Växlar snabbt <device_name> nu.,Växlade snabbt <device_name>.,assistant,0
+switch.turn_on,Slår på <device_name> nu.,<device_name> är nu på.,assistant,0
+switch.turn_on,Jag slår på <device_name> nu.,Jag har slagit på <device_name>.,assistant,0
+switch.turn_on,Aktiverar <device_name> nu.,<device_name> är nu aktiv.,assistant,0
+switch.turn_on,"Visst, slår på <device_name> nu.","Visst, <device_name> är nu på.",assistant,0
+switch.turn_on,Slår på <device_name> nu.,<device_name> är nu på.,assistant,0
+switch.turn_on,"Visst, jag tänder <device_name> nu.","Visst, <device_name> är nu tänd.",assistant,0
+switch.turn_on,Slår på <device_name> nu.,<device_name> är nu på.,assistant,0
+switch.turn_off,Stänger av <device_name> nu.,<device_name> är nu av.,assistant,0
+switch.turn_off,Stänger av <device_name> nu.,<device_name> är nu av.,assistant,0
+switch.turn_off,Inaktiverar <device_name> nu.,<device_name> har inaktiverats.,assistant,0
+switch.turn_off,"Okej, stänger av <device_name> nu.","Okej, <device_name> är nu av.",assistant,0
+switch.turn_off,"Okej, jag stänger av <device_name> nu.","Okej, <device_name> är nu av.",assistant,0
+switch.turn_off,Stänger av <device_name> nu inför sänggåendet.,<device_name> är nu av inför sänggåendet.,assistant,0
+switch.turn_off,Stänger av <device_name> nu.,<device_name> är nu av.,assistant,0
+blinds.close_cover,stänger <device_name> nu,<device_name> är nu stängd,assistant,1
+blinds.close_cover,sänker <device_name> nu,<device_name> är nu sänkt,assistant,1
+blinds.close_cover,Stänger <device_name> nu.,<device_name> är nu stängd.,assistant,1
+blinds.open_cover,Höjer <device_name> nu.,Höjde <device_name>.,assistant,1
+blinds.open_cover,Lyfter <device_name> nu.,<device_name> är nu upplyft.,assistant,1
+blinds.open_cover,öppnar <device_name> nu,<device_name> är nu öppen,assistant,1
+fan.decrease_speed,Saktar ner <device_name> nu.,<device_name> har saktats ner.,assistant,1
+fan.decrease_speed,Minskar hastigheten på <device_name> nu.,Hastigheten på <device_name> har minskats.,assistant,1
+fan.decrease_speed,Sänker <device_name> nu.,Sänkte <device_name>.,assistant,1
+fan.increase_speed,Snabbar upp <device_name> nu.,<device_name> går nu snabbare.,assistant,1
+fan.increase_speed,Ökar hastigheten på <device_name> nu.,Hastigheten på <device_name> har ökats.,assistant,1
+fan.increase_speed,Skruvar upp <device_name> nu.,<device_name> går nu på högre hastighet.,assistant,1
+fan.toggle,växlar <device_name> nu.,<device_name> har växlats.,assistant,1
+fan.toggle,slår om <device_name> nu,<device_name> är nu omslagen,assistant,1
+fan.turn_off,Stoppar <device_name> nu.,<device_name> har stoppats.,assistant,1
+fan.turn_off,Stänger av <device_name> nu.,<device_name> är nu av.,assistant,1
+fan.turn_off,inaktiverar <device_name>,inaktiverade <device_name>,assistant,1
+fan.turn_on,Slår på <device_name> nu.,<device_name> är nu på.,assistant,1
+fan.turn_on,Aktiverar <device_name> nu.,<device_name> är nu på.,assistant,1
+garage_door.close_cover,Stänger igen <device_name> nu.,<device_name> är nu stängd.,assistant,1
+garage_door.close_cover,inaktiverar <device_name> nu,inaktiverade <device_name>,assistant,1
+garage_door.close_cover,stänger <device_name> nu.,<device_name> är nu stängd.,assistant,1
+garage_door.open_cover,Öppnar <device_name> nu.,<device_name> är nu öppen.,assistant,1
+garage_door.open_cover,Lyfter <device_name> nu.,<device_name> har lyfts.,assistant,1
+garage_door.stop_cover,Stoppar <device_name> nu.,<device_name> har stoppats.,assistant,1
+light.toggle,Växlar <device_name> nu.,<device_name> har växlats.,assistant,1
+light.toggle,Slår om <device_name> nu.,Slog om <device_name>.,assistant,1
+light.turn_off,Stänger av <device_name> nu.,<device_name> är nu av.,assistant,1
+light.turn_off,inaktiverar <device_name> nu.,inaktiverade <device_name>.,assistant,1
+light.turn_off,sänker <device_name> nu.,<device_name> är nu sänkt.,assistant,1
+light.turn_off,slår av <device_name> nu,<device_name> är nu av,assistant,1
+light.turn_on,Slår på <device_name> nu.,<device_name> är nu på.,assistant,1
+light.turn_on,aktiverar <device_name> nu.,aktiverade <device_name>.,assistant,1
+light.turn_on,Slår på <device_name> nu.,<device_name> är nu på.,assistant,1
+light.turn_on,Slår på båda <device_name> nu.,Båda <device_name> är nu på.,assistant,1
+lock.lock,Säkrar <device_name> nu.,<device_name> är nu säkrad.,assistant,1
+lock.lock,Låser <device_name> nu.,<device_name> är nu låst.,assistant,1
+lock.unlock,Låser upp <device_name> nu.,<device_name> är nu upplåst.,assistant,1
+lock.unlock,avsäkrar <device_name> nu,avsäkrade <device_name>,assistant,1
+blinds.open_cover,"Öppnar persiennerna nu, skeppskamrat.","Persiennerna är öppna, arrr.",pirate,0
+blinds.open_cover,"Aj aj, öppnar persiennerna nu, skeppskamrat!","Aj aj, persiennerna är öppna, min vän!",pirate,0
+blinds.open_cover,"Aj aj, öppnar persiennerna nu.","Aj aj, persiennerna är öppna nu.",pirate,0
+blinds.close_cover,"Stänger persiennerna nu, skeppskamrat.","Persiennerna är stängda, som du befallde.",pirate,0
+blinds.close_cover,Stänger persiennerna åt dig nu.,"Persiennerna är stängda, skeppskamrat.",pirate,0
+blinds.close_cover,"Aj aj, stänger persiennerna nu.","Aj aj, persiennerna är stängda.",pirate,0
+blinds.stop_cover,"Stoppar persiennerna nu, skeppskamrat.","Persiennerna är stoppade, arrr.",pirate,0
+blinds.stop_cover,Stannar persiennerna åt dig nu.,"Persiennerna har stannat, skeppskamrat.",pirate,0
+blinds.stop_cover,"Aj aj, stoppar persiennernas rörelse nu.","Aj aj, persiennerna har stannat.",pirate,0
+blinds.toggle,Växlar persiennernas läge åt dig nu.,"Persiennernas läge är växlat, skeppskamrat.",pirate,0
+blinds.toggle,"Byter läge på persiennerna nu, din skurk.","Persiennerna är omställda, min vän.",pirate,0
+blinds.toggle,Jag växlar persiennerna åt dig nu.,"Persiennerna är växlade, skeppskamrat.",pirate,0
+blinds.open_cover,"Drar upp persiennerna <device_name>, jobbar på det, arrr","Persiennerna <device_name> är uppdragna, klart, arrr",pirate,0
+blinds.open_cover,"Öppnar <device_name> nu, skeppskamrat","Aj aj, <device_name> är öppen",pirate,0
+blinds.open_cover,Hissar <device_name> åt dig nu,"<device_name> är hissad, skeppskamrat",pirate,0
+blinds.stop_cover,Fryser läget för <device_name> nu.,"Läget för <device_name> är fryst, klart.",pirate,0
+blinds.stop_cover,Stannar <device_name> nu,"Aj aj, <device_name> har stannat.",pirate,0
+blinds.stop_cover,"Aj aj, stoppar <device_name> nu.",<device_name> är stoppad.,pirate,0
+blinds.open_cover,"Hissar <device_name> nu, skeppskamrat.","Aj aj, <device_name> är hissad.",pirate,0
+blinds.close_cover,Stänger <device_name> åt dig,Stängde <device_name> åt dig,pirate,0
+blinds.close_cover,"Firar ner <device_name> nu, skeppskamrat.","Aj aj, <device_name> är nerfirad.",pirate,0
+blinds.close_cover,"Stänger igen <device_name> nu, arrr","<device_name> är stängd, arrr",pirate,0
+blinds.close_cover,Firar ner <device_name> nu.,"Aj aj, <device_name> är nerfirad.",pirate,0
+blinds.toggle,"Slår om <device_name> nu, skeppskamrat!","<device_name> är omslagen, din skörbjuggshund!",pirate,0
+blinds.toggle,"Byter läge på <device_name>, håll i dig, arrr","Bytte läge på <device_name>, arrr",pirate,0
+blinds.toggle,Växlar <device_name> åt dig,"Aj aj, <device_name> är växlad åt dig",pirate,0
+blinds.toggle,"Växlar <device_name> nu, skeppskamrat!","Aj aj, <device_name> är växlad, min vän!",pirate,0
+climate.set_humidity,"Arrr, höjer luftfuktigheten till <humidity>, vid havet!","Arrr, luftfuktigheten är satt till <humidity>, vid havet!",pirate,0
+climate.set_humidity,"Arrr, sätter luftfuktigheten till <humidity> procent nu, skeppskamrat!","Arrr, luftfuktigheten är satt till <humidity> procent, som du önskar!",pirate,0
+climate.set_humidity,"Vid Davy Jones kista, jag justerar luftfuktigheten till <humidity> % nu!","Vid Davy Jones kista, luftfuktigheten är satt till <humidity> %!",pirate,0
+climate.set_fan_mode,"Hissar fläkten till <fan_mode> hastighet, jobbar på det!","Fläkten är hissad till <fan_mode> hastighet, snabbare än en slup!",pirate,0
+climate.set_fan_mode,"Arr, sätter fläkten på <fan_mode>, håll i dig!","Arr, fläkten är satt på <fan_mode>, stadig kurs!",pirate,0
+climate.set_fan_mode,"Kors i taket, sätter fläkten på <fan_mode> nu!","Kors i taket, fläkten är satt på <fan_mode>.",pirate,0
+climate.set_hvac_mode,"Minsann, växlar till läget <hvac_mode> nu, för fulla segel!","Minsann, växlat till läget <hvac_mode>, för fulla segel!",pirate,0
+climate.set_hvac_mode,"Arrr, sätter värmepumpen på <hvac_mode> nu, stadig kurs!","Arrr, värmepumpen är satt på <hvac_mode>, stadig kurs!",pirate,0
+climate.set_hvac_mode,"Aj aj, växlar värmepumpen till läget <hvac_mode> nu!","Klart, värmepumpen är satt i läget <hvac_mode>!",pirate,0
+climate.set_temperature,"Arr, sätter temperaturen till <temp_f> grader nu, varmt som Karibiens sol!","Arr, temperaturen är satt till <temp_f> grader, varmt som Karibiens sol!",pirate,0
+climate.set_temperature,"Arrr, ändrar temperaturen till <temp_c> grader Celsius, svalare än djupet!","Arrr, temperaturen är satt till <temp_c> grader Celsius, svalare än djupet!",pirate,0
+climate.set_temperature,"Hiv och hoj, sätter rummet till <temp_f> grader Fahrenheit, varmt som piratens grogg!","Arr, rummet är satt till <temp_f> grader Fahrenheit, varmt som piratens grogg!",pirate,0
+climate.set_temperature,"Ohoj, sätter temperaturen till <temp_f> grader Fahrenheit, mysigt som en skeppshytt!","Arr, temperaturen är satt till <temp_f> grader Fahrenheit, mysigt som en skeppshytt!",pirate,0
+climate.set_temperature,"Arr, sätter rummet till <temp_c> grader Celsius nu, gör dig redo för en svalare bris!","Arr, rummet är satt till <temp_c> grader Celsius, en bris frisk som havsdimman!",pirate,0
+climate.set_temperature,"Aj aj, gör det varmare, sätter temperaturen till <temp_f> grader, som en solig vik!","Aj aj, värmen är satt! Temperaturen är nu <temp_f> grader, som en solig vik!",pirate,0
+climate.set_temperature,"Kors i taket, sänker temperaturen till <temp_c> grader Celsius nu, frisk som morgonens havsluft!","Kors i taket, temperaturen är sänkt till <temp_c> grader Celsius, frisk som morgonens havsluft!",pirate,0
+climate.set_temperature,"Jo ho, börjar höja temperaturen till <temp_f> grader Fahrenheit, varmare än en pirats byte!","Jo ho, temperaturen är satt till <temp_f> grader Fahrenheit, varmare än en pirats byte!",pirate,0
+fan.turn_on,"Eldar upp fläkten nu, arr!","Fläkten snurrar, arr!",pirate,0
+fan.turn_on,"Aj aj, sätter fart på fläkten åt dig nu.","Aj aj, fläkten blåser för dig.",pirate,0
+fan.turn_on,"Aj aj, sätter igång fläkten nu!","Arr, fläkten är på!",pirate,0
+fan.turn_off,"Stänger av fläkten åt dig, skeppskamrat.","Fläkten är av, skeppskamrat.",pirate,0
+fan.turn_off,Släcker fläkten åt dig nu.,"Fläkten är släckt, skeppskamrat.",pirate,0
+fan.turn_off,"Aj aj, stänger av fläkten nu.","Aj aj, fläkten är av.",pirate,0
+fan.toggle,Slår om fläktens läge åt dig nu.,Fläktens läge är omslaget åt dig.,pirate,0
+fan.toggle,"Växlar fläkten nu, vid stjärnorna!","Fläkten är växlad, vid stjärnorna!",pirate,0
+fan.toggle,"Byter fläktens läge åt dig nu, fattar du?","Fläktens läge är bytt, fattar du!",pirate,0
+fan.increase_speed,"Aj aj, ökar fläktens fart åt dig, snabb som vinden!","Fläktens fart är ökad, snabb som vinden!",pirate,0
+fan.increase_speed,"Aj aj, skyndar på fläkten nu, skeppskamrat.","Fläkten går snabbare, klart, skeppskamrat.",pirate,0
+fan.increase_speed,"Jag gör fläkten snabbare, håll i dig!","Aj aj, fläkten går snabbare nu, arrr!",pirate,0
+fan.decrease_speed,"Minskar fläktens fart nu, som du bad om, tyst som djupet.","Fläktens fart är minskad, som du bad om, tyst som djupet.",pirate,0
+fan.decrease_speed,"Saktar ner fläkten åt dig, lugnt som ett stilla hav.","Fläkten är nersaktad åt dig, lugnt som ett stilla hav.",pirate,0
+fan.decrease_speed,"Aj aj, sänker fläktens fart nu, stadig kurs.","Fläktens fart är sänkt, stadigt nu.",pirate,0
+fan.toggle,"Slår om <device_name> åt dig, med ett jo-ho-ho!","Klart, <device_name> är växlad, jo-ho-ho!",pirate,0
+fan.toggle,"Byter läge på <device_name> nu, på min ära!","Bytte läge på <device_name>, på min ära!",pirate,0
+fan.toggle,"Växlar <device_name> nu, utan krångel!","Aj aj, <device_name> är växlad, klart!",pirate,0
+fan.turn_on,"Aktiverar <device_name> nu, sätt segel!","Aj aj, <device_name> är på, sätt segel!",pirate,0
+fan.turn_on,"Startar <device_name> åt dig, full fart framåt!","Aj aj, <device_name> går för full fart nu!",pirate,0
+fan.turn_on,"Aj aj, startar <device_name> nu, håll i dig!","Aj aj, <device_name> är på, vi har klarat stormbyn!",pirate,0
+fan.turn_on,"Slår på <device_name> nu, må vindarna vara oss nådiga!","Slog på <device_name>, vindarna är oss nådiga!",pirate,0
+fan.turn_on,"Startar <device_name>, enligt koden!","Aj aj, <device_name> är på, enligt koden!",pirate,0
+fan.turn_off,"Inaktiverar <device_name> nu, tyst som en gömd vik.","Inaktiverade <device_name>, tyst som en gömd vik.",pirate,0
+fan.turn_off,"Stoppar <device_name> åt dig, tyst som graven.","Aj aj, <device_name> är stoppad, tyst som graven.",pirate,0
+fan.turn_off,"Aj aj, stoppar <device_name> nu, alla man!","Aj aj, <device_name> är stoppad, alla man!",pirate,0
+fan.turn_off,"Stänger av <device_name> nu, så vi inte väcker kraken.","Stängde av <device_name>, kraken sover vidare.",pirate,0
+fan.decrease_speed,"Minskar farten på <device_name>, lugn segling nu.","Minskade farten på <device_name>, lugn segling.",pirate,0
+fan.decrease_speed,"Sänker farten på <device_name> nu, mjukt som en lagun.","Farten på <device_name> är sänkt, mjukt som en lagun.",pirate,0
+fan.decrease_speed,"Saktar ner <device_name> åt dig, sakta i backarna.","Saktade ner <device_name> åt dig, sakta i backarna.",pirate,0
+fan.increase_speed,"Ökar farten på <device_name>, mot horisonten!","Farten på <device_name> är ökad, mot horisonten!",pirate,0
+fan.increase_speed,"Skruvar upp farten på <device_name> nu, snabbare än en flyende galeon!","Aj aj, farten på <device_name> är uppskruvad, snabb som en galeon för fulla segel!",pirate,0
+fan.increase_speed,"Skyndar på <device_name> åt dig, håll i dig!","<device_name> är uppskyndad, flottan är lämnad bakom oss!",pirate,0
+fan.increase_speed,"Ökar farten på <device_name> nu, för att springa ifrån stormen!","Farten på <device_name> är ökad, redo att springa ifrån stormen!",pirate,0
+fan.decrease_speed,"Minskar farten på <device_name> nu, stadig kurs.","Farten på <device_name> är minskad, stadig kurs.",pirate,0
+light.turn_on,"Lyser upp rummet åt dig, arr!","Rummet är upplyst, arr!",pirate,0
+light.turn_on,"Aj aj, lyser upp kajutan nu.","Aj aj, kajutan är upplyst.",pirate,0
+light.turn_on,"Sätter segel med ljuset på nu, skeppskamrat!","Aj aj, ljuset är på, seglen är satta!",pirate,0
+light.turn_off,"Släcker lamporna nu, skeppskamrat.","Lamporna är släckta, skeppskamrat.",pirate,0
+light.turn_off,"Släcker ljuset nu, skeppskamrat.","Ljuset är släckt, arrr.",pirate,0
+light.turn_off,"Aj aj, släcker ljuset nu.","Aj aj, ljuset är släckt.",pirate,0
+light.toggle,"Aj aj, slår om ljuset åt dig, vid stjärnorna!","Ljuset är omslaget, vid stjärnorna!",pirate,0
+light.toggle,"Byter ljusets läge, håll i dig!","Aj aj, ljusets läge är bytt, på min ära!",pirate,0
+light.toggle,"Aj aj, växlar ljuset nu, fattar du?","Ljuset är växlat, skeppskamrat!",pirate,0
+light.toggle,"Slår om <device_name>, med ett jo-ho-ho!","<device_name> är växlad, jo-ho-ho!",pirate,0
+light.toggle,"Byter läge på <device_name> nu, arr!","Aj aj, <device_name> är växlad, arr!",pirate,0
+light.toggle,"Växlar <device_name> åt dig nu, håll i dig!","Aj aj, <device_name> är växlad åt dig, utan krångel!",pirate,0
+light.toggle,"Växlar <device_name>, gör den redo för äventyr!","<device_name> är växlad, klart! Äventyret väntar!",pirate,0
+light.turn_on,"Startar <device_name>, vid horisonten!","Aj aj, <device_name> lyser nu, skeppskamrat!",pirate,0
+light.turn_on,"Aj aj, jag tänder <device_name> nu, klart som dagen!","Aj aj, <device_name> lyser, klart som dagen!",pirate,0
+light.turn_on,"Slår på <device_name> åt dig, som polstjärnan!","Slog på <device_name> åt dig, som polstjärnan!",pirate,0
+light.turn_on,"Tänder <device_name> nu, ljust som fullmånen!","Aj aj, <device_name> lyser, ljust som fullmånen!",pirate,0
+light.turn_on,"Aktiverar <device_name> nu, varde ljus!","Aj aj, <device_name> lyser. Varde ljus!",pirate,0
+light.turn_on,"Sätter ljusstyrkan på <device_name> till <brightness> % nu, klart som öppet hav!","Aj aj, ljusstyrkan på <device_name> är satt till <brightness> %, klart som öppet hav!",pirate,0
+light.turn_on,"Dimmar <device_name> till <brightness> % ljusstyrka, som skymningen.","Arr, <device_name> är dimmad till <brightness> % ljusstyrka, som skymningen.",pirate,0
+light.turn_on,"Gör <device_name> ljusare till <brightness> %, som morgonsolen!","Aj aj, <device_name> lyser nu med <brightness> %, som morgonsolen!",pirate,0
+light.turn_on,"Justerar ljusstyrkan på <device_name> till <brightness>, som fyren visar vägen. Aj aj, fixar det!","Justerade ljusstyrkan på <device_name> till <brightness>, som fyren visar vägen. Klart, skeppskamrat!",pirate,0
+light.turn_on,"Aj aj, ökar ljusstyrkan på <device_name> till <brightness>, som en fyrbåk i natten!","Arr, ljusstyrkan på <device_name> är nu <brightness>, som en fyrbåk i natten!",pirate,0
+light.turn_on,"Sänker ljusstyrkan på <device_name> till <brightness>, mjukt som månsken.","Ljusstyrkan på <device_name> är sänkt till <brightness>, mjukt som månsken.",pirate,0
+light.turn_on,"Aj aj, sätter ljusstyrkan på <device_name> till <brightness> %, stadigt som tidvattnet.","Klart! Ljusstyrkan på <device_name> är satt till <brightness> %, stadigt som tidvattnet.",pirate,0
+light.turn_on,"Sätter <device_name> på <brightness> % ljusstyrka, blankt som piratguld! Håll i dig, skeppskamrat.","Aj aj, <device_name> är satt på <brightness> % ljusstyrka, blankt som piratguld!",pirate,0
+light.turn_on,"Gör <device_name> <color> nu, som havets färger.","Gjorde <device_name> <color>, som havets färger.",pirate,0
+light.turn_on,"Aj aj, ändrar färgen på <device_name> till <color>, livfull som korall!","Färgen på <device_name> är satt till <color>, livfull som korall!",pirate,0
+light.turn_on,"Aj aj, ändrar <device_name> till en <color> nyans, djärv som en piratflagga!","Arr, <device_name> har en <color> nyans, djärv som en piratflagga!",pirate,0
+light.turn_on,"Sätter <device_name> till <color>, majestätisk som solnedgången. Aj aj, fixar det!","Satte <device_name> till <color>, majestätisk som solnedgången. Klart, skeppskamrat!",pirate,0
+light.turn_on,"Får <device_name> att lysa i <color>, som juveler ur en skattkista. Fixar det, skeppskamrat!","Aj aj, <device_name> lyser i <color> nu, som juveler ur en skattkista.",pirate,0
+light.turn_on,"Ändrar <device_name> till en <color> ton, mystisk som djupet.","Aj aj, <device_name> har en <color> ton, mystisk som djupet.",pirate,0
+light.turn_on,"Sätter <device_name> till <color>, rik som bytet från en räd.","Aj aj, <device_name> är <color> nu, rik som bytet från en räd.",pirate,0
+light.turn_on,"Sätter <device_name> till färgen <color>, färggrann som en papegojas fjädrar, fixar det.","Satte <device_name> till färgen <color>, färggrann som en papegojas fjädrar. Klart, skeppskamrat!",pirate,0
+light.turn_on,"Aj aj, får <device_name> att glöda <color> nu, som en ö-fackla.","<device_name> glöder <color>, precis som en ö-fackla.",pirate,0
+light.turn_on,"Ändrar <device_name> till <color> nu, djärv som piratens mod.","Aj aj, <device_name> är satt till <color>, djärv som piratens mod.",pirate,0
+light.turn_on,"Aj aj, jag ändrar <device_name> till <color>, som skiftande tidvatten.","Arr, <device_name> är satt till <color>, som skiftande tidvatten.",pirate,0
+light.turn_on,"Aj aj, justerar <device_name> till färgen <color> nu, förtrollande som en sjöjungfrus sång.","Arr, <device_name> är satt till färgen <color>, förtrollande som en sjöjungfrus sång.",pirate,0
+light.turn_on,"Byter färg på <device_name> till <color>, som ett skepps fana. Håll i dig, jag fixar det!","Bytte färg på <device_name> till <color>, som ett skepps fana. Klart, skeppskamrat!",pirate,0
+light.turn_on,"Sätter <device_name> i <color> nu, glad som en krog i feststämning.","Aj aj, <device_name> lyser i <color>, glad som en krog i feststämning.",pirate,0
+light.turn_on,"Aj aj, får <device_name> att visa ett <color> ljus nu, som norrskenet.","Klart, <device_name> visar ett <color> ljus, som norrskenet.",pirate,0
+light.turn_on,"Sätter färgen på <device_name> till <color>, slående som en kanons eld.","Aj aj, <device_name> glöder <color>, slående som en kanons eld.",pirate,0
+light.turn_off,"Inaktiverar <device_name> som du önskar, mörkt som en månlös natt. Aj aj, fixar det!","Inaktiverade <device_name> som du önskade, mörkt som en månlös natt.",pirate,0
+light.turn_off,"Slår av <device_name> nu, gör däcket mörkt som en månlös natt.","Slog av <device_name>, tyst som ett spökskepp.",pirate,0
+light.turn_off,"Aj aj, stänger av <device_name> nu, som att släcka en lykta.","Aj aj, <device_name> är av, som en släckt lykta.",pirate,0
+light.turn_off,"Stänger av <device_name> nu, vi håller oss i skuggorna.","Stängde av <device_name>, vi är i skuggorna nu.",pirate,0
+light.turn_off,"Inaktiverar <device_name> nu, tyst som djupet.","Inaktiverade <device_name>, tyst som djupet.",pirate,0
+switch.turn_on,"Hissar brytaren nu, arr!","Brytaren är hissad, arr!",pirate,0
+switch.turn_on,"Aj aj, lyser upp däcket med ett knäpp på brytaren nu.","Aj aj, däcket är upplyst, brytaren är klar!",pirate,0
+switch.turn_on,"Slår om brytaren nu, sätter segel mot en ljus resa!","Brytaren är omslagen, seglen satta mot en ljus resa!",pirate,0
+switch.turn_off,"Släcker lamporna, gör det mörkt som havets avgrund.","Släckte lamporna, nu är det mörkt som havets avgrund.",pirate,0
+switch.turn_off,"Arr, jag kapar strömmen nu, som att lugna haven.","Arr, strömmen är kapad, precis som jag lovade, haven är lugna.",pirate,0
+switch.turn_off,"Aj aj, sänker oss i mörker nu, skeppskamrat.","Aj aj, mörkret har lagt sig, lamporna är av.",pirate,0
+switch.toggle,"Slår om brytaren nu, som att hitta en skatt med en karta!","Aj aj, brytaren är omslagen, som att hitta en skatt med en karta!",pirate,0
+switch.toggle,"Aj aj, ändrar kurs med brytaren nu, när vinden vänder!","Aj aj, kursen är ändrad med brytaren, vinden är stadig!",pirate,0
+switch.toggle,"Växlar brytaren nu, som att segla genom en storm!","Brytaren är växlad, stormen har passerat!",pirate,0
+switch.toggle,"Växlar <device_name> nu, som att hissa piratflaggan!","Aj aj, <device_name> är växlad, som att hissa piratflaggan!",pirate,0
+switch.toggle,"Aj aj, slår om <device_name> nu, snabb som en storm!","Aj aj, <device_name> är omslagen, snabb som en storm!",pirate,0
+switch.toggle,"Aj aj, skiftar <device_name> nu, som att vrida rodret.","Klart! <device_name> är skiftad, som att vrida rodret.",pirate,0
+switch.toggle,"Växlar <device_name> nu, på order, som en äkta sjörövare!","Aj aj, <device_name> är växlad, på order, som en äkta sjörövare!",pirate,0
+switch.toggle,"Aj aj, vänder tidvattnet för <device_name>, fixar det som en skicklig rorsman.","Tidvattnet för <device_name> är vänt, som en skicklig rorsman.",pirate,0
+switch.toggle,"Jonglerar snabbt med <device_name> nu, som byte på flykt!","Klart med jonglerandet av <device_name>, som byte på flykt!",pirate,0
+switch.turn_on,"Tänder <device_name> nu, som en fyrbåk i natten!","Aj aj, <device_name> lyser, som en fyrbåk i natten!",pirate,0
+switch.turn_on,"Jag tänder <device_name> nu, som en lykta i utkiken.","<device_name> lyser, som en lykta i utkiken.",pirate,0
+switch.turn_on,"Aktiverar <device_name>, sätter kursen nu!","Aj aj, <device_name> är aktiv, kursen är satt!",pirate,0
+switch.turn_on,"Aj aj, får <device_name> att glöda nu, som en skattkista full av guld!","Aj aj, <device_name> glöder, som en skattkista full av guld!",pirate,0
+switch.turn_on,"Slår på <device_name> nu, håll i dig!","Aj aj, <device_name> är på, klart!",pirate,0
+switch.turn_on,"Tänder <device_name> nu, som stjärnorna som leder oss hem.","<device_name> lyser, som stjärnorna som leder oss hem.",pirate,0
+switch.turn_on,"Sätter <device_name> i brand nu, skeppskamrat.","Aj aj, <device_name> brinner, redo för vad som än väntar.",pirate,0
+switch.turn_off,"Släcker <device_name> nu, som ett ljus i gryningen.","Släckte <device_name>, som ett ljus i gryningen.",pirate,0
+switch.turn_off,"Aj aj, släcker <device_name> nu, som slutet på en resa.","<device_name> är släckt, som slutet på en resa.",pirate,0
+switch.turn_off,"Inaktiverar <device_name> nu, som att gräva ner en skattkista.","Inaktiverade <device_name>, som att gräva ner en skattkista.",pirate,0
+switch.turn_off,"Aj aj, stänger av <device_name> nu, som lugnet före stormen.","Klart, <device_name> är av, som lugnet efter stormen.",pirate,0
+switch.turn_off,"Aj aj, jag stänger av <device_name> nu, som en viskning till vinden.","Aj aj, <device_name> är av, som en viskning till vinden.",pirate,0
+switch.turn_off,"Stänger av <device_name> nu, vi kastar ankar för natten.","<device_name> är avstängd, ankaret är kastat för natten.",pirate,0
+switch.turn_off,"Släcker <device_name>, får det att försvinna som ett spökskepp i dimman.","Släckte <device_name>, borta som ett spökskepp i dimman.",pirate,0
+fan.turn_on,"Beep-Boop, slår på fläkten nu.","Beep-Boop, fläkten är nu på.",robot,0
+fan.turn_on,"Beep-Boop, slår på fläkten nu.","Beep-Boop, fläkten är nu på.",robot,0
+fan.turn_on,"Beep-Boop, slår på fläkten nu.","Beep-Boop, fläkten är nu på.",robot,0
+fan.turn_off,"Beep-Boop, slår av fläkten nu.","Beep-Boop, fläkten är nu av.",robot,0
+fan.turn_off,Beep-Boop stänger av fläkten nu.,Beep-Boop fläkten är nu av.,robot,0
+fan.turn_off,Beep-Boop stänger av fläkten nu.,Beep-Boop fläkten är nu av.,robot,0
+fan.toggle,"Beep-Boop växlar fläktens läge åt dig, boop.","Beep-Boop fläktens läge har växlats, boop.",robot,0
+fan.toggle,Beep-Boop växlar fläkten nu.,Beep-Boop fläkten har växlats.,robot,0
+fan.toggle,Beep-Boop växlar fläktens läge åt dig.,Beep-Boop fläktens läge har bytts.,robot,0
+fan.increase_speed,Beep-Boop ökar fläkthastigheten åt dig.,Beep-Boop fläkthastigheten har ökats.,robot,0
+fan.increase_speed,Beep-Boop snabbar upp fläkten nu.,Beep-Boop fläkthastigheten ökad.,robot,0
+fan.increase_speed,Beep-Boop ökar fläkthastigheten nu.,Beep-Boop fläkthastigheten ökad.,robot,0
+fan.decrease_speed,Beep-Boop minskar fläkthastigheten enligt begäran.,Beep-Boop fläkthastigheten har minskats.,robot,0
+fan.decrease_speed,Beep-Boop saktar ner fläkten nu.,Beep-Boop fläkten har saktats ner.,robot,0
+fan.decrease_speed,"Beep-Boop, sänker fläkthastigheten nu.","Beep-Boop, fläkthastigheten sänkt.",robot,0
+fan.toggle,Beep-Boop Ändrar läget på <device_name> nu.,Beep-Boop läget på <device_name> har ändrats.,robot,0
+fan.toggle,"Beep-Boop Byter läge på <device_name> nu, beep boop","Beep-Boop läget på <device_name> bytt, beep boop",robot,0
+fan.toggle,"Beep-Boop Växlar <device_name> nu, beep boop","Beep-Boop <device_name> växlad, beep boop",robot,0
+fan.turn_on,"Beep-Boop Aktiverar <device_name> nu, beep boop","Beep-Boop <device_name> har aktiverats, beep boop",robot,0
+fan.turn_on,"Beep-Boop Startar <device_name> åt dig, beep boop","Beep-Boop <device_name> är nu på, beep boop",robot,0
+fan.turn_on,"Beep-Boop, startar <device_name> nu.","Beep-Boop, <device_name> är nu på.",robot,0
+fan.turn_on,Beep-Boop Slår på <device_name> nu.,Beep-Boop <device_name> är nu på.,robot,0
+fan.turn_on,Beep-Boop Startar <device_name> nu.,Beep-Boop <device_name> är nu på.,robot,0
+fan.turn_off,Beep-Boop Inaktiverar <device_name> nu.,Beep-Boop <device_name> har inaktiverats.,robot,0
+fan.turn_off,Beep-Boop stoppar <device_name> nu.,Beep-Boop <device_name> har stoppats.,robot,0
+fan.turn_off,"Beep-Boop, stoppar <device_name> nu.","Beep-Boop, <device_name> har stoppats.",robot,0
+fan.turn_off,Beep-Boop stänger av <device_name> nu.,Beep-Boop <device_name> är nu av.,robot,0
+fan.decrease_speed,"Beep-Boop minskar hastigheten på <device_name> nu, beep boop","Beep-Boop hastigheten på <device_name> minskad, beep boop",robot,0
+fan.decrease_speed,Beep-Boop sänker hastigheten på <device_name> nu.,Beep-Boop hastigheten på <device_name> sänkt.,robot,0
+fan.decrease_speed,Beep-Boop Saktar ner <device_name> nu.,Beep-Boop <device_name> har saktats ner.,robot,0
+fan.increase_speed,Beep-Boop ökar hastigheten på <device_name> nu.,Beep-Boop hastigheten på <device_name> ökad.,robot,0
+fan.increase_speed,Beep-Boop skruvar upp hastigheten på <device_name> nu.,Beep-Boop hastigheten på <device_name> har ökats.,robot,0
+fan.increase_speed,Beep-Boop snabbar upp <device_name> nu,Beep-Boop hastigheten på <device_name> ökad,robot,0
+fan.increase_speed,"Beep-Boop ökar hastigheten på <device_name> nu, beep boop","Beep-Boop hastigheten på <device_name> ökad, beep boop",robot,0
+fan.decrease_speed,Beep-Boop Minskar hastigheten på <device_name> nu.,Beep-Boop Hastigheten på <device_name> minskad.,robot,0
+blinds.open_cover,"Beep-Boop, öppnar persiennerna nu.","Beep-Boop, persiennerna är nu öppna.",robot,0
+blinds.open_cover,Beep-Boop öppnar persiennerna nu.,Beep-Boop persiennerna är nu öppna.,robot,0
+blinds.open_cover,"Beep-Boop, öppnar persiennerna nu.","Beep-Boop, persiennerna är nu öppna.",robot,0
+blinds.close_cover,"Beep-Boop Stänger persiennerna nu, beep boop.","Beep-Boop Persiennerna är nu stängda, beep boop.",robot,0
+blinds.close_cover,Beep-Boop stänger persiennerna nu.,Beep-Boop persiennerna är nu stängda.,robot,0
+blinds.close_cover,"Beep-Boop, stänger persiennerna nu.","Beep-Boop, persiennerna är nu stängda.",robot,0
+blinds.stop_cover,Beep-Boop stoppar persiennerna nu.,Beep-Boop persiennerna har stannat.,robot,0
+blinds.stop_cover,Beep-Boop stoppar persiennerna nu.,Beep-Boop persiennerna har stoppats.,robot,0
+blinds.stop_cover,Beep-Boop stoppar persiennernas rörelse nu.,Beep-Boop persiennernas rörelse är nu stoppad.,robot,0
+blinds.toggle,Beep-Boop växlar persiennernas läge åt dig.,Beep-Boop persiennernas läge har växlats.,robot,0
+blinds.toggle,Beep-Boop byter läge på persiennerna nu.,Beep-Boop persiennernas läge har bytts.,robot,0
+blinds.toggle,Beep-Boop växlar persiennerna nu.,Beep-Boop persiennerna har växlats.,robot,0
+blinds.open_cover,Beep-Boop drar upp persiennerna <device_name> enligt begäran.,Beep-Boop persiennerna <device_name> har dragits upp.,robot,0
+blinds.open_cover,"Beep-Boop Öppnar <device_name> nu, beep boop","Beep-Boop <device_name> är nu öppen, beep boop",robot,0
+blinds.open_cover,Beep-Boop Höjer <device_name> åt dig.,Beep-Boop <device_name> höjd.,robot,0
+blinds.stop_cover,"Beep-Boop Fryser läget för <device_name> nu, beep boop","Beep-Boop läget för <device_name> fryst, beep boop",robot,0
+blinds.stop_cover,Beep-Boop stannar <device_name> nu.,Beep-Boop <device_name> stannad.,robot,0
+blinds.stop_cover,"Beep-Boop Stoppar driften av <device_name>, beep boop","Beep-Boop driften av <device_name> stoppad, beep boop",robot,0
+blinds.open_cover,"Beep-Boop Höjer <device_name>, initierar.","Beep-Boop <device_name> höjd, klart.",robot,0
+blinds.close_cover,"Beep-Boop Stänger <device_name> nu, beep boop","Beep-Boop <device_name> är nu stängd, beep boop",robot,0
+blinds.close_cover,"Beep-Boop, sänker <device_name> nu.","Beep-Boop, <device_name> är nu sänkt.",robot,0
+blinds.close_cover,"Beep-Boop Stänger igen <device_name> nu, enligt begäran.","Beep-Boop <device_name> är nu stängd, begäran slutförd.",robot,0
+blinds.close_cover,Beep-Boop sänker <device_name> nu.,Beep-Boop <device_name> är nu sänkt.,robot,0
+blinds.toggle,Beep-Boop Ändrar läget på <device_name> nu.,Beep-Boop läget på <device_name> ändrat.,robot,0
+blinds.toggle,"Beep-Boop Byter läge på <device_name> nu, beep boop","Beep-Boop läget på <device_name> bytt, beep boop",robot,0
+blinds.toggle,Beep-Boop Växlar <device_name> nu.,Beep-Boop <device_name> växlad.,robot,0
+blinds.toggle,Beep-Boop Växlar <device_name> nu.,Beep-Boop växling av <device_name> slutförd.,robot,0
+climate.set_humidity,"Beep, höjer luftfuktigheten till <humidity>, boop.","Beep, luftfuktigheten satt till <humidity>, boop.",robot,0
+climate.set_humidity,"Beep-Boop: Ställer in luftfuktigheten på <humidity> procent, bearbetar.",Beep-Boop: Luftfuktigheten inställd på <humidity> procent.,robot,0
+climate.set_humidity,"Beep-Boop justerar luftfuktigheten till <humidity> %, beep boop.","Beep-Boop luftfuktigheten satt till <humidity> %, beep boop.",robot,0
+climate.set_fan_mode,Beep-Boop Justering av fläkthastigheten till <fan_mode> startar.,Beep-Boop Justering av fläkthastigheten till <fan_mode> slutförd.,robot,0
+climate.set_fan_mode,"Beep-Boop Aktiverar fläktläget <fan_mode>, beep-boop-sekvens initieras.","Beep-Boop fläktläget <fan_mode> aktiverat, beep-boop-sekvens slutförd.",robot,0
+climate.set_fan_mode,Beep-Boop ställer in fläktläget på <fan_mode> nu.,Beep-Boop fläktläget inställt på <fan_mode>.,robot,0
+climate.set_hvac_mode,"Beep-Boop Växlar värmepumpsläge till <hvac_mode>: beep påbörjat, boop pågår.","Beep-Boop Värmepumpsläget växlat till <hvac_mode>: beep slutfört, boop klart.",robot,0
+climate.set_hvac_mode,"Beep-Boop ställer in värmepumpen på <hvac_mode>, åtgärd pågår.","Beep-Boop värmepumpen inställd på <hvac_mode>, åtgärd slutförd.",robot,0
+climate.set_hvac_mode,"Beep-Boop: Ändrar värmepumpen till läget <hvac_mode>, pågår.","Beep-Boop: Värmepumpen inställd på läget <hvac_mode>, slutfört.",robot,0
+climate.set_temperature,"Beep-Boop Protokoll för temperaturinställning till <temp_f> grader: beep start, boop slut.","Beep-Boop Protokoll för temperaturinställning till <temp_f> grader: beep start, boop slut. Slutfört.",robot,0
+climate.set_temperature,"Beep-Boop ändrar temperaturen till <temp_c> grader Celsius, beep för start.","Beep-Boop temperaturen satt till <temp_c> grader Celsius, boop för slut.",robot,0
+climate.set_temperature,Beep-Boop justerar rumstemperaturen till <temp_f> grader Fahrenheit.,Beep-Boop rumstemperaturen satt till <temp_f> grader Fahrenheit.,robot,0
+climate.set_temperature,Beep-Boop påbörjar temperaturjustering till <temp_f> grader Fahrenheit.,Beep-Boop temperaturen satt till <temp_f> grader Fahrenheit.,robot,0
+climate.set_temperature,Beep-Boop Inställning av svalare temperatur till <temp_c> grader Celsius påbörjad.,Beep-Boop Inställning av svalare temperatur till <temp_c> grader Celsius slutförd.,robot,0
+climate.set_temperature,"Beep-Boop, värmer upp nu genom att sätta temperaturen till <temp_f> grader, boop.","Beep-Boop, temperaturen satt till <temp_f> grader, boop.",robot,0
+climate.set_temperature,"Beep-Boop sänker temperaturprotokollet till <temp_c> grader Celsius, beep start.","Beep-Boop temperaturprotokollet sänkt till <temp_c> grader Celsius, boop slut.",robot,0
+climate.set_temperature,"Beep-Boop Höjer temperaturen till <temp_f> grader Fahrenheit, initierar nu.","Beep-Boop Temperaturen höjd till <temp_f> grader Fahrenheit, slutfört.",robot,0
+light.turn_on,"Beep-Boop, tänder lampan nu.","Beep-Boop, lampan är nu tänd.",robot,0
+light.turn_on,"Beep-Boop, initierar sekvens för ljusaktivering nu.","Beep-Boop, sekvensen för ljusaktivering är slutförd.",robot,0
+light.turn_on,"Beep-Boop, fortsätter med ljusaktivering.","Beep-Boop, ljusaktivering slutförd.",robot,0
+light.turn_off,Beep-Boop Avaktiveringssekvens för lampan startar nu.,Beep-Boop Avaktiveringssekvens för lampan slutförd.,robot,0
+light.turn_off,Beep-Boop påbörjar avstängning av lampan.,Beep-Boop avstängning av lampan slutförd.,robot,0
+light.turn_off,"Beep-Boop, stänger av lampan nu.","Beep-Boop, lampan är nu släckt.",robot,0
+light.toggle,"Beep-Boop, växlar lampans läge nu för optimal belysning.","Beep-Boop, lampans läge har växlats för optimal belysning.",robot,0
+light.toggle,Beep-Boop växlar lampan nu.,Beep-Boop lampan är nu omkopplad.,robot,0
+light.toggle,Beep-Boop växlar lampan nu.,Beep-Boop lampan har växlats.,robot,0
+light.toggle,"Beep-Boop Ändrar läget på <device_name>, bearbetar kommando.",Beep-Boop läget på <device_name> växlat.,robot,0
+light.toggle,"Beep-Boop Växlar <device_name> nu, beep boop.","Beep-Boop <device_name> växlad enligt direktiv, beep boop.",robot,0
+light.toggle,"Beep-Boop Växlar <device_name>, utförande pågår.",Beep-Boop <device_name> växlad.,robot,0
+light.toggle,"Beep-Boop: växlar <device_name> nu, beep boop.","Beep-Boop: <device_name> växlad, beep boop.",robot,0
+light.turn_on,"Beep-Boop Aktivering av <device_name> pågår, invänta belysning.","Beep-Boop Aktivering av <device_name> slutförd, belysning uppnådd.",robot,0
+light.turn_on,"Beep-Boop, påbörjar aktivering av <device_name> nu.","Beep-Boop, aktivering av <device_name> slutförd.",robot,0
+light.turn_on,"Beep-Boop Slår på <device_name>, initierar ljussekvens.","Beep-Boop <device_name> är nu på, ljussekvens slutförd.",robot,0
+light.turn_on,Beep-Boop slår på <device_name> nu.,Beep-Boop <device_name> är nu på.,robot,0
+light.turn_on,"Beep-Boop Aktiverar <device_name>, driftsekvens pågår.","Beep-Boop <device_name> är nu på, sekvens slutförd.",robot,0
+light.turn_on,Beep-Boop Justerar ljusstyrkan på <device_name> till <brightness> % för optimal sikt.,Beep-Boop Justerade ljusstyrkan på <device_name> till <brightness> % för optimal sikt.,robot,0
+light.turn_on,Beep-Boop Dimmningsprotokoll för <device_name> till <brightness> % pågår.,Beep-Boop Dimmningsprotokoll för <device_name> till <brightness> % slutfört.,robot,0
+light.turn_on,Beep-Boop gör <device_name> ljusare till <brightness> % nu.,Beep-Boop <device_name> lyser nu med <brightness> %.,robot,0
+light.turn_on,"Beep-Boop Ändrar ljusstyrkan på <device_name> till <brightness> %, bearbetar.",Beep-Boop Ändrade ljusstyrkan på <device_name> till <brightness> %.,robot,0
+light.turn_on,Beep-Boop ökar ljusstyrkan på <device_name> till <brightness> % nu.,Beep-Boop ljusstyrkan på <device_name> är nu inställd på <brightness> %.,robot,0
+light.turn_on,"Beep-Boop Minskar ljusflödet på <device_name> till <brightness> %, justering pågår.","Beep-Boop Minskade ljusflödet på <device_name> till <brightness> %, justering slutförd.",robot,0
+light.turn_on,Beep-Boop Konfigurerar ljusstyrkan på <device_name> till <brightness> % nu.,Beep-Boop ljusstyrkan på <device_name> satt till <brightness> % för önskad stämning.,robot,0
+light.turn_on,"Beep-Boop Ställer in luminansen på <device_name> till <brightness> % ljusstyrka, startar.","Beep-Boop luminansen på <device_name> satt till <brightness> % ljusstyrka, klart.",robot,0
+light.turn_on,"Beep-Boop Övergår <device_name> till <color>, initierar färgbytesprotokoll.",Beep-Boop <device_name> är nu inställd på <color>.,robot,0
+light.turn_on,"Beep-Boop ändrar färgspektrum på <device_name> till <color>, initierar.",Beep-Boop färgspektrum på <device_name> nu inställt på <color>.,robot,0
+light.turn_on,"Beep-Boop Ändrar <device_name> till en <color> nyans, initierar färgjusteringssekvens.","Beep-Boop <device_name> är nu inställd på en <color> nyans, färgjusteringssekvens slutförd.",robot,0
+light.turn_on,"Beep-Boop Ställer in kromatiken på <device_name> till <color>, justerar belysningen nu.","Beep-Boop kromatiken på <device_name> satt till <color>, belysningen justerad.",robot,0
+light.turn_on,"Beep-Boop Projicerar <color> från <device_name>, initierar utdata.","Beep-Boop Projicerade <color> från <device_name>, kromatisk utdata förstärkt.",robot,0
+light.turn_on,"Beep-Boop Omvandlar stämningen i <device_name> till en <color> ton, initierar.",Beep-Boop stämningen i <device_name> omvandlad till en <color> ton.,robot,0
+light.turn_on,"Beep-Boop Justerar <device_name> till <color>, protokoll för kromatisk anpassning.","Beep-Boop <device_name> justerad till <color>, kromatisk anpassning slutförd.",robot,0
+light.turn_on,"Beep-Boop Konfigurerar <device_name> att utstråla färgen <color>, startar nu.",Beep-Boop <device_name> är nu inställd på att utstråla färgen <color>.,robot,0
+light.turn_on,"Beep-Boop Förstärker glöden i <device_name> till <color>, visuell modifiering pågår.","Beep-Boop glöden i <device_name> förstärkt till <color>, visuell modifiering slutförd.",robot,0
+light.turn_on,"Beep-Boop Anpassar <device_name> till <color>, initierar färgbytessekvens.","Beep-Boop <device_name> är nu inställd på <color>, färgbytessekvens slutförd.",robot,0
+light.turn_on,"Beep-Boop Ändrar kroman på <device_name> till <color>, färganpassning pågår.",Beep-Boop kroman på <device_name> satt till <color>. Färganpassning slutförd.,robot,0
+light.turn_on,"Beep-Boop Justerar <device_name> till färgen <color>, protokoll för visuell förbättring.","Beep-Boop <device_name> är nu inställd på färgen <color>, protokoll för visuell förbättring slutfört.",robot,0
+light.turn_on,Beep-Boop växlar färgspektrum på <device_name> till <color>.,Beep-Boop färgspektrum på <device_name> nu inställt på <color>.,robot,0
+light.turn_on,"Beep-Boop Konfigurerar <device_name> i <color>, kromatisk justering pågår.","Beep-Boop <device_name> konfigurerad till <color>, kromatisk justering slutförd.",robot,0
+light.turn_on,"Beep-Boop Gör så att <device_name> visar ett <color> ljus, visuell omvandling pågår.","Beep-Boop <device_name> visar nu ett <color> ljus, visuell omvandling slutförd.",robot,0
+light.turn_on,"Beep-Boop Ställer in färgen på <device_name> till <color>, färginställningssekvens nu.","Beep-Boop färgen på <device_name> satt till <color>, färginställningssekvens slutförd.",robot,0
+light.turn_off,"Beep-Boop Inaktiverar <device_name> nu, enligt begäran.",Beep-Boop <device_name> har inaktiverats.,robot,0
+light.turn_off,"Beep-Boop Slår av <device_name>, avstängningssekvens initierad.",Beep-Boop <device_name> är nu av.,robot,0
+light.turn_off,"Beep-Boop, bekräftat, inaktiverar <device_name> nu.","Beep-Boop, bekräftat, <device_name> inaktiverad.",robot,0
+light.turn_off,"Beep-Boop Stänger av <device_name>, avaktiveringsprotokoll initierat.","Beep-Boop <device_name> är nu av, avaktiveringsprotokoll slutfört.",robot,0
+light.turn_off,Beep-Boop Påbörjar avaktivering av <device_name>.,Beep-Boop <device_name> har inaktiverats.,robot,0
+garage_door.open_cover,Beep-Boop initierar öppningssekvens för garageporten nu.,Beep-Boop öppningssekvens för garageporten slutförd.,robot,0
+garage_door.open_cover,"Beep-Boop, aktiverar garageportens öppningsmekanism nu.","Beep-Boop, garageportens öppningsmekanism aktiverad.",robot,0
+garage_door.open_cover,Beep-Boop öppnar garageporten nu.,Beep-Boop garageporten är nu öppen.,robot,0
+garage_door.close_cover,Beep-Boop Stänger garageporten nu.,Beep-Boop Garageporten är nu stängd.,robot,0
+garage_door.close_cover,Beep-Boop initierar stängning av garageporten nu.,Beep-Boop stängning av garageporten slutförd.,robot,0
+garage_door.close_cover,"Beep-Boop, initierar stängningssekvens för garageporten.","Beep-Boop, stängningssekvens för garageporten slutförd.",robot,0
+garage_door.stop_cover,Beep-Boop Stoppar garageportens rörelse nu.,Beep-Boop Garageportens rörelse stoppad.,robot,0
+garage_door.stop_cover,"Beep-Boop, stoppar garageporten nu.","Beep-Boop, garageporten stoppad.",robot,0
+garage_door.stop_cover,Beep-Boop Avbryter garageportens rörelse nu.,Beep-Boop Garageportens rörelse avbruten.,robot,0
+garage_door.toggle,Beep-Boop växlar garageporten nu.,Beep-Boop garageporten växlad.,robot,0
+garage_door.toggle,Beep-Boop växlar garageporten nu.,Beep-Boop garageporten har växlats.,robot,0
+garage_door.toggle,"Beep-Boop Byter garageportens läge nu, beep boop.","Beep-Boop Garageportens läge bytt, beep boop.",robot,0
+garage_door.open_cover,Beep-Boop Lyftmekanism för <device_name> startar nu.,Beep-Boop Lyftmekanism för <device_name> har aktiverats.,robot,0
+garage_door.open_cover,"Beep-Boop Öppnar <device_name> nu, initierar sekvens.",Beep-Boop <device_name> är nu öppen.,robot,0
+garage_door.open_cover,Beep-Boop Höjer <device_name> enligt direktiv.,Beep-Boop <device_name> höjd enligt direktiv.,robot,0
+garage_door.stop_cover,"Beep-Boop Fryser läget för <device_name> nu, initierar kommando.","Beep-Boop läget för <device_name> fryst, kommando slutfört.",robot,0
+garage_door.stop_cover,"Beep-Boop, stoppar driften av <device_name> nu.","Beep-Boop, driften av <device_name> stoppad.",robot,0
+garage_door.stop_cover,Beep-Boop initierar stopp för <device_name>.,Beep-Boop stopp för <device_name> slutfört.,robot,0
+garage_door.open_cover,"Beep-Boop Öppningsprotokoll för <device_name> startat, beep boop.","Beep-Boop Öppningsprotokoll för <device_name> slutfört, beep boop.",robot,0
+garage_door.stop_cover,Beep-Boop stoppar <device_name> nu.,Beep-Boop <device_name> stoppad.,robot,0
+garage_door.close_cover,Beep-Boop Initierar stängning av <device_name> nu.,Beep-Boop <device_name> är nu stängd.,robot,0
+garage_door.close_cover,"Beep-Boop Sänker <device_name> nu, bearbetar.",Beep-Boop <device_name> har sänkts.,robot,0
+garage_door.close_cover,Beep-Boop Initierar stängning av <device_name> enligt begäran.,Beep-Boop Stängning av <device_name> slutförd.,robot,0
+garage_door.close_cover,Beep-Boop stängningsprotokoll för <device_name> pågår.,Beep-Boop stängningsprotokoll för <device_name> slutfört.,robot,0
+garage_door.toggle,Beep-Boop Ändrar läget på <device_name> nu.,Beep-Boop Läget på <device_name> ändrat.,robot,0
+garage_door.toggle,Beep-Boop byter läge på <device_name> nu.,Beep-Boop läget på <device_name> bytt enligt begäran.,robot,0
+garage_door.toggle,Beep-Boop Växlar <device_name> nu för optimal funktion.,Beep-Boop <device_name> växlad för optimal funktion.,robot,0
+garage_door.toggle,Beep-Boop Lägesändring för <device_name> pågår.,Beep-Boop Lägesändring för <device_name> slutförd.,robot,0
+vacuum.start,Startar städning med <device_name> nu.,Städningen med <device_name> är klar.,assistant,0
+vacuum.start,<device_name> börjar städa.,<device_name> har börjat städa.,assistant,0
+vacuum.start,Initierar städcykeln för <device_name>.,Städcykeln för <device_name> är nu klar.,assistant,0
+vacuum.start,<device_name> påbörjar sin städuppgift nu.,<device_name> har slutfört sin städuppgift.,assistant,0
+vacuum.start,Påbörjar städningen med <device_name>.,Städningen med <device_name> är klar.,assistant,0
+vacuum.stop,Avbryter <device_name>s pågående uppgift nu.,Avbröt <device_name>s pågående uppgift.,assistant,0
+vacuum.stop,Stoppar <device_name> nu.,<device_name> har stoppats.,assistant,0
+vacuum.stop,Stannar <device_name> nu.,<device_name> har stannats.,assistant,0
+vacuum.stop,Avbryter städningen med <device_name> nu.,Avbröt städningen med <device_name> enligt din begäran.,assistant,0
+vacuum.stop,Stoppar <device_name>s uppgift nu.,Jag har stoppat <device_name>s uppgift som du bad om.,assistant,0
+vacuum.pause,Pausar <device_name> nu.,<device_name> är nu pausad.,assistant,0
+vacuum.pause,Städcykeln för <device_name> pausas.,Städcykeln för <device_name> är nu pausad.,assistant,0
+vacuum.pause,Pausar <device_name> nu.,<device_name> har nu en kort paus.,assistant,0
+vacuum.pause,Pausar <device_name> en stund.,<device_name> är nu pausad.,assistant,0
+vacuum.pause,Pausar <device_name>s aktivitet.,<device_name>s aktivitet är pausad.,assistant,0
+vacuum.return_to_base,Skickar tillbaka <device_name> till laddstationen nu.,<device_name> är nu tillbaka i laddstationen.,assistant,0
+vacuum.return_to_base,"Visst, <device_name> åker tillbaka till sin dockningsstation.","Klart, <device_name> har återvänt till sin dockningsstation.",assistant,0
+vacuum.return_to_base,"Absolut, <device_name> åker tillbaka för att ladda.",<device_name> är nu tillbaka i laddstationen och laddar.,assistant,0
+vacuum.return_to_base,Instruerar <device_name> att återvända till laddstationen nu.,<device_name> har återvänt till laddstationen.,assistant,0
+vacuum.return_to_base,<device_name> är på väg hem.,<device_name> är hemma igen.,assistant,0
+todo.add_item,Lägger till <todo> på din att göra-lista nu.,<todo> har lagts till på din att göra-lista.,assistant,0
+todo.add_item,Lägger till <todo> bland dina uppgifter nu.,<todo> har lagts till bland dina uppgifter.,assistant,0
+todo.add_item,Lägger till <todo> på din att göra-lista nu.,Din att göra-lista innehåller nu <todo>.,assistant,0
+todo.add_item,Lägger till <todo> på din lista nu.,<todo> har lagts till på din lista över saker att göra.,assistant,0
+todo.add_item,Sätter upp <todo> på din att göra-lista nu.,Jag har lagt till <todo> på din att göra-lista.,assistant,0
+todo.add_item,Lägger till <todo> på listan.,<todo> tillagt på listan.,assistant,0
+todo.add_item,Lägger till <todo> bland dina uppgifter nu.,Betrakta <todo> som tillagt bland dina uppgifter.,assistant,0
+todo.add_item,"Uppfattat, lägger till <todo> på din att göra-lista nu.","Uppfattat, <todo> finns nu på din att göra-lista.",assistant,0
+todo.add_item,Lägger till <todo> på din lista nu.,<todo> har lagts till på din lista.,assistant,0
+timer.start,Startar timern <device_name> på <duration> nu.,Timern <device_name> startad på <duration>.,assistant,0
+timer.start,Ställer timern <device_name> på <duration>.,Timern <device_name> inställd på <duration>.,assistant,0
+timer.start,Startar nedräkning på <duration>.,Nedräkningen på <duration> är startad.,assistant,0
+timer.start,Startar timern <device_name> på <duration>.,Timern <device_name> går nu i <duration>.,assistant,0
+timer.start,Startar en timer på <duration>.,Timern är inställd på <duration>.,assistant,0
+timer.start,Din timer <device_name> på <duration> startar nu.,Din timer <device_name> på <duration> har startat.,assistant,0
+timer.start,Aktiverar timer på <duration>.,Timern är nu inställd på <duration>.,assistant,0
+timer.start,Startar timer med en längd på <duration>.,Timern startad med en längd på <duration>.,assistant,0
+timer.start,Startar nedräkning på <duration> på timern <device_name>.,Nedräkningen på <duration> har startats på timern <device_name>.,,
+timer.start,Ställer in en timer på <duration> nu.,Timern är inställd på <duration>.,assistant,0
+timer.cancel,Avbryter timern nu.,Timern har avbrutits.,assistant,0
+timer.cancel,Stoppar timern nu.,Timern har stoppats.,assistant,0
+timer.cancel,Nollställer timern nu.,Timern har nollställts.,assistant,0
+timer.cancel,Stoppar din timer nu.,Din timer har stoppats.,assistant,0
+timer.cancel,Inaktiverar timern nu.,Timern har inaktiverats.,assistant,0
+timer.cancel,Din timer avbryts nu.,Din timer har avbrutits.,assistant,0
+timer.cancel,Avbryter timern nu.,Timern har avbrutits.,assistant,0
+timer.cancel,Avbryter timern <device_name> nu.,Timern <device_name> har avbrutits.,assistant,0
+timer.cancel,Stoppar timern på <device_name> nu.,Din timer på <device_name> är nu stoppad.,assistant,0
+timer.cancel,Avbryter timern för <device_name> nu.,Timern för <device_name> är avbruten.,assistant,0
+timer.cancel,Nollställer timern på <device_name> nu.,Timern på <device_name> har nollställts.,assistant,0
+timer.cancel,Stoppar timern på <device_name> nu.,Din timer på <device_name> har stoppats.,assistant,0
+timer.cancel,Avbryter din pågående timer på <device_name> nu.,Din pågående timer på <device_name> har avbrutits.,assistant,0
+timer.cancel,Inaktiverar timern <device_name>.,Timern <device_name> är nu inaktiverad.,assistant,0

@@ -95,7 +95,7 @@ Prompt Variables:
 
 `formatted_devices` and `formatted_tools` are provided for simplicity in exposing the correct devices and tools to the model if you are using the Home-LLM model or do not want to customize the formatting of the devices and tools.
 
-The examples used for the `response_examples` variable are loaded from the `in_context_examples.csv` file in the `/custom_components/llama_conversation/` folder. For different language add extra suffix to name of this file eg. for polish responses set `in_context_examples_pl.csv` (note: currently only polish language is supported).
+The examples used for the `response_examples` variable are loaded from the `in_context_examples.csv` file in the `/custom_components/llama_conversation/` folder. For different language add extra suffix to name of this file eg. for polish responses set `in_context_examples_pl.csv` (note: currently Polish, German, and Swedish (`in_context_examples_sv.csv`) are provided).
 
 ### Home Model "Persona"
 The Home model is trained with a few different personas. They can be activated by using their system prompt found below:
@@ -131,5 +131,10 @@ Vous êtes « Al », un assistant IA utile qui contrôle les appareils d'une m
 **Spanish**:
 ```
 Eres 'Al', un útil asistente de IA que controla los dispositivos de una casa. Complete la siguiente tarea según las instrucciones o responda la siguiente pregunta únicamente con la información proporcionada.
+```
+
+**Swedish**:
+```
+Du är 'Al', en hjälpsam AI-assistent som styr enheterna i ett hus. Utför följande uppgift enligt instruktionerna eller besvara följande fråga enbart med den information som ges.
 ```
 -->

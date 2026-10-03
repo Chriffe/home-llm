@@ -1,0 +1,761 @@
+device_name,description
+blinds.bakre_fonster,Persienner i bakre fönstret
+blinds.kallare,Källarpersienner
+blinds.badrum_1,Första badrumspersiennerna
+blinds.badrum,Badrumspersienner
+blinds.hobbyrum,Persienner i hobbyrummet
+blinds.matsal,Matsalspersienner
+blinds.framre_fonster,Persienner i främre fönstret
+blinds.garage,Garagepersienner
+blinds.gastbadrum,Persienner i gästbadrummet
+blinds.gastrum,Gästrumspersienner
+blinds.hall_1,Första hallpersiennerna
+blinds.hall_2,Andra hallpersiennerna
+blinds.hall,Hallpersienner
+blinds.ikea_smart,Ikea smarta persienner
+blinds.barnrum,Persienner i barnrummet
+blinds.koksfonster,Persienner i köksfönstret
+blinds.kok,Kökspersienner
+blinds.vardagsrum_stora,Persienner i stora vardagsrummet
+blinds.vardagsrum,Vardagsrumspersienner
+blinds.sovrum,Sovrumspersienner
+blinds.barnkammare,Persienner i barnkammaren
+blinds.kontor,Kontorspersienner
+blinds.kontorsfonster,Persienner i kontorsfönstret
+blinds.altan,Altanpersienner
+blinds.takfonster,Takfönsterpersienner
+blinds.takfonster,Persienner i takfönstret
+blinds.somfy_kok,Kökspersienner
+blinds.somfy_vardagsrum,Vardagsrumspersienner
+blinds.uterum,Persienner i uterummet
+blinds.hemmabio,Persienner i hemmabion
+fan.vind_1,Vindsfläktar
+fan.vind_2,Vindsfläktar
+fan.vind_3,Vindsfläktar
+fan.vind_ventilation,Ventilationsfläkt på vinden
+fan.vind,Vindsfläkt
+fan.bakre_veranda,Fläkt på bakre verandan
+fan.balkong,Balkongfläkt
+fan.kallare,Källarfläkt
+fan.badrum_nere,Fläkt i badrummet på nedervåningen
+fan.badrum,Badrumsfläkt
+fan.sovrum_stora,Fläkt i stora sovrummet
+fan.sovrum_hoger,Sovrumsfläkt på höger sida
+fan.sovrum,Sovrumsfläkt
+fan.tak_1,Takfläktar
+fan.tak_2,Takfläktar
+fan.matplats,Fläkt vid matplatsen
+fan.matsal,Matsalsfläkt
+fan.dyson_pure,Dyson Pure-fläkt
+fan.framre_veranda,Fläkt på främre verandan
+fan.garageverkstad,Fläkt i garageverkstaden
+fan.garage,Garagefläkt
+fan.gastsovrum,Fläkt i gästrummet
+fan.gastrum,Gästrumsfläkt
+fan.hall,Hallfläkt
+fan.honeywell_turbo,Honeywell Turbo-fläkt
+fan.gym,Fläkt i inomhusgymmet
+fan.barnrum,Fläkt i barnrummet
+fan.kok_1,Köksfläktar
+fan.kok_2,Köksfläktar
+fan.kokso,Kylfläkt i köket
+fan.kok,Köksfläkt
+fan.tvattstuga,Fläkt i tvättstugan
+fan.vardagsrum_1,Vardagsrumsfläkt
+fan.vardagsrum_2,Vardagsrumsfläkt
+fan.vardagsrum_mitten,Mittersta vardagsrumsfläkten
+fan.vardagsrum,Vardagsrumsfläkt
+fan.huvudbadrum,Fläkt i huvudbadrummet
+fan.barnkammare,Fläkt i barnkammaren
+fan.kontor,Kontorsfläkt
+fan.utekok,Fläkt i utomhusköket
+fan.uteplats,Fläkt på uteplatsen
+fan.ute,Utomhusfläkt
+fan.altan,Altanfläkt
+fan.veranda,Takfläkt på verandan
+fan.bod,Fläkt i boden
+fan.arbetsrum_1,Fläkt i arbetsrummet
+fan.arbetsrum_2,Fläkt i arbetsrummet
+fan.kontor_2,Fläkt i kontoret
+garage_door.kallare,Garageport i källaren
+garage_door.cykelbod,Dörr till cykelboden
+garage_door.cykelforrad,Cykelgarage
+garage_door.bat,Garageport till båtgaraget
+garage_door.bat,Port till båtförrådet
+garage_door.carport,Garageport till carporten
+garage_door.carport,Carportdörr
+garage_door.chamberlain_1,Chamberlain
+garage_door.chamberlain_2,Chamberlain
+garage_door.golfbil,Garage för golfbilen
+garage_door.golfbil,Golfbilens port
+garage_door.vaxthus,Växthusdörr
+garage_door.gast,Garageport för gäster
+garage_door.grasklippare,Port till trädgårdsredskapen
+garage_door.liftmaster_1,LiftMaster
+garage_door.liftmaster_2,LiftMaster
+garage_door.huvud_1,Primär garageport
+garage_door.huvud,Huvudgarageport
+garage_door.motorcykel,Motorcykelgarage
+garage_door.enkelgarage,Enkelgarage
+garage_door.husdjursdorr,Husdjursdörr
+garage_door.husbil_forrad,Port till husbilsförrådet
+garage_door.husbil,Garageport för husbilen
+garage_door.bod_1,Första bodens port
+garage_door.bod_2,Andra bodens port
+garage_door.verkstad,Garageport till verkstaden
+garage_door.vanster_port,Vänster garageport
+garage_door.sida_2,Garageport på sidan
+garage_door.sida,Sidogarageport
+garage_door.reserv,Reservgarageport
+garage_door.dubbelgarage,Dubbelgarage
+garage_door.ovre_plan,Garage på övervåningen
+garage_door.vinkallare,Dörr till vinkällaren
+light.over_matbordet,Lampa över matbordet
+light.akvarium,Akvarielampa
+light.vind,Vindslampa
+light.bakgard,Lampa på bakgården
+light.kallare,Källarlampa
+light.badrum_1,Badrumslampa
+light.badrum_2,Badrumslampa
+light.badrumsspegel,Spegelbelysning
+light.badrum,Badrumslampa
+light.sovrum_1,Sovrumslampa
+light.sovrum_2,Sovrumslampa
+light.sovrum_3,Sovrumslampa
+light.sovrum,Sovrumslampa
+light.forrad_under_trappan,Lampa i förrådet under trappan
+light.altan_vanster,Vänster altanlampa
+light.matsal_1,Matsalslampa
+light.matsal_2,Matsalslampa
+light.matsal_3,Matsalslampa
+light.matsal,Matsalslampa
+light.uppfart_1,Första uppfartslampan
+light.uppfart,Uppfartslampa
+light.framre_veranda,Lampa på främre verandan
+light.framsida,Belysning på framsidan
+light.garage,Garagelampa
+light.tradgard_1,Trädgårdsbelysning
+light.tradgard_2,Trädgårdsbelysning
+light.tradgardsgang,Belysning längs trädgårdsgången
+light.tradgard,Trädgårdsbelysning
+light.gastrum,Gästrumsbelysning
+light.hall_overvaning,Hallampa på övervåningen
+light.hall,Hallbelysning
+light.hall,Hallampa
+light.badtunna,Belysning vid badtunnan
+light.kok_1,Huvudlampa i köket
+light.kok_2,Andra kökslampan
+light.koksbank,Lampa över köksbänken
+light.koksbank,Belysning över köksbänken
+light.koksbord,Lampa över köksbordet
+light.kok,Kökslampa
+light.lifx_huvud,Huvudlampa
+light.vardagsrum_1,Vardagsrumsbelysning
+light.vardagsrum_2,Vardagsrumsbelysning
+light.vardagsrum_tak,Taklampa i vardagsrummet
+light.vardagsrum_tak,Stark taklampa
+light.vardagsrum,Vardagsrumslampa
+light.stora_sovrummet_1,Belysning i sovrummet
+light.stora_sovrummet_2,Belysning i sovrummet
+light.stora_sovrummet_lampa,Sovrumslampa
+light.barnkammare,Lampa i barnkammaren
+light.kontor_1,Kontorslampa
+light.kontor_2,Kontorslampa
+light.skrivbord_kontor,Skrivbordslampa på kontoret
+light.kontor,Kontorslampa
+light.ute,Utomhusbelysning
+light.altan_1,Lampa på uteplatsen
+light.altan,Altanlampor
+light.altan,Altanlampa
+light.philips_hue_1,Philips Hue
+light.philips_hue_2,Philips Hue
+light.pool,Poolbelysning
+light.bod,Lampa i boden
+light.arbetsrum_1,Arbetsrumsbelysning
+light.arbetsrum_2,Arbetsrumsbelysning
+light.arbetsrum_3,Arbetsrumsbelysning
+light.arbetsrum,Arbetsrumslampa
+light.arbetsbank,Lampa över arbetsbänken i garaget
+light.yeelight_smart,Yeelight smart lampa
+light.overvaning_sovrum_hue,Hue i sovrummet på övervåningen
+light.nedervaning_gastrum_zigbee,Lampa i gästrummet på nedervåningen
+light.framre_kontor_mqtt,Främre kontorslampa
+light.bakre_allrum_varm,Varm belysning i bakre allrummet
+light.koksbank_kall,Kall belysning över köksbänken
+light.overvaning_badrum_homekit,Badrumslampa på övervåningen
+light.nedervaning_vardagsrum_lifx,Lampa i nedre vardagsrummet
+light.framre_veranda_zwave,Lampa på främre verandan
+light.sidohall_hue,Hue i sidohallen
+light.garage_osram,Osram i garaget
+light.kallarverkstad_mqtt,Lampa i källarverkstaden
+light.overvaning_barnrum_zigbee,Lampa i barnrummet på övervåningen
+light.nedervaning_sovrum_homekit,Lampa i sovrummet på nedervåningen
+light.framre_vardagsrum_ge,Lampa i främre vardagsrummet
+light.bakre_sovrum_varm,Varm belysning i bakre sovrummet
+light.kokso_kall,Kall belysning över köksön
+light.overvaning_hall_zwave,Hallampa på övervåningen
+light.nedervaning_badrum_varm,Varm belysning i nedre badrummet
+light.framsida_osram,Osram på framsidan
+light.bakgard_zwave,Lampa på bakgården
+light.overvaning_gastrum_zigbee,Lampa i gästrummet på övervåningen
+light.nedervaning_kontor_mqtt,Kontorslampa på nedervåningen
+light.framre_sovrum_homekit,Lampa i främre sovrummet
+light.bakre_kontor_lifx,Lampa i bakre kontoret
+light.koksbord_varm,Varm belysning över köksbordet
+light.overvaning_tv_rum_zigbee,Lampa i TV-rummet på övervåningen
+light.nedervaning_tv_rum_homekit,Lampa i TV-rummet på nedervåningen
+light.framre_tv_rum_ge,Främre TV-rumslampa
+light.bakre_tv_rum_varm,Varm belysning i bakre TV-rummet
+light.diskho_kall,Kall belysning över diskhon
+light.overvaning_skafferi_zwave,Skafferilampa på övervåningen
+light.nedervaning_skafferi_mqtt,Skafferilampa på nedervåningen
+light.framre_skafferi_homekit,Främre skafferilampa
+light.bakre_skafferi_lifx,Bakre skafferilampa
+light.koksskap_varm,Varm belysning i köksskåpen
+light.overvaning_korridor_zigbee,Korridorlampa på övervåningen
+light.nedervaning_korridor_mqtt,Lampa i nedre korridoren
+light.framre_korridor_homekit,Främre korridorlampa
+light.bakre_korridor_lifx,Bakre korridorlampa
+light.garage_arbetsbank_kall,Kall belysning över arbetsbänken i garaget
+light.overvaning_barnkammare_zwave,Lampa i barnkammaren på övervåningen
+light.nedervaning_barnkammare_mqtt,Lampa i barnkammaren på nedervåningen
+light.framre_barnkammare_homekit,Lampa i främre barnkammaren
+light.bakre_barnkammare_varm,Varm belysning i bakre barnkammaren
+light.kokstak_kall,Kall taklampa i köket
+light.overvaning_lounge_zigbee,Loungelampa på övervåningen
+light.nedervaning_lounge_homekit,Loungelampa på nedervåningen
+light.framre_lounge_ge,Främre loungelampa
+light.bakre_lounge_varm,Varm belysning i bakre loungen
+light.kallarforrad_kall,Kall belysning i källarförrådet
+light.overvaning_garderob_zwave,Garderobslampa på övervåningen
+light.nedervaning_garderob_mqtt,Garderobslampa på nedervåningen
+light.framre_garderob_homekit,Främre garderobslampa
+light.bakre_garderob_varm,Varm belysning i bakre garderoben
+light.overvaning_allrum_zigbee,Allrumslampa på övervåningen
+light.nedervaning_allrum_homekit,Allrumslampa på nedervåningen
+light.framre_allrum_ge,Främre allrumslampa
+light.bakre_allrum_varm_2,Varm belysning i bakre allrummet
+light.koksfonster_kall,Kall belysning vid köksfönstret
+light.overvaning_entre_zwave,Entrélampa på övervåningen
+light.nedervaning_entre_mqtt,Lampa i nedre entrén
+light.framre_entre_homekit,Lampa i främre entrén
+light.bakre_entre_lifx,Lampa i bakre entrén
+light.koksskrivbord_varm,Varm belysning vid köksskrivbordet
+light.overvaning_grovingang_zigbee,Lampa i groventrén på övervåningen
+light.nedervaning_grovingang_homekit,Lampa i groventrén på nedervåningen
+light.framre_grovingang_ge,Lampa i främre groventrén
+light.bakre_grovingang_varm,Varm belysning i bakre groventrén
+light.koksgolv_kall,Kall golvbelysning i köket
+light.overvaning_vind_zwave,Vindslampa på övervåningen
+light.nedervaning_vind_mqtt,Nedre vindslampa
+light.framre_vind_homekit,Främre vindslampa
+light.bakre_vind_lifx,Bakre vindslampa
+light.kokslada_varm,Varm belysning i kökslådan
+light.overvaning_uterum_zigbee,Uterumslampa på övervåningen
+light.nedervaning_uterum_homekit,Uterumslampa på nedervåningen
+light.framre_uterum_ge,Främre uterumslampa
+light.bakre_uterum_varm,Varm belysning i bakre uterummet
+light.koksstall_kall,Kall belysning vid köksstället
+light.overvaning_arbetsrum_zwave,Arbetsrumslampa på övervåningen
+light.nedervaning_arbetsrum_mqtt,Arbetsrumslampa på nedervåningen
+light.framre_arbetsrum_homekit,Främre arbetsrumslampa
+light.bakre_arbetsrum_lifx,Bakre arbetsrumslampa
+light.koksbar_varm,Varm belysning vid köksbaren
+light.overvaning_matsal_zigbee,Matsalslampa på övervåningen
+light.nedervaning_matsal_homekit,Matsalslampa på nedervåningen
+light.framre_matsal_ge,Främre matsalslampa
+light.bakre_matsal_varm,Varm belysning i bakre matsalen
+light.koksvagg_kall,Kall vägglampa i köket
+light.overvaning_eldstad_zwave,Lampa vid eldstaden på övervåningen
+light.nedervaning_eldstad_mqtt,Lampa vid eldstaden på nedervåningen
+light.framre_eldstad_homekit,Främre eldstadslampa
+light.bakre_eldstad_lifx,Bakre eldstadslampa
+light.koksbokhylla_varm,Varm belysning vid kökets bokhylla
+light.overvaning_sidogard_zigbee,Lampa vid sidogården på övervåningen
+light.nedervaning_sidogard_homekit,Lampa vid sidogården på nedervåningen
+light.framre_sidogard_ge,Främre sidogårdslampa
+light.bakre_sidogard_varm,Varm belysning på bakre sidogården
+light.koksskap_kall,Kall belysning i kökets skåp
+light.overvaning_biograf_zwave,Biolampa på övervåningen
+light.nedervaning_biograf_mqtt,Biolampa på nedervåningen
+light.framre_biograf_homekit,Främre biolampa
+light.bakre_biograf_lifx,Bakre biolampa
+light.ugn_varm,Varm belysning vid ugnen
+light.overvaning_mansgrotta_zigbee,Lampa i mansgrottan på övervåningen
+light.nedervaning_mansgrotta_homekit,Lampa i mansgrottan på nedervåningen
+light.framre_mansgrotta_ge,Främre mansgrottelampa
+light.bakre_mansgrotta_varm,Varm belysning i bakre mansgrottan
+light.kokshylla_kall,Kall belysning vid kökshyllan
+light.overvaning_balkong_zwave,Balkonglampa på övervåningen
+light.nedervaning_balkong_mqtt,Balkonglampa på nedervåningen
+light.framre_balkong_homekit,Främre balkonglampa
+light.bakre_balkong_lifx,Bakre balkonglampa
+light.kokslist_varm,Varm belysning vid kökets taklist
+light.overvaning_trapphus_zigbee,Trapphuslampa på övervåningen
+light.nedervaning_trapphus_homekit,Trapphuslampa på nedervåningen
+light.framre_trapphus_ge,Främre trapphuslampa
+light.bakre_trapphus_varm,Varm belysning i bakre trapphuset
+light.koksspegel_kall,Kall belysning vid köksspegeln
+light.overvaning_kallare_zwave,Lampa i källarens övre del
+light.nedervaning_kallare_mqtt,Lampa i källarens nedre del
+light.framre_kallare_homekit,Främre källarlampa
+light.bakre_kallare_lifx,Bakre källarlampa
+light.kokssittbank_varm,Varm belysning vid kökets fönstersittbänk
+light.overvaning_hobbyrum_zigbee,Hobbyrumslampa på övervåningen
+light.nedervaning_hobbyrum_homekit,Hobbyrumslampa på nedervåningen
+light.framre_hobbyrum_ge,Främre hobbyrumslampa
+light.bakre_hobbyrum_varm,Varm belysning i bakre hobbyrummet
+light.koksskank_kall,Kall belysning vid köksskänken
+light.overvaning_innergard_zwave,Innergårdslampa på övervåningen
+light.nedervaning_innergard_mqtt,Innergårdslampa på nedervåningen
+light.framre_innergard_homekit,Främre innergårdslampa
+light.bakre_innergard_lifx,Bakre innergårdslampa
+light.koksvinkallare_varm,Varm belysning i kökets vinkällare
+light.overvaning_spelhall_zigbee,Spelhallslampa på övervåningen
+light.nedervaning_spelhall_homekit,Spelhallslampa på nedervåningen
+light.framre_spelhall_ge,Främre spelhallslampa
+light.bakre_spelhall_varm,Varm belysning i bakre spelhallen
+light.koksskafferi_kall,Kall belysning i kökets skafferi
+light.overvaning_toalett_zwave,Toalettlampa på övervåningen
+light.nedervaning_toalett_mqtt,Toalettlampa på nedervåningen
+light.framre_toalett_homekit,Främre toalettlampa
+light.bakre_toalett_lifx,Bakre toalettlampa
+light.kylskap_varm,Varm belysning vid kylskåpet
+light.overvaning_bibliotek_zigbee,Bibliotekslampa på övervåningen
+light.nedervaning_bibliotek_homekit,Bibliotekslampa på nedervåningen
+light.framre_bibliotek_ge,Främre bibliotekslampa
+light.bakre_bibliotek_varm,Varm belysning i bakre biblioteket
+light.kaffehorna_kall,Kall belysning i kaffehörnan
+light.overvaning_lekrum_zwave,Lekrumslampa på övervåningen
+light.nedervaning_lekrum_mqtt,Lekrumslampa på nedervåningen
+light.framre_lekrum_homekit,Främre lekrumslampa
+light.bakre_lekrum_lifx,Bakre lekrumslampa
+light.mikro_varm,Varm belysning vid mikrovågsugnen
+light.overvaning_observatorium_zigbee,Observatorielampa på övervåningen
+light.nedervaning_observatorium_homekit,Observatorielampa på nedervåningen
+light.framre_observatorium_ge,Främre observatorielampa
+light.bakre_observatorium_varm,Varm belysning i bakre observatoriet
+light.brodrost_kall,Kall belysning vid brödrosten
+light.overvaning_traning_zwave,Träningslampa på övervåningen
+light.nedervaning_traning_mqtt,Träningslampa på nedervåningen
+light.framre_traning_homekit,Främre träningslampa
+light.bakre_traning_lifx,Bakre träningslampa
+light.koksvitrin_varm,Varm belysning i köksvitrinen
+light.overvaning_grovkok_zigbee,Grovkökslampa på övervåningen
+light.nedervaning_grovkok_homekit,Grovkökslampa på nedervåningen
+light.framre_grovkok_ge,Främre grovkökslampa
+light.bakre_grovkok_varm,Varm belysning i bakre grovköket
+light.soptunna_kall,Kall belysning vid soptunnan i köket
+light.overvaning_sallskapsrum_zwave,Lampa i sällskapsrummet på övervåningen
+light.nedervaning_sallskapsrum_mqtt,Lampa i sällskapsrummet på nedervåningen
+light.framre_sallskapsrum_homekit,Lampa i främre sällskapsrummet
+light.bakre_sallskapsrum_lifx,Lampa i bakre sällskapsrummet
+light.frys_varm,Lampa vid frysen
+light.overvaning_zen_zigbee,Zen-lampa på övervåningen
+light.nedervaning_zen_homekit,Zen-lampa på nedervåningen
+light.framre_zen_ge,Främre lampa
+light.bakre_zen_varm,Bakre zen-lampa
+light.matsal_ljuskrona,Ljuskrona i matsalen
+light.ljuskrona_framre_hall,Ljuskrona i främre hallen
+lock.bakdorr,Lås till bakdörren
+lock.bakdorr,Lås till ingången från bakgården
+lock.kallare,Källarlås
+lock.cykelstall,Lås till cykelstället
+lock.cykelforrad,Lås till cykelförrådet
+lock.dokumentskap,Lås till dokumentskåpet
+lock.ytterdorr_1,Lås till huvudentrén
+lock.ytterdorr,Lås till ytterdörren
+lock.garage,Lås till garageporten
+lock.gastrum,Gästrumslås
+lock.vapenskap,Lås till vapenskåpet
+lock.brevlada,Lås till säker brevlåda
+lock.sovrum,Sovrumslås
+lock.barnkammare,Lås till barnkammarens dörr
+lock.kontor,Kontorslås
+lock.altandorr,Altanens skjutdörr
+lock.poolgrind,Lås till poolgrinden
+lock.poolgrind,Grind till poolen
+lock.bankfack,Bankfack
+lock.schlage_smart,Schlage smart lås
+lock.bod_2,Andra bodens lås
+lock.redskapsbod,Lås till redskapsboden
+lock.redskapsbod,lås till redskapsboden
+lock.grovkok,Lås till grovköket
+lock.vinkallare,Lås till vinkällaren
+lock.vinkallare,vinkällarens lås
+lock.yale_kok,Yale kök
+lock.yale_vardagsrum,Yale vardagsrum
+lock.yogarum,Lås till yogarummet
+lock.vind,Lås till vindsdörren
+lock.balkongdorr,Lås till balkongen
+lock.sovrum_2,Lås till andra sovrummet
+lock.sovrum_3,Lås till tredje sovrummet
+lock.bathus,Lås till båthuset
+lock.garderob,Lås till garderobsdörren
+lock.orangeri,Lås till orangeriet
+lock.allrum,Lås till allrummet
+lock.matsal,Matsalslås
+lock.uppfartsgrind,Lås till uppfartsgrinden
+lock.elgrind,Lås till elgrinden
+lock.hiss,Lås till privat hiss
+lock.staketgrind,Lås till staketgrinden
+lock.arkivrum,Lås till arkivrummet
+lock.framre_grind,Lås till framgrinden
+lock.tradgardsgrind,Lås till trädgårdsgrinden
+lock.vaxthus,Växthuslås
+lock.gym,Lås till hemmagymmet
+lock.hallgarderob,Lås till hallgarderoben
+lock.hemmabio,Lås till hemmabion
+lock.hundgard,Lås till hundgården
+lock.koksdorr,Lås till köksingången
+lock.tvattstuga,Lås till tvättstugan
+lock.vardagsrum,Vardagsrumslås
+lock.loft,Loftlås
+lock.grovingang,Lås till groventrén
+lock.musikrum,Lås till musikrummet
+lock.kontorsskap,Lås till kontorsskåpet
+lock.skafferi,Skafferilås
+lock.lekrum,Lås till lekrummet
+lock.verandadorr,Lås till verandadörren
+lock.bakre_grind,Lås till bakre grinden
+lock.takdorr,Lås till takterrassen
+lock.bastu,Lås till bastudörren
+lock.sakerhetsforrad,Lås till säkerhetsförrådet
+lock.serviceingang,Lås till serviceingången
+lock.sidodorr,Lås till sidoingången
+lock.sidogrind,Lås till sidogrinden
+lock.skidforrad,Lås till skidförrådet
+lock.trappgrind,Lås till trappgrinden
+lock.forrad,Förrådslås
+lock.studio,Studiolås
+lock.uterum,Lås till uterummet
+lock.terrassdorr,Lås till terrassdörren
+lock.fordonsgrind,Lås till fordonsgrinden
+lock.kladkammare,Lås till klädkammaren
+lock.verkstad,Verkstadslås
+lock.verkstadsskap,Lås till verkstadsskåpet
+lock.tradgardsbod,Lås till trädgårdsboden
+media_player.apple_tv,Apple TV-mediaspelare
+media_player.kallare,Mediaspelare i källaren
+media_player.bose_sovrum,Bose sovrum
+media_player.bose_vardagsrum,Bose vardagsrum
+media_player.chromecast_sovrum,Chromecast i sovrummet
+media_player.chromecast,Chromecast-media
+media_player.echo_dot,Echo Dot i köket
+media_player.fire_tv_stick,Fire TV Stick
+media_player.fire_tv,Fire TV-media
+media_player.garage,Mediaspelare i garaget
+media_player.gastrum,Media i gästrummet
+media_player.hemmabio,Hemmabiomedia
+media_player.ipad_kok,iPad i köket
+media_player.kok,Mediaspelare i köket
+media_player.laptop_stream,Laptop för strömning
+media_player.vardagsrum,Vardagsrumsmedia
+media_player.sovrum,Media i sovrummet
+media_player.nintendo_switch,Nintendo Switch
+media_player.barnkammare,Mediaspelare i barnkammaren
+media_player.kontor,Mediaspelare på kontoret
+media_player.altan,Mediaspelare på altanen
+media_player.ps5_vardagsrum,PS5 i vardagsrummet
+media_player.roku_sovrum,Roku sovrum
+media_player.roku_sovrum,Roku-spelare i sovrummet
+media_player.roku_vardagsrum,Roku vardagsrum
+media_player.samsung_tv,TV i vardagsrummet
+media_player.sonos_sovrum,Sonos sovrum
+media_player.sonos_kok,Sonos kök
+media_player.sonos_kok,Sonos-högtalare i köket
+media_player.sonos_vardagsrum,Sonos vardagsrum
+media_player.soundbar_vardagsrum,Soundbar i vardagsrummet
+media_player.xbox_allrum,Xbox i allrummet
+media_player.sony_bravia_tv,Sony smart LED-TV
+media_player.samsung_qled_tv,Samsung Quantum Dot-TV
+media_player.lg_oled_tv,LG OLED-TV
+media_player.panasonic_4k_bluray_player,Panasonic Blu-ray-spelare
+media_player.denon_av_receiver,Denon AV-receiver
+media_player.onkyo_tx_sr,Onkyo hemmabioreceiver
+media_player.google_nest_hub,Google Assistant smart skärm
+media_player.amazon_echo_show,Amazon Echo smart skärm
+media_player.apple_tv_4k,Apple 4K-strömningsenhet
+media_player.roku_ultra,Roku högpresterande strömningsenhet
+media_player.xbox_one,Xbox One
+media_player.playstation_5,Sony PS5
+media_player.kalles_ps5,Kalles PS5
+media_player.nintendo_switch_dock,Nintendo-konsoldocka
+media_player.sony_4k_projektor,Sony hemmabioprojektor
+media_player.epson_home_cinema,Epson videoprojektor
+media_player.bose_hemhogtalare,Bose trådlös högtalare
+media_player.sonos_beam,Sonos Compact Soundbar
+media_player.harman_kardon_aura,Harman Kardon Glass-högtalare
+media_player.bang_olufsen_beovision,B&O exklusiv TV
+media_player.philips_ambilight_tv,Philips LED-bakbelyst TV
+media_player.vizio_smartcast_tv,Vizio TV med Cast
+media_player.sony_ps_lx310bt,Sony Bluetooth-skivspelare
+media_player.audio_technica_at_lp120,Audio-Technica skivspelare
+media_player.samsung_hw_q90r,Samsung surround-soundbar
+media_player.sonos_arc,Sonos smart soundbar
+media_player.hemmabiosystem_vardagsrum,Hemmabio i vardagsrummet
+media_player.datorns_mediacenter,Mediacenter i stationära datorn
+media_player.vaggmonterad_tv_sovrum,Väggmonterad TV i sovrummet
+media_player.koksradio,Köksradio
+media_player.badrumshogtalare,Vattentät badrumshögtalare
+media_player.garageverkstad_stereo,Stereo i garageverkstaden
+media_player.altan_utomhushogtalare,Utomhushögtalare på altanen
+media_player.kallare_projektor,Projektorsystem i källaren
+media_player.kontor_datorhogtalare,Datorhögtalare på kontoret
+media_player.klockradio_sangbord,Klockradio på sängbordet
+media_player.spelrum_konsol,Konsol i spelrummet
+media_player.lounge_hifi,Hi-Fi-ljud i loungen
+media_player.matsal_jukebox,Jukebox i matsalen
+media_player.gastrum_tv,TV i gästrummet
+media_player.arbetsrum_ljudbok,Ljudboksspelare i arbetsrummet
+media_player.uterum_cd,CD-spelare i uterummet
+media_player.vind_vinylspelare,Vinylspelare på vinden
+media_player.bakgard_projektor,Projektor på bakgården
+media_player.entre_rostassistent,Röstassistent i entrén
+media_player.hall_vagghogtalare,Vägghögtalare i hallen
+switch.vindsbelysning,Strömbrytare för vindsbelysningen
+switch.balkongbelysning,Belysningsstyrning på balkongen
+switch.kallarbelysning,Strömbrytare för källarbelysningen
+switch.badrumsflakt,Strömbrytare för badrumsfläkten
+switch.sovrumsbelysning,Strömbrytare för sovrumsbelysningen
+switch.bathusbelysning,Strömbrytare för båthusbelysningen
+switch.garderobsbelysning,Belysningsstyrning i garderoben
+switch.orangeribelysning,Strömbrytare för orangeriets belysning
+switch.altanbelysning,Strömbrytare för altanbelysningen
+switch.allrumsbelysning,Strömbrytare för allrumsbelysningen
+switch.matsalsbelysning,Strömbrytare för matsalsbelysningen
+switch.uppfartsbelysning,Belysningsstyrning vid uppfarten
+switch.grindbelysning,Strömbrytare för grindbelysningen
+switch.framsidans_belysning,Strömbrytare för belysningen på framsidan
+switch.garageportoppnare,Strömbrytare för garageportöppnaren
+switch.tradgardsbelysning,Belysningsstyrning i trädgården
+switch.gastrumsbelysning,Strömbrytare för gästrumsbelysningen
+switch.hallbelysning,Strömbrytare för hallbelysningen
+switch.hemmabiobelysning,Belysningsstyrning i hemmabion
+switch.koksbelysning,Strömbrytare för köksbelysningen
+switch.tvattstugebelysning,Strömbrytare för tvättstugans belysning
+switch.vardagsrumsbelysning,Strömbrytare för vardagsrumsbelysningen
+switch.loftbelysning,Strömbrytare för loftbelysningen
+switch.stora_sovrummet_belysning,Strömbrytare för belysningen i stora sovrummet
+switch.kontorsbelysning,Strömbrytare för kontorsbelysningen
+switch.sakerhetsbelysning_ute,Strömbrytare för utomhusbelysning
+switch.skafferibelysning,Strömbrytare för skafferibelysningen
+switch.uteplatsbelysning,Strömbrytare för uteplatsens belysning
+switch.lekrumsbelysning,Strömbrytare för lekrummets belysning
+switch.poolbelysning,Belysningsstyrning vid poolen
+switch.verandabelysning,Strömbrytare för verandabelysningen
+switch.bakgardsbelysning,Strömbrytare för bakgårdsbelysningen
+switch.bastubelysning,Strömbrytare för bastubelysningen
+switch.larmsystem,Strömbrytare för larmsystemet
+switch.bodbelysning,Strömbrytare för bodens belysning
+switch.trappbelysning,Strömbrytare för trappbelysningen
+switch.arbetsrumsbelysning,Strömbrytare för arbetsrumsbelysningen
+switch.uterumsbelysning,Strömbrytare för uterumsbelysningen
+switch.terrassbelysning,Belysningsstyrning på terrassen
+switch.bankbelysning,Strömbrytare för bänkbelysningen
+switch.grovkoksbelysning,Strömbrytare för grovkökets belysning
+switch.gangbelysning,Strömbrytare för gångbelysningen
+switch.lagerbelysning,Strömbrytare för lagerbelysningen
+switch.fontanbelysning,Strömbrytare för fontänbelysningen
+switch.verkstadsbelysning,Strömbrytare för verkstadsbelysningen
+switch.gardens_stralkastare,Strömbrytare för gårdens strålkastare
+switch.djurhagnadsbelysning,Belysningsstyrning för djurhägnet
+switch.poolpump,Strömbrytare för poolpumpen
+switch.bevattningssystem,Strömbrytare för bevattningssystemet
+switch.garageverkstadsbelysning,Strömbrytare för garageverkstadens belysning
+climate.nest_learning,Nest Learning Thermostat
+climate.ecobee_smart,Ecobee SmartThermostat
+climate.honeywell_lyric_t6,Honeywell Lyric T6 Pro
+climate.emerson_sensi_touch,Emerson Sensi Touch Wi-Fi-termostat
+climate.bosch_bcc100,Bosch BCC100 Connected Control
+climate.johnson_glas,Johnson Controls GLAS smart termostat
+climate.termostat_lux_geo,Lux Geo Wi-Fi-termostat
+climate.tado_smart,Tado smart termostat
+climate.trane_comfortlink_ii,Trane ComfortLink II XL1050
+climate.carrier_cor,Carrier Cor Wi-Fi-termostat
+climate.netatmo_smart,Netatmo smart termostat
+climate.sinope_smart,Sinopé smart termostat
+climate.kono_termostat,Kono smart termostat
+climate.mysa_smart_termostat,Mysa smart termostat för elradiatorer
+climate.zen_wifi_termostat,Zen Thermostat WiFi Edition
+vacuum.vardagsrum_roomba,Dammsugare i vardagsrummet
+vacuum.kok_xiaomi,Köksdammsugare
+vacuum.overvaning_dyson,Dammsugare på övervåningen
+vacuum.kallare_deebot,Deebot i källaren
+vacuum.sovrum_shark,Dammsugare i sovrummet
+vacuum.garage_roomba_2,Städrobot i garaget
+vacuum.under_soffan,Städare under soffan
+vacuum.matplats_bissell,Smutsborttagare vid matplatsen
+vacuum.hall_neato,Gångstädare i hallen
+vacuum.entre_eufy,Dammsamlare i entrén
+vacuum.altandorr_dammsugare,Dammsugare vid altandörren
+vacuum.vanster_horn_robot,Smutssugare i vänstra hörnet
+vacuum.hoger_trapphus_sopare,Städare i högra trapphuset
+vacuum.overvaning_badrum,Städhjälp i badrummet på övervåningen
+vacuum.nedervaning_gastrum,Dammsugare i nedre gästrummet
+vacuum.smarta_hemmet,Smart städrobot
+vacuum.ovanfor_trappan_robot,Dammsugare ovanför trappan
+vacuum.under_sangen,Dammsamlare under sängen
+vacuum.framre_hall_samsung,Sopbot i främre hallen
+vacuum.bakre_altan_sopare,Städare för bakre altanen
+todo.dagliga_sysslor,Lista över dagliga sysslor
+todo.inkopslista,Inköpslista
+todo.helgprojekt,Lista över helgprojekt
+todo.familjekalender,Familjens kalender
+todo.traningsschema,Träningsschema
+todo.barnens_laxor,Barnens läxdeadlines
+todo.husdjur_vaccination,Vaccinationsschema för husdjur
+todo.bilunderhall,Logg för bilunderhåll
+todo.fodelsedagar,Lista med födelsedagspåminnelser
+todo.arsdagsplanering,Planerare för årsdagar
+todo.semesterplanering,Semesterplanering
+todo.lasning,Läslista
+todo.filmlista,Filmlista
+todo.receptsamling,Receptsamling
+todo.renovering,Renoveringsplan
+todo.tradgardsskotsel,Schema för trädgårdsskötsel
+todo.rakningar,Påminnelser om räkningar
+todo.forsakringar,Påminnelser om försäkringsförnyelse
+todo.prenumerationer,Hantering av prenumerationer
+todo.garantier,Garantilista
+timer.ugn,Ugnstimer
+timer.tvattmaskin_1,Timer för tvättprogram
+timer.tradgardsbevattning,Timer för trädgårdsbevattning
+timer.framre_veranda_belysning,Timer för verandabelysningen
+timer.bakgard_stralkastare,Timer för bakgårdens strålkastare
+timer.garageport_1,Garageportstimer
+timer.sovrumslampa,Timer för sovrumslampan
+timer.matsal_dimmer,Timer för matsalsbelysningen
+timer.overvaning_hall,Timer för hallen på övervåningen
+timer.nedervaning_garderob,Timer för garderoben på nedervåningen
+timer.entre_ljuskrona,Timer för ljuskronan i entrén
+timer.altanbelysning,Timer för altanstämning
+timer.uppfart_sakerhetsbelysning,Säkerhetstimer för uppfarten
+timer.barnrum_nattlampa,Timer för nattlampan i barnrummet
+timer.timer0,Allmän timer
+timer.timer7,Anpassad timer 7
+timer.min_timer,Personlig timer
+timer.kokstimer,Äggklocka
+timer.tvatt_nedrakning,Tvättimer
+timer.morgonlarm,Morgonväckning
+timer.traningstimer,Träningstimer
+timer.plugg,Pluggtimer
+timer.meditation,Meditationstimer
+timer.bebis_tupplur,Timer för bebisens tupplur
+timer.te,Timer för tebryggning
+timer.spel,Brädspelstimer
+timer.morgonkaffe,Timer för morgonkaffet
+light.kallarbar_kall,Kall belysning i källarbaren
+light.overvaning_hobbyrum_2_zigbee,Lampa i pysselrummet på övervåningen
+light.nedervaning_musikrum_homekit,Lampa i musikrummet på nedervåningen
+light.framre_tvattstuga_ge,Främre tvättstugelampa
+light.bakre_traning_varm,Varm belysning i bakre träningsrummet
+light.koks_ortagard_kall,Kall belysning vid kökets örtträdgård
+light.overvaning_meditation_zwave,Meditationslampa på övervåningen
+light.nedervaning_husdjur_mqtt,Lampa vid husdjurshörnan på nedervåningen
+light.framre_entregarderob_homekit,Lampa i främre entréns garderob
+light.bakre_verktygsrum_lifx,Lampa i bakre verktygsrummet
+light.garage_lackbox_varm,Varm belysning i garagets lackbox
+light.overvaning_pysselbord_zigbee,Lampa vid pysselbordet på övervåningen
+light.nedervaning_vinbar_homekit,Lampa i vinbaren på nedervåningen
+light.framre_planteringsbod_ge,Lampa i främre planteringsboden
+light.bakre_akvariebank_varm,Varm belysning vid bakre akvariebänken
+blinds.orangeri,Persienner i orangeriet
+blinds.morgonrum,Persienner i morgonrummet
+blinds.lashorna,Persienner i läshörnan
+blinds.meditationsrum,Persienner i meditationsrummet
+blinds.atelje,Persienner i ateljén
+blinds.musikrum,Persienner i musikrummet
+blinds.vinkallarfonster,Persienner i vinkällaren
+blinds.verkstad_takfonster,Takfönsterpersienner i verkstaden
+blinds.vaxthus_soder,Persienner i södra växthuset
+blinds.bibliotek_burspark,Persienner i bibliotekets burspråk
+fan.vinkallare,Fläkt i vinkällaren
+fan.atelje,Fläkt i ateljén
+fan.grovingang,Fläkt i groventrén
+fan.orangeri,Fläkt i orangeriet
+fan.vaxthus,Växthusfläkt
+fan.bibliotek,Biblioteksfläkt
+fan.musikrum,Fläkt i musikrummet
+fan.verkstad_tak,Takfläkt i verkstaden
+fan.traningsrum,Fläkt i träningsrummet
+fan.hobbyrum,Fläkt i hobbyrummet
+garage_door.atelje,Ateljéns port
+garage_door.poolhus,Poolhusets port
+garage_door.utrustningsforrad,Dörr till utrustningsförrådet
+garage_door.konstgalleri,Konstgalleriets dörr
+garage_door.keramikstudio,Port till keramikstudion
+garage_door.snickeri,Snickeriverkstadens dörr
+garage_door.bilplats_vanster,Vänster automatisk garageport
+garage_door.bilplats_hoger,Höger automatisk garageport
+garage_door.fristaende_garage,Port till fristående garage
+garage_door.grand,Port mot gränden
+lock.grovingang_entre,Lås till groventréns ingång
+lock.solarium,Lås till uterummet
+lock.personalingang,Lås till personalingången
+lock.passage,Lås till passagen
+lock.utrustningsrum,Lås till utrustningsrummet
+lock.konstgalleri,Lås till konstgalleriet
+lock.troferum,Lås till troférummet
+lock.skyddsrum,Lås till skyddsrummet
+lock.serverrum,Lås till serverrummet
+lock.pysselgarderob,Lås till pysselgarderoben
+lock.ventilationsrum,Lås till ventilationsrummet
+lock.elcentral,Lås till elcentralen
+lock.varmvattenberedare,Lås till varmvattenberedarens skåp
+lock.atervinning,Lås till återvinningsrummet
+lock.husdjursdorr_smart,Smart lås till husdjursluckan
+media_player.traningsrum,Media i träningsrummet
+media_player.hobbyrum_radio,Radio i hobbyrummet
+media_player.vaxthus_hogtalare,Växthushögtalare
+media_player.vinkallare_ljud,Ljudsystem i vinkällaren
+media_player.bibliotek_ljudbok,Ljudboksspelare i biblioteket
+media_player.meditationsrum,Media i meditationsrummet
+media_player.atelje_spotify,Spotify-spelare i ateljén
+media_player.verkstad_podd,Poddspelare i verkstaden
+media_player.poolhus_tv,TV i poolhuset
+media_player.cabana_soundbar,Soundbar i badhytten
+switch.poolvarmare,Strömbrytare för poolvärmaren
+switch.fontanpump,Strömbrytare för fontänpumpen
+switch.dammluftare,Strömbrytare för dammluftaren
+switch.julbelysning,Strömbrytare för julbelysningen
+switch.tradgardsbelysning_uppat,Styrning för uppåtriktad trädgårdsbelysning
+switch.uppfartsvarme,Strömbrytare för uppfartsvärmen
+switch.hangrannevarme,Styrning för hängrännevärme
+switch.badtunna_jets,Strömbrytare för badtunnans jets
+switch.bastuaggregat,Styrning för bastuaggregatet
+switch.angdusch,Strömbrytare för ångduschen
+switch.handdukstork,Styrning för handdukstorken
+switch.vinkyl,Strömbrytare för vinkylen
+switch.akvariefilter,Strömbrytare för akvariefiltret
+switch.husdjursfontan,Styrning för husdjursfontänen
+switch.fagelbad_varmare,Strömbrytare för fågelbadets värmare
+climate.vinkallare_kylning,Klimatstyrning i vinkällaren
+climate.vaxthus_klimat,Klimatsystem i växthuset
+climate.serverrum_kylning,Kylning i serverrummet
+climate.atelje_klimat,Klimatstyrning i ateljén
+climate.humidor,Klimatstyrning för humidoren
+vacuum.grovingang,Dammsugare i groventrén
+vacuum.verkstadsgolv,Golvrengörare i verkstaden
+vacuum.hobbyrum_hjalpare,Städrobot i hobbyrummet
+vacuum.vinkallare,Dammsugare i vinkällaren
+vacuum.vaxthus_sopare,Golvsopare i växthuset
+vacuum.bibliotek_tyst,Tyst dammsugare i biblioteket
+vacuum.atelje_stadare,Dammsamlare i ateljén
+vacuum.traningsutrustning,Städare vid träningsutrustningen
+vacuum.husdjur_matplats,Dammsugare vid husdjurens matplats
+vacuum.tvattstuga_horn,Hörnstädare i tvättstugan
+todo.husdjursskotsel,Schema för husdjursskötsel
+todo.vattning_vaxter,Lista för vattning av växter
+todo.medicin,Lista med medicinpåminnelser
+todo.sasongsunderhall,Checklista för säsongsunderhåll
+todo.presentideer,Lista med presentidéer
+todo.veckomeny,Veckomeny
+todo.heminventering,Heminventering
+timer.pizzaugn,Timer för pizzaugnen
+timer.espressomaskin,Timer för espressomaskinen
+timer.sprinkler,Timer för sprinklersystemet
+timer.poolfilter,Timer för poolfiltret
+timer.avfuktare_kallare,Timer för avfuktaren i källaren
+timer.foderautomat,Timer för foderautomaten
+timer.akvariebelysning,Timer för akvariebelysningen

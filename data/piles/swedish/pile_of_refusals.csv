@@ -1,0 +1,124 @@
+reason_type,service_name,device_name,friendly_name,desired_state,phrase,response
+not_available,lock.lock,back_door,Lås till bakdörren,,Lås <device_name>.,Jag hittar inget lås till bakdörren att styra.
+already_state,light.turn_on,hallway,Hallbelysning,on,Tänd <device_name>.,Hallbelysningen är redan tänd.
+already_state,switch.turn_off,garage,Uttag i garaget,off,Stäng av <device_name>.,Uttaget i garaget är redan avstängt.
+not_available,blinds.close_cover,sunroom,Persienner i uterummet,,Stäng persiennerna <device_name>,Tyvärr hittar jag inte den enheten i ditt hem.
+not_available,light.turn_on,downstairs_livingroom_lifx,Lampa i nedre vardagsrummet,,tänd <device_name> i blått,Tyvärr hittar jag inte den enheten i ditt hem.
+already_state,media_player.media_play_pause,sonos_beam,Sonos Compact Soundbar,playing,Pausa <device_name>,"Den spelar redan, så det finns inget att ändra."
+not_available,media_player.volume_up,playstation_5,Sony PS5,,Höj volymen på <device_name>,Tyvärr hittar jag inte <device_name> i ditt hem.
+not_available,fan.turn_on,bathroom,Badrumsfläkt,,Slå på <device_name>.,Tyvärr hittar jag inte den enheten i ditt hem.
+not_available,light.toggle,garden,Trädgårdsbelysning,,Växla <device_name>,Tyvärr hittar jag inte den enheten i ditt hem.
+not_available,media_player.volume_up,roku_living,Roku vardagsrum,,Höj volymen på <device_name>,"Tyvärr hittar jag inte <device_name> i ditt hem, så jag kan inte justera volymen."
+not_available,garage_door.open_cover,side_2,Garageport på sidan,,Öppna <device_name>.,Tyvärr hittar jag ingen <device_name> i ditt hem att öppna.
+already_state,light.turn_off,front_tv_room_ge,Främre TV-rumslampa,off,Släck <device_name>,"<device_name> är redan avstängd, så det finns inget att ändra."
+not_available,garage_door.stop_cover,golf_cart,Garage för golfbilen,,Stoppa <device_name>,Tyvärr hittar jag inte den enheten i ditt hem.
+not_available,lock.lock,playroom,Lås till lekrummet,,Lås <device_name>,Tyvärr hittar jag inte det låset i ditt hem.
+not_available,fan.decrease_speed,kitchen_island,Kylfläkt i köket,,Sänk hastigheten på <device_name>,Tyvärr kunde jag inte hitta den fläkten i ditt hem.
+already_state,switch.turn_off,pantry_lights,Strömbrytare för skafferibelysningen,off,Stäng av <device_name>.,"Tyvärr är <device_name> redan avstängd, så det finns inget att ändra."
+not_available,vacuum.stop,dining_area_bissel,Smutsborttagare vid matplatsen,,stoppa <device_name>,Tyvärr hittar jag inte den enheten i ditt hem.
+not_available,fan.turn_on,dyson_pure,Dyson Pure-fläkt,,Slå på <device_name>.,Tyvärr hittar jag ingen <device_name> i ditt hem.
+already_state,climate.turn_off,trane_comfortlink_ii,Trane ComfortLink II XL1050,off,Stäng av <device_name>,"Tyvärr är <device_name> redan avstängd, så det finns inget att ändra."
+not_available,garage_door.open_cover,boat,Port till båtförrådet,,Öppna <device_name>,Tyvärr hittar jag inte den enheten i ditt hem.
+already_state,light.turn_off,office_1,Kontorslampa,off,Släck <device_name>,"<device_name> är redan avstängd, så det finns inget att ändra."
+already_state,lock.unlock,secure_storage,Lås till säkerhetsförrådet,unlocked,Lås upp <device_name>,"Tyvärr är <device_name> redan upplåst, så det finns inget att göra."
+not_available,fan.turn_on,office,Kontorsfläkt,,Slå på <device_name>,Tyvärr hittar jag ingen <device_name> i ditt hem.
+not_available,light.turn_on,patio,Altanbelysning,,tänd <device_name>,Tyvärr hittar jag inte den enheten i ditt hem.
+not_available,switch.toggle,fountain_pump,Strömbrytare för fontänpumpen,,Växla <device_name>,Tyvärr hittar jag inte den enheten i ditt hem.
+not_available,climate.set_temperature,ecobee_smart,Ecobee SmartThermostat,,Ställ temperaturen på <device_name> till 25 grader.,Tyvärr hittar jag inte den enheten i ditt hem.
+not_available,garage_door.open_cover,basement,Garageport i källaren,,Öppna <device_name>,Tyvärr kan jag inte hitta den enheten i ditt hem.
+not_available,switch.toggle,pond_aerator,Strömbrytare för dammluftaren,,Växla <device_name>,Tyvärr hittar jag inte <device_name> i ditt hem.
+not_available,climate.turn_off,humidor_control,Klimatstyrning för humidoren,,Stäng av <device_name>.,Tyvärr hittar jag inte den enheten i ditt hem.
+already_state,media_player.media_play_pause,home_theater_system_living_room,Hemmabio i vardagsrummet,playing,Pausa <device_name>,"Tyvärr spelar <device_name> redan, så ingen ändring behövs."
+not_available,blinds.close_cover,kids_room,Persienner i barnrummet,,Stäng persiennerna <device_name>,Tyvärr hittar jag inte den enheten i ditt hem.
+not_available,vacuum.start,smart_home_automator,Smart städrobot,,Starta <device_name>.,Tyvärr kan jag inte hitta den enheten i ditt hem.
+not_available,media_player.volume_up,backyard_outdoor_projector,Projektor på bakgården,,Höj volymen på <device_name>,Tyvärr hittar jag inte <device_name> i ditt hem.
+not_available,lock.lock,garage,Lås till garageporten,,Lås <device_name>.,Tyvärr kan jag inte hitta den enheten i ditt hem.
+not_available,climate.turn_on,emerson_sensi_touch,Emerson Sensi Touch Wi-Fi-termostat,,slå på <device_name>,Tyvärr hittar jag inte den enheten i ditt hem.
+not_available,fan.toggle,patio,Altanfläkt,,Växla <device_name>,Tyvärr hittar jag inte den fläkten i ditt hem.
+not_available,vacuum.return_to_base,downstairs_guest_room,Dammsugare i nedre gästrummet,,Skicka tillbaka <device_name> till laddstationen,Tyvärr hittar jag inte den enheten i hemmet just nu.
+not_available,fan.toggle,kids_room,Fläkt i barnrummet,,Växla <device_name>,Tyvärr hittar jag inte den enheten i ditt hem.
+not_available,climate.set_temperature,ecobee_smart,Ecobee SmartThermostat,,Ställ temperaturen på <device_name> till 20 grader.,"Tyvärr hittar jag inte <device_name> i ditt hem, så jag kan inte ställa in temperaturen."
+already_state,blinds.close_cover,conservatory,Persienner i orangeriet,closed,Stäng persiennerna <device_name>,"<device_name> är redan stängda, så det finns inget att ändra."
+already_state,media_player.turn_off,epson_home_cinema,Epson videoprojektor,off,Stäng av <device_name>,"Tyvärr är <device_name> redan avstängd, så det finns inget att göra."
+not_available,fan.turn_on,office,Kontorsfläkt,,Slå på <device_name>.,Tyvärr hittar jag inte den enheten i ditt hem.
+not_available,vacuum.start,wine_cellar_vac,Dammsugare i vinkällaren,,Starta <device_name>,Tyvärr hittar jag inte den enheten i ditt hem.
+not_available,switch.toggle,sunroom_lights,Strömbrytare för uterumsbelysningen,,Växla <device_name>,Tyvärr hittar jag inte den enheten i ditt hem.
+not_available,vacuum.stop,workshop_floor,Golvrengörare i verkstaden,,"Hej assistent, stoppa <device_name>.",Tyvärr hittar jag inte den enheten i ditt hem.
+not_available,garage_door.toggle,chamberlain_2,Chamberlain,,Växla <device_name>.,Tyvärr hittar jag ingen <device_name> i ditt hem att växla.
+not_available,climate.turn_on,kono_thermostat,Kono smart termostat,,Slå på klimatet för <device_name>,Tyvärr hittar jag ingen <device_name> i ditt hem.
+not_available,climate.set_temperature,greenhouse_climate,Klimatsystem i växthuset,,Ställ temperaturen på <device_name> till 26 grader,Tyvärr hittar jag inte den enheten i ditt hem.
+not_available,vacuum.return_to_base,back_deck_sweeper,Städare för bakre altanen,,Skicka tillbaka <device_name> till laddstationen,Tyvärr kan jag inte hitta den enheten i hemmet just nu.
+not_available,climate.set_temperature,humidor_control,Klimatstyrning för humidoren,,Ställ temperaturen på <device_name> till 18 grader,Tyvärr hittar jag inte <device_name> i ditt hem.
+not_available,garage_door.stop_cover,golf_cart,Golfbilens port,,stoppa <device_name>,Tyvärr hittar jag inte den enheten i ditt hem.
+not_available,blinds.toggle,morning_room,Persienner i morgonrummet,,Växla persiennerna <device_name>,Tyvärr hittar jag inte den persiennen i ditt hem.
+already_state,fan.turn_off,outdoor_kitchen,Fläkt i utomhusköket,off,Stäng av <device_name>,"Tyvärr är <device_name> redan avstängd, så det finns inget att ändra."
+not_available,fan.increase_speed,laundry_room,Fläkt i tvättstugan,,Öka hastigheten på <device_name>.,Tyvärr hittar jag inte den fläkten i ditt hem.
+not_available,switch.turn_off,warehouse_lights,Strömbrytare för lagerbelysningen,,Stäng av <device_name>,Tyvärr kunde jag inte hitta <device_name> i ditt hem.
+not_available,fan.turn_off,master_bath,Fläkt i huvudbadrummet,,Stäng av <device_name>,Tyvärr hittar jag inte den fläkten i ditt hem.
+not_available,garage_door.close_cover,carport,Garageport till carporten,,Stäng <device_name>,Tyvärr hittar jag ingen <device_name> i ditt hem att stänga.
+not_available,switch.toggle,gutter_heating,Styrning för hängrännevärme,,Växla strömbrytaren <device_name>,Tyvärr hittar jag ingen enhet som heter <device_name> i ditt hem.
+not_available,fan.decrease_speed,outdoor_kitchen,Fläkt i utomhusköket,,Sänk hastigheten på <device_name>,Tyvärr hittar jag inte den fläkten i ditt hem.
+already_state,lock.lock,office,Kontorslås,locked,Lås <device_name>.,"Tyvärr är <device_name> redan låst, så det finns inget att ändra."
+not_available,lock.lock,utility_room,Lås till grovköket,,Lås <device_name>,Tyvärr hittar jag inte den enheten i ditt hem.
+already_state,switch.turn_on,deck_lights,Strömbrytare för altanbelysningen,on,Tänd <device_name>.,"Tyvärr är <device_name> redan på, så det finns inget att ändra."
+already_state,light.turn_on,master_bedroom_1,Belysning i sovrummet,on,tänd <device_name> på 51 % ljusstyrka,"Lampan är redan tänd på den nivån, så det finns inget att ändra."
+not_available,light.turn_on,office_desk,Skrivbordslampa på kontoret,,Tänd <device_name> i grönt,Tyvärr hittar jag inte den enheten i ditt hem.
+not_available,switch.toggle,master_bedroom_lights,Strömbrytare för sovrumsbelysningen,,Växla <device_name>,Tyvärr hittar jag inte den enheten i ditt hem.
+not_available,light.toggle,philips_hue_2,Philips Hue,,Växla <device_name>,Tyvärr hittar jag inte den enheten i ditt hem.
+already_state,light.turn_on,patio,Altanlampor,on,Tänd <device_name>.,"<device_name> är redan tända, så det finns inget att ändra."
+already_state,media_player.turn_off,home_theater,Hemmabiomedia,off,Stäng av <device_name>,"Tyvärr är <device_name> redan avstängd, så det finns inget att ändra."
+already_state,blinds.close_cover,morning_room,Persienner i morgonrummet,closed,Stäng persiennerna <device_name>,"<device_name> är redan stängda, så ingen åtgärd behövs."
+not_available,switch.toggle,fountain_pump,Strömbrytare för fontänpumpen,,Växla <device_name>,Tyvärr hittar jag inte <device_name> i ditt hem.
+not_available,lock.unlock,workshop,Verkstadslås,,lås upp <device_name>,"Tyvärr hittar jag inte <device_name> i ditt hem, så jag kan inte låsa upp det."
+not_available,vacuum.stop,left_corner_bot,Smutssugare i vänstra hörnet,,Stoppa <device_name>,Tyvärr hittar jag inte den enheten i ditt hem.
+already_state,vacuum.start,dining_area_bissel,Smutsborttagare vid matplatsen,cleaning,Starta <device_name>.,"Den städar redan, så det finns inget att ändra."
+already_state,vacuum.return_to_base,craft_room_helper,Städrobot i hobbyrummet,docked,<device_name> återvänd till laddstationen,"Den är redan dockad, så det finns inget för mig att göra."
+already_state,lock.lock,den,Lås till allrummet,locked,Lås <device_name>,"Tyvärr är <device_name> redan låst, så det finns inget att göra."
+not_available,light.toggle,kitchen_mirror_cool,Kall belysning vid köksspegeln,,Växla <device_name>,Tyvärr hittar jag inte <device_name> i ditt hem.
+not_available,media_player.volume_up,greenhouse_speaker,Växthushögtalare,,Höj volymen på <device_name>,Tyvärr hittar jag inte <device_name> i ditt hem för att justera volymen.
+not_available,vacuum.stop,above_stairs_robot,Dammsugare ovanför trappan,,Stoppa <device_name>,"Tyvärr hittar jag inte den enheten i ditt hem, så jag kan inte stoppa den."
+already_state,fan.turn_on,living_room_center,Mittersta vardagsrumsfläkten,on,Slå på <device_name>,"Tyvärr är <device_name> redan på, så det finns inget att ändra."
+not_available,garage_door.close_cover,shed_1,Första bodens port,,Stäng <device_name>,Tyvärr hittar jag ingen garageport i ditt hem att stänga.
+not_available,blinds.close_cover,theater_room,Persienner i hemmabion,,Stäng persiennerna <device_name>,Tyvärr hittar jag ingen <device_name> i ditt hem.
+already_state,blinds.close_cover,garage,Garagepersienner,closed,Stäng persiennerna <device_name>,"Persiennerna är redan stängda, så det finns inget att göra."
+not_available,vacuum.return_to_base,basement_deebot,Deebot i källaren,,Skicka tillbaka <device_name> till laddstationen,Tyvärr hittar jag inte den enheten i ditt hem.
+already_state,light.turn_on,downstairs_corridor_mqtt,Lampa i nedre korridoren,on,Tänd <device_name> i rött,"Tyvärr är <device_name> redan tänd, så det finns inget att ändra."
+already_state,lock.lock,back_door,Lås till bakdörren,locked,Lås <device_name>.,"Tyvärr är <device_name> redan låst, så ingen åtgärd behövs."
+not_available,climate.set_temperature,honeywell_lyric_t6,Honeywell Lyric T6 Pro,,Ställ temperaturen på <device_name> till 23 °C.,Tyvärr hittar jag inte <device_name> i ditt hem.
+already_state,fan.turn_off,porch,Takfläkt på verandan,off,Stäng av <device_name>,"Tyvärr är fläkten redan avstängd, så det finns inget att ändra."
+not_available,switch.turn_off,den_lights,Strömbrytare för allrumsbelysningen,,Stäng av <device_name>.,Tyvärr hittar jag inte den enheten i ditt hem.
+already_state,vacuum.return_to_base,workshop_floor,Golvrengörare i verkstaden,docked,Skicka tillbaka <device_name> till laddstationen,"Den är redan dockad, så det finns inget att göra."
+not_available,fan.increase_speed,guest_room,Gästrumsfläkt,,Öka hastigheten på <device_name>.,Tyvärr hittar jag ingen <device_name> i ditt hem.
+not_available,vacuum.stop,living_room_roomba,Dammsugare i vardagsrummet,,stoppa <device_name>,Tyvärr hittar jag inte den enheten i ditt hem.
+already_state,light.turn_on,downstairs_entryway_mqtt,Lampa i nedre entrén,on,Tänd <device_name> i vitt,"<device_name> är redan tänd, så ingen ändring behövs."
+not_available,switch.toggle,dining_room_lights,Strömbrytare för matsalsbelysningen,,Växla <device_name>,Tyvärr hittar jag inte den enheten i ditt hem.
+already_state,climate.turn_off,netatmo_smart,Netatmo smart termostat,off,Stäng av klimatet för <device_name>,"Tyvärr är klimatet redan avstängt, så det finns inget att ändra."
+already_state,fan.turn_on,kitchen_island,Kylfläkt i köket,on,slå på <device_name>,"Tyvärr är fläkten redan på, så det finns inget att ändra."
+not_available,lock.unlock,schlage_smart,Schlage smart lås,,Lås upp <device_name>.,Tyvärr hittar jag inte <device_name> i ditt hem.
+already_state,switch.turn_on,study_room_lights,Strömbrytare för arbetsrumsbelysningen,on,Tänd <device_name>.,"Tyvärr är <device_name> redan på, så det finns inget att ändra."
+not_available,climate.set_temperature,wine_cellar_cooling,Klimatstyrning i vinkällaren,,Ställ temperaturen på <device_name> till 18 grader,Tyvärr kunde jag inte hitta <device_name> i ditt hem.
+not_available,climate.set_temperature,art_studio_climate,Klimatstyrning i ateljén,,Ställ temperaturen på <device_name> till 19 grader.,Tyvärr hittar jag inte den enheten i ditt hem.
+already_state,lock.unlock,boathouse,Lås till båthuset,unlocked,Lås upp <device_name>.,"<device_name> är redan upplåst, så det finns inget att göra."
+not_available,switch.toggle,aquarium_filter,Strömbrytare för akvariefiltret,,Växla <device_name>,Tyvärr hittar jag inte den enheten i ditt hem.
+already_state,garage_door.close_cover,guest,Garageport för gäster,closed,Stäng <device_name>.,"Tyvärr är <device_name> redan stängd, så det finns inget att göra."
+not_available,garage_door.close_cover,auto_bay_left,Vänster automatisk garageport,,stäng <device_name>,Tyvärr hittar jag ingen garageport i ditt hem att stänga.
+not_available,media_player.volume_down,home_theater_system_living_room,Hemmabio i vardagsrummet,,Sänk volymen på <device_name>,Tyvärr hittar jag inte <device_name> i ditt hem.
+not_available,light.turn_on,kitchen_drawer_warm,Varm belysning i kökslådan,,Tänd <device_name> i kallvitt,Tyvärr hittar jag inte den enheten i ditt hem.
+not_available,garage_door.toggle,main,Huvudgarageport,,växla <device_name>,Tyvärr hittar jag inte den enheten i ditt hem.
+already_state,media_player.turn_on,ps5_living_room,PS5 i vardagsrummet,on,Slå på <device_name>,"Tyvärr är <device_name> redan på, så ingen åtgärd behövs."
+not_available,media_player.volume_up,sony_bravia_tv,Sony smart LED-TV,,Höj volymen på <device_name>,Tyvärr hittar jag inte <device_name> i ditt hem.
+not_available,blinds.stop_cover,guest_room,Gästrumspersienner,,Stoppa persiennerna <device_name>,Tyvärr hittar jag inte den persiennen i ditt hem just nu.
+not_available,media_player.volume_up,kitchen_radio,Köksradio,,Höj volymen på <device_name>,Tyvärr hittar jag inte <device_name> i ditt hem.
+not_available,vacuum.start,garage_roomba_2,Städrobot i garaget,,Starta <device_name>,Tyvärr hittar jag inte den enheten i ditt hem.
+not_available,fan.turn_off,attic,Vindsfläkt,,Stäng av <device_name>.,Tyvärr hittar jag inte den enheten i ditt hem.
+not_available,fan.decrease_speed,mudroom,Fläkt i groventrén,,Sänk hastigheten på fläkten <device_name>,Tyvärr hittar jag inte den fläkten i ditt hem.
+already_state,climate.turn_off,carrier_cor,Carrier Cor Wi-Fi-termostat,off,Stäng av klimatet för <device_name>,"<device_name> är redan avstängd, så det finns inget att ändra."
+not_available,switch.toggle,hallway_lights,Strömbrytare för hallbelysningen,,Växla <device_name>.,Tyvärr kan jag inte hitta den enheten i ditt hem.
+not_available,fan.turn_off,workshop_ceiling,Takfläkt i verkstaden,,Stäng av <device_name>.,Tyvärr hittar jag inte den enheten i ditt hem.
+not_available,blinds.close_cover,greenhouse_south,Persienner i södra växthuset,,Stäng persiennerna <device_name>,Tyvärr hittar jag inte den enheten i ditt hem.
+not_available,climate.turn_off,art_studio_climate,Klimatstyrning i ateljén,,Stäng av <device_name>.,Tyvärr hittar jag ingen <device_name> i ditt hem att stänga av.
+not_available,vacuum.return_to_base,workshop_floor,Golvrengörare i verkstaden,,skicka tillbaka <device_name> till laddstationen,Tyvärr hittar jag inte den enheten i ditt hem.
+not_available,climate.set_temperature,server_room_cooling,Kylning i serverrummet,,Ställ temperaturen på <device_name> till 27 grader,Tyvärr hittar jag inte <device_name> i ditt hem.
+already_state,climate.turn_on,humidor_control,Klimatstyrning för humidoren,on,Slå på <device_name>,"<device_name> är redan på, så ingen åtgärd behövs."
+not_available,media_player.media_play_pause,lounge_hi_fi_system,Hi-Fi-ljud i loungen,,Spela upp eller pausa <device_name>,Tyvärr hittar jag inte <device_name> i ditt hem.
+not_available,fan.increase_speed,shed,Fläkt i boden,,Öka hastigheten på <device_name>,Tyvärr kunde jag inte hitta <device_name> i ditt hem.

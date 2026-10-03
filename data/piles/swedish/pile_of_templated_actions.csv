@@ -1,0 +1,265 @@
+device_type,service,phrase,multiplier
+blinds,close_cover,Stäng <device_name>,1
+blinds,close_cover,Sänk <device_name>,1
+blinds,close_cover,Dra ner <device_name>,1
+blinds,open_cover,Dra upp persiennerna <device_name>,1
+blinds,open_cover,Öppna <device_name>,1
+blinds,open_cover,Höj <device_name>,1
+blinds,stop_cover,Frys <device_name>,1
+blinds,stop_cover,Stanna <device_name>,1
+blinds,stop_cover,Stoppa <device_name>,1
+blinds,toggle,Ändra läget på <device_name>,1
+blinds,toggle,Byt läge på <device_name>,1
+blinds,toggle,Växla <device_name>,1
+blinds|fan,close_cover|turn_off,Stäng <device_name1> och inaktivera <device_name2>,1
+blinds|fan,open_cover|increase_speed,Höj <device_name1> och öka hastigheten på <device_name2>,1
+blinds|light,open_cover|turn_on,Höj <device_name1> och aktivera <device_name2>,1
+fan,decrease_speed,Sänk hastigheten på <device_name>,1
+fan,decrease_speed,Minska hastigheten på <device_name>,1
+fan,decrease_speed,Sakta ner <device_name>,1
+fan,increase_speed,Öka hastigheten på <device_name>,1
+fan,increase_speed,Skruva upp hastigheten på <device_name>,1
+fan,increase_speed,Snabba upp <device_name>,1
+fan,toggle,Slå på eller av <device_name>,1
+fan,toggle,Byt läge på <device_name>,1
+fan,toggle,Växla <device_name>,1
+fan,turn_off,Inaktivera <device_name>,1
+fan,turn_off,Stoppa <device_name> tack,1
+fan,turn_off,Stäng av <device_name>,1
+fan,turn_on,Aktivera <device_name>,1
+fan,turn_on,Starta <device_name> tack,1
+fan,turn_on,Slå på <device_name>,1
+fan|blinds,turn_off|open_cover,Stäng av <device_name1> och öppna <device_name2>,1
+fan|blinds|garage_door,increase_speed|open_cover|open_cover,Öka hastigheten på <device_name1> öppna <device_name2> och <device_name3>,1
+fan|blinds|light,decrease_speed|open_cover|turn_off,Sakta ner <device_name1> öppna <device_name2> och stäng av <device_name3>,1
+fan|blinds|light,turn_off|close_cover|turn_on,Stäng av <device_name1> stäng <device_name2> och slå på <device_name3>,1
+fan|fan,increase_speed|decrease_speed,Öka hastigheten på <device_name1> och sakta ner <device_name2>,1
+fan|fan,turn_on|turn_off,Slå på <device_name1> och stäng av <device_name2>,1
+fan|garage_door,increase_speed|close_cover,Öka hastigheten på <device_name1> och stäng <device_name2>,1
+fan|garage_door|blinds,increase_speed|close_cover|open_cover,Öka hastigheten på <device_name1> stäng <device_name2> och öppna <device_name3>,1
+fan|garage_door|blinds,turn_on|close_cover|close_cover,Slå på <device_name1> stäng <device_name2> och <device_name3>,1
+fan|garage_door|light,turn_off|close_cover|turn_off,Stäng av <device_name1> och <device_name3> och stäng <device_name2>,1
+fan|garage_door|lock,turn_off|close_cover|lock,Stäng av <device_name1> stäng <device_name2> och lås <device_name3>,1
+fan|garage_door|lock,turn_on|open_cover|unlock,Slå på <device_name1> öppna <device_name2> och lås upp <device_name3>,1
+fan|light,turn_on|turn_off,Aktivera <device_name1> och inaktivera <device_name2>,1
+fan|light|lock,decrease_speed|toggle|lock,Sakta ner <device_name1> växla <device_name2> och lås <device_name3>,1
+fan|lock,decrease_speed|unlock,Sakta ner <device_name1> och lås upp <device_name2>,1
+garage_door,close_cover,Stäng <device_name>,1
+garage_door,close_cover,Sänk <device_name>,1
+garage_door,close_cover,Stäng igen <device_name>,1
+garage_door,open_cover,Lyft <device_name>,1
+garage_door,open_cover,Öppna <device_name>,1
+garage_door,open_cover,Höj <device_name>,1
+garage_door,stop_cover,Frys <device_name>,1
+garage_door,stop_cover,Stanna <device_name>,1
+garage_door,stop_cover,Stoppa <device_name>,1
+garage_door,toggle,Ändra läget på <device_name>,1
+garage_door,toggle,Byt läge på <device_name>,1
+garage_door,toggle,Växla <device_name>,1
+garage_door|blinds,open_cover|open_cover,Öppna <device_name1> och dra upp <device_name2>,1
+garage_door|fan,close_cover|turn_off,Stäng <device_name1> och inaktivera <device_name2>,1
+garage_door|light,open_cover|turn_on,Öppna <device_name1> och aktivera <device_name2>,1
+garage_door|lock,open_cover|unlock,Öppna <device_name1> och lås upp <device_name2>,1
+light,toggle,Tänd eller släck <device_name>,1
+light,toggle,Byt läge på <device_name>,1
+light,toggle,Växla läget på <device_name>,1
+light,turn_off,Inaktivera <device_name>,1
+light,turn_off,Släck <device_name> tack,1
+light,turn_off,Släck <device_name>,1
+light,turn_on,Aktivera <device_name>,1
+light,turn_on,Kan du tända <device_name>?,1
+light,turn_on,Tänd <device_name> tack,1
+light|blinds,turn_off|close_cover,Släck <device_name1> och stäng <device_name2>,1
+light|blinds|fan,turn_on|close_cover|decrease_speed,Tänd <device_name1> stäng <device_name2> och sakta ner <device_name3>,1
+light|blinds|garage_door,turn_on|open_cover|close_cover,Tänd <device_name1> öppna <device_name2> och stäng <device_name3>,1
+light|blinds|lock,turn_off|close_cover|lock,Släck <device_name1> stäng <device_name2> och lås <device_name3>,1
+light|blinds|lock,turn_off|close_cover|unlock,Släck <device_name1> stäng <device_name2> och lås upp <device_name3>,1
+light|fan,toggle|decrease_speed,Växla <device_name1> och sakta ner <device_name2>,1
+light|fan,toggle|increase_speed,Växla <device_name1> och öka hastigheten på <device_name2>,1
+light|fan,turn_off|turn_on,Släck <device_name1> och slå på <device_name2>,1
+light|fan,turn_on|toggle,Tänd <device_name1> och växla <device_name2>,1
+light|fan,turn_on|turn_off,Tänd <device_name1> och stäng av <device_name2>,1
+light|fan,turn_on|turn_on,Slå på både <device_name1> och <device_name2>,1
+light|fan,turn_on|turn_on,Slå på <device_name1> och <device_name2>,1
+light|fan|blinds,toggle|increase_speed|open_cover,Växla <device_name1> öka hastigheten på <device_name2> och öppna <device_name3>,1
+light|fan|blinds,turn_off|decrease_speed|close_cover,Släck <device_name1> sakta ner <device_name2> och stäng <device_name3>,1
+light|fan|blinds,turn_off|turn_off|close_cover,Stäng av <device_name1> och <device_name2> och stäng <device_name3>,1
+light|fan|garage_door,toggle|decrease_speed|open_cover,Växla <device_name1> sakta ner <device_name2> och öppna <device_name3>,1
+light|fan|garage_door,turn_off|turn_on|close_cover,Släck <device_name1> slå på <device_name2> och stäng <device_name3>,1
+light|fan|garage_door,turn_on|toggle|open_cover,Tänd <device_name1> växla <device_name2> och lyft <device_name3>,1
+light|fan|garage_door,turn_on|turn_on|open_cover,Slå på <device_name1> och <device_name2> och öppna <device_name3>,1
+light|fan|lock,toggle|toggle|lock,Växla både <device_name1> och <device_name2> och lås <device_name3>,1
+light|fan|lock,turn_off|turn_off|unlock,Stäng av <device_name1> och <device_name2> och lås upp <device_name3>,1
+light|fan|lock,turn_on|increase_speed|lock,Tänd <device_name1> öka hastigheten på <device_name2> och lås <device_name3>,1
+light|fan|lock,turn_on|turn_on|unlock,Slå på både <device_name1> och <device_name2> och lås upp <device_name3>,1
+light|garage_door,toggle|stop_cover,Växla <device_name1> och stoppa <device_name2>,1
+light|garage_door,turn_on|open_cover,Tänd <device_name1> och öppna <device_name2>,1
+light|garage_door,turn_on|open_cover,Tänd <device_name1> och öppna <device_name2>,1
+light|garage_door|lock,turn_on|open_cover|lock,Tänd <device_name1> öppna <device_name2> och lås <device_name3>,1
+light|light,toggle|toggle,Växla både <device_name1> och <device_name2>,1
+light|light,turn_on|turn_off,Tänd <device_name1> och släck <device_name2>,1
+light|light|fan,toggle|toggle|decrease_speed,Växla både <device_name1> och <device_name2> och sakta ner <device_name3>,1
+light|light|fan,toggle|turn_on|increase_speed,Växla <device_name1> tänd <device_name2> och öka hastigheten på <device_name3>,1
+light|light|fan,turn_on|turn_off|toggle,Tänd <device_name1> släck <device_name2> och växla <device_name3>,1
+light|lock,turn_on|lock,Tänd <device_name1> och lås <device_name2>,1
+lock,lock,Aktivera låset <device_name>,1
+lock,lock,Lås <device_name>,1
+lock,lock,Säkra <device_name>,1
+lock,unlock,Lossa låset <device_name>,1
+lock,unlock,Lås upp <device_name>,1
+lock,unlock,Avsäkra <device_name>,1
+lock|blinds,lock|close_cover,Lås <device_name1> och sänk <device_name2>,1
+lock|garage_door,lock|close_cover,Säkra <device_name1> och stäng <device_name2>,1
+light,turn_on,Se till att <device_name> är tänd,1
+fan,turn_on,Se till att <device_name> är på,1
+lock|lock|garage_door,lock|lock|close_cover,Se till att <device_name1> och <device_name2> är låsta och att <device_name3> är stängd,1
+light,turn_off,Se till att <device_name> är släckt,1
+fan,turn_off,Se till att <device_name> är av,1
+garage_door,close_cover,Försäkra dig om att <device_name> är stängd,1
+blinds,open_cover,Se till att <device_name> är öppna,1
+lock,lock,Se till att <device_name> är säkrad,1
+light,toggle,Kan du växla <device_name>,1
+fan,increase_speed,Öka hastigheten på <device_name>,1
+garage_door,open_cover,Försäkra dig om att <device_name> är öppen,1
+blinds,close_cover,Se till att <device_name> är stängda,1
+lock,unlock,Se till att <device_name> är upplåst,1
+fan,decrease_speed,Sakta ner <device_name>,1
+light,turn_on,Bekräfta att <device_name> är tänd,1
+garage_door,stop_cover,Stoppa <device_name> nu direkt,1
+light,turn_off,Bekräfta att <device_name> är släckt,1
+garage_door,toggle,Växla läget på <device_name>,1
+blinds,toggle,Byt läge på <device_name>,1
+lock,lock,Lås <device_name> ordentligt,1
+fan,turn_on,Försäkra dig om att <device_name> är igång,1
+switch,turn_on,Kan du slå på <device_name>?,1
+switch,turn_off,"Stäng av <device_name>, tack.",1
+switch,toggle,Kan du växla <device_name>?,1
+switch,turn_on,Jag behöver <device_name> på,1
+switch,turn_off,Stäng av <device_name>,1
+switch,toggle,Kan <device_name> växlas?,1
+switch,turn_on,Aktivera <device_name>.,1
+switch,turn_off,Inaktivera <device_name>.,1
+switch,toggle,Går det att växla <device_name>?,1
+switch,turn_on,Låt oss slå på <device_name>.,1
+switch,turn_off,Vi behöver inte ha <device_name> på längre.,1
+switch,toggle,Växla <device_name> åt mig.,1
+switch,turn_on,Slå på <device_name>,1
+switch,turn_off,Jag vill att <device_name> stängs av nu.,1
+switch,toggle,Kan du ändra läget på <device_name>?,1
+switch,turn_on,"Slå på <device_name>, tack.",1
+switch,turn_off,Slå av <device_name>,1
+switch,toggle,En snabb växling av <device_name>,1
+switch,turn_on,<device_name> måste vara på.,1
+switch,turn_off,Dags att stänga av <device_name>.,1
+media_player,volume_up,Höj volymen på <device_name>.,1
+media_player,volume_up,Skruva upp <device_name> lite.,1
+media_player,volume_up,Högre på <device_name>,1
+media_player,volume_down,Kan du sänka volymen på <device_name>?,1
+media_player,volume_down,Sänk volymen på <device_name>.,1
+media_player,volume_down,Skruva ner <device_name>,1
+media_player,volume_mute,Stäng av ljudet på <device_name>,1
+media_player,volume_mute,Tysta <device_name> en stund.,1
+media_player,volume_mute,Kan du stänga av ljudet på <device_name>?,1
+media_player,media_play,Börja spela på <device_name>.,1
+media_player,media_play,Kan du spela på <device_name>?,1
+media_player,media_play,Spela upp media på <device_name>,1
+media_player,media_pause,Pausa <device_name>.,1
+media_player,media_pause,Kan du pausa <device_name>?,1
+media_player,media_pause,Pausa uppspelningen på <device_name>,1
+media_player,media_stop,Stoppa <device_name> helt.,1
+media_player,media_stop,Kan du stoppa uppspelningen på <device_name>?,1
+media_player,media_stop,Avsluta sessionen på <device_name>,1
+media_player,media_next_track,Nästa spår på <device_name>,1
+media_player,media_next_track,Hoppa till nästa låt på <device_name>.,1
+media_player,media_next_track,Hoppa över det här spåret på <device_name>.,1
+media_player,media_previous_track,Föregående spår på <device_name>,1
+media_player,media_previous_track,Gå tillbaka till föregående låt på <device_name>.,1
+media_player,media_previous_track,Kan vi gå tillbaka ett spår på <device_name>?,1
+climate,set_temperature,Ställ in temperaturen på <temp_f> grader.,8
+climate,set_temperature,Kan du ändra temperaturen till <temp_c> grader Celsius?,8
+climate,set_temperature,Jag vill ha <temp_f> grader Fahrenheit i rummet,8
+climate,set_temperature,"Justera temperaturen till <temp_f> grader, tack.",8
+climate,set_temperature,Kan du sänka temperaturen till <temp_c>?,8
+climate,set_temperature,Höj temperaturen till <temp_f> grader,8
+climate,set_humidity,Höj luftfuktigheten till <humidity>.,8
+climate,set_humidity,Ställ in luftfuktigheten på <humidity> procent.,8
+climate,set_humidity,Kan du justera luftfuktigheten till <humidity> procent?,8
+climate,set_fan_mode,Ställ klimatfläkten på <fan_mode> hastighet.,8
+climate,set_fan_mode,"Sätt klimatfläkten på <fan_mode>, tack.",8
+climate,set_fan_mode,Ändra luftkonditioneringens fläkt till <fan_mode>.,8
+climate,set_hvac_mode,Växla systemet till läget <hvac_mode>.,8
+climate,set_hvac_mode,Kan vi ställa värmepumpen på <hvac_mode>?,8
+climate,set_hvac_mode,Ändra värmepumpen till <hvac_mode>.,8
+light,turn_on,Ställ ljusstyrkan på <device_name> till <brightness> %.,8
+light,turn_on,Dimma <device_name> till <brightness> procents ljusstyrka.,8
+light,turn_on,Gör <device_name> ljusare till <brightness>.,8
+light,turn_on,Justera ljusstyrkan på <device_name> till <brightness>.,8
+light,turn_on,Öka ljusstyrkan på <device_name> till <brightness>.,8
+light,turn_on,Sänk ljusstyrkan på <device_name> till <brightness>.,8
+light,turn_on,Kan du ställa ljusstyrkan på <device_name> till <brightness> procent?,8
+light,turn_on,Jag vill ha <device_name> på <brightness> procents ljusstyrka,8
+light,turn_on,Kan du göra <device_name> <color>?,8
+light,turn_on,Ändra färgen på <device_name> till <color>.,8
+light,turn_on,Ändra <device_name> till en <color> nyans.,8
+light,turn_on,Ställ in <device_name> på <color>.,8
+light,turn_on,Jag vill att <device_name> ska vara <color>,8
+light,turn_on,Kan du få <device_name> att lysa i <color>?,8
+light,turn_on,Ändra <device_name> till en <color> ton.,8
+light,turn_on,Gör <device_name> <color>.,8
+light,turn_on,Jag vill ha <device_name> på en <color> inställning.,8
+light,turn_on,Ställ in <device_name> på färgen <color>.,8
+light,turn_on,"Ställ in <device_name> på färgen <color>, tack.",8
+light,turn_on,Få <device_name> att lysa <color>.,8
+light,turn_on,Kan du ändra <device_name> till <color>?,8
+light,turn_on,"Ändra <device_name> till <color>, tack.",8
+light,turn_on,Justera <device_name> till färgen <color>.,8
+light,turn_on,Byt färg på <device_name> till <color>.,8
+light,turn_on,Kan <device_name> vara <color> nu?,8
+light,turn_on,Låt oss ha <device_name> i <color>.,8
+light,turn_on,Jag vill att <device_name> ändras till <color>.,8
+light,turn_on,Kan <device_name> visa ett <color> ljus?,8
+light,turn_on,Ställ färgen på <device_name> till <color>,8
+vacuum,start,Börja städa med <device_name>.,2
+vacuum,start,Börja dammsuga med <device_name>.,2
+vacuum,start,Aktivera <device_name> för att städa.,2
+vacuum,start,Kan du starta <device_name>?,2
+vacuum,start,"Hej, sätt igång <device_name>, är du snäll?",2
+vacuum,stop,Stoppa <device_name>.,2
+vacuum,stop,Avbryt <device_name>s pågående uppgift,2
+vacuum,stop,"Stoppa <device_name>, tack",2
+vacuum,stop,Kan du få <device_name> att stanna?,2
+vacuum,stop,Få <device_name> att sluta städa.,2
+vacuum,pause,Frys <device_name>s pågående uppgift.,2
+vacuum,pause,Skulle du kunna pausa <device_name> en stund?,2
+vacuum,pause,"Hej, kan vi pausa <device_name>, tack?",2
+vacuum,pause,Pausa städningen med <device_name>.,2
+vacuum,pause,Pausa <device_name>,2
+vacuum,return_to_base,Skicka tillbaka <device_name> till laddstationen.,2
+vacuum,return_to_base,"Skicka tillbaka <device_name> till laddstationen, om du vill.",2
+vacuum,return_to_base,"Dags att åka hem, <device_name>. Kan du kalla tillbaka den?",2
+vacuum,return_to_base,Skicka <device_name> till dockan.,2
+vacuum,return_to_base,Skicka tillbaka <device_name> till laddstationen.,2
+todo,add_item,Lägg till <todo> på min <device_name>.,8
+todo,add_item,Kan du lägga till <todo> på <device_name>?,8
+todo,add_item,Jag behöver få <todo> tillagt på min <device_name>.,8
+todo,add_item,Lägg till <todo> på <device_name>.,8
+todo,add_item,Kan du föra in <todo> på min <device_name>?,8
+todo,add_item,Var vänlig och lägg in <todo> på <device_name>.,8
+todo,add_item,Får jag be om att <todo> läggs till på <device_name>?,8
+todo,add_item,Det vore mycket uppskattat om <todo> kunde läggas på <device_name>.,8
+todo,add_item,Ska vi lägga till <todo> på min <device_name>?,8
+todo,add_item,Nu lägger vi till <todo> på <device_name>,8
+todo,add_item,Kan du lägga <todo> på min <device_name>?,8
+todo,add_item,Vill du vara så vänlig att lägga in <todo> på <device_name>?,8
+todo,add_item,Går det att lägga till <todo> på <device_name>?,8
+todo,add_item,Kan vi lägga till <todo> på min <device_name>?,8
+timer,start,Ställ min <device_name> på <duration>.,8
+timer,start,Starta timern <device_name> på <duration>.,8
+timer,start,Ställ <device_name> på <duration>.,8
+timer,start,Starta timern <device_name> på <duration>.,8
+timer,start,Ställ en <device_name> på <duration>.,8
+timer,cancel,Avbryt timern <device_name>.,8
+timer,cancel,"Stoppa min <device_name>, tack.",8
+timer,cancel,Stäng av <device_name>.,8
+timer,cancel,"Stäng av timern <device_name>, tack.",8
+timer,cancel,<device_name> behövs inte längre.,8

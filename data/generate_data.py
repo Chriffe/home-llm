@@ -808,7 +808,7 @@ def main(args=None):
     parser.add_argument("--sample", action="store_true", help="Set this flag to enable generation of the train dataset.")
     parser.add_argument("--test", action="store_true", help="Set this flag to enable generation of the train dataset.")
     parser.add_argument("--train", action="store_true", help="Set this flag to enable generation of the train dataset.")
-    parser.add_argument("--language", nargs="+", default=["english"], help="List of languages to generate: english, german, french, spanish, polish")
+    parser.add_argument("--language", nargs="+", default=["english"], help="List of languages to generate: english, german, french, spanish, polish, swedish")
     parser.add_argument("--tool-response-format", default="text", choices=["text", "functiongemma"], help="Format to use for tool responses.")
 
     role_tweaks = parser.add_mutually_exclusive_group()

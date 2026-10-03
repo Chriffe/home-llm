@@ -1,0 +1,273 @@
+device_type,state,phrase,assistant_response
+light,on,Är <device_name> på,<device_name> är på just nu
+light,on,Kan du berätta statusen för <device_name>,<device_name> är på
+light,off,Vad gör <device_name>,<device_name> är av
+light,off,Är <device_name> av,<device_name> är av just nu
+fan,on,Är <device_name> på,<device_name> är på just nu
+fan,on,Kan du kolla om <device_name> fungerar,<device_name> är på
+fan,off,Är <device_name> av,<device_name> är av just nu
+fan,off,Vad är den aktuella statusen för <device_name>,<device_name> är av
+garage_door,open,Är <device_name> öppen,<device_name> är öppen just nu
+garage_door,open,Kan du berätta om <device_name> är öppen,<device_name> är öppen
+garage_door,closed,Är <device_name> stängd,<device_name> är stängd just nu
+garage_door,closed,Vad är statusen för <device_name>,<device_name> är stängd
+garage_door,opening,Håller <device_name> på att öppnas,<device_name> håller på att öppnas just nu
+garage_door,opening,Vad gör <device_name>,<device_name> håller på att öppnas
+garage_door,closing,Håller <device_name> på att stängas,<device_name> håller på att stängas just nu
+garage_door,closing,Kan du berätta om <device_name> håller på att stängas,<device_name> håller på att stängas
+blinds,open,Är <device_name> öppna,<device_name> är öppna just nu
+blinds,open,Vad är statusen för <device_name>,<device_name> är öppna
+blinds,closed,Är <device_name> stängda,<device_name> är stängda just nu
+blinds,closed,Kan du kolla om <device_name> är stängda,<device_name> är stängda
+blinds,opening,Håller <device_name> på att öppnas,<device_name> håller på att öppnas just nu
+blinds,opening,Vad gör <device_name>,<device_name> håller på att öppnas
+blinds,closing,Håller <device_name> på att stängas,<device_name> håller på att stängas just nu
+blinds,closing,Vad är statusen för <device_name>,<device_name> håller på att stängas
+media_player,on,Är <device_name> på,<device_name> är på just nu
+media_player,on,Vad är den aktuella statusen för <device_name>,<device_name> är på
+media_player,off,Är <device_name> av,<device_name> är av just nu
+media_player,off,Kan du berätta om <device_name> är av,<device_name> är av
+media_player,idle,Vad gör <device_name>,<device_name> är inaktiv
+media_player,idle,Är <device_name> inaktiv,<device_name> är inaktiv just nu
+media_player,playing,Spelar <device_name>,<device_name> spelar just nu
+media_player,playing,Kan du berätta om <device_name> spelar,<device_name> spelar
+media_player,paused,Vad är statusen för <device_name>,<device_name> är pausad
+media_player,paused,Är <device_name> pausad,<device_name> är pausad just nu
+media_player,standby,Vad gör <device_name>,<device_name> är i viloläge
+media_player,standby,Är <device_name> i viloläge,<device_name> är i viloläge just nu
+lock,unlocked,Är <device_name> upplåst,<device_name> är upplåst just nu
+lock,unlocked,Vad är statusen för <device_name>,<device_name> är upplåst
+lock,locked,Är <device_name> låst,<device_name> är låst just nu
+lock,locked,Kan du berätta om <device_name> är låst,<device_name> är låst
+lock,unlocking,Vad gör <device_name>,<device_name> håller på att låsas upp
+lock,unlocking,Håller <device_name> på att låsas upp,<device_name> håller på att låsas upp just nu
+lock,locking,Håller <device_name> på att låsas,<device_name> håller på att låsas just nu
+lock,locking,Vad är statusen för <device_name>,<device_name> håller på att låsas
+lock,jammed,Vad gör <device_name>,<device_name> har fastnat
+lock,jammed,Har <device_name> fastnat,<device_name> har fastnat just nu
+light,on,Är <device_name> aktiv,<device_name> är på just nu
+light,on,Har <device_name> ström,<device_name> är på
+light,off,Är <device_name> avaktiverad,<device_name> är av just nu
+fan,on,Snurrar <device_name>,<device_name> är på just nu
+fan,on,Blåser <device_name> luft,<device_name> är på
+fan,off,Är <device_name> inaktiv,<device_name> är av just nu
+fan,off,Står <device_name> still,<device_name> är av
+lock,unlocked,Är <device_name> öppet,<device_name> är upplåst just nu
+lock,unlocked,Är <device_name> osäkrad,<device_name> är upplåst
+lock,locked,Är <device_name> säkrad,<device_name> är låst just nu
+lock,locked,Är <device_name> reglad,<device_name> är låst
+garage_door,open,Är <device_name> öppen,<device_name> är öppen just nu
+garage_door,closed,Är <device_name> igen,<device_name> är stängd just nu
+blinds,open,Är <device_name> uppdragna,<device_name> är öppna just nu
+blinds,closed,Är <device_name> neddragna,<device_name> är stängda just nu
+light,on,Lyser <device_name>,<device_name> är på just nu
+light,off,Är <device_name> avstängd,"Ja, <device_name> är av"
+light,on,"Eh, kan du kolla om <device_name> är på eller nåt",<device_name> är på just nu
+light,off,"Hej, hur är det med <device_name>, är den av",<device_name> är av just nu
+fan,on,"Så, snurrar <device_name> för fullt",<device_name> är verkligen på
+fan,off,Vet du om <device_name> är av,<device_name> är av just nu
+lock,unlocked,"Hej, är <device_name> upplåst eller",<device_name> är upplåst just nu
+lock,locked,Kan du berätta om <device_name> är ordentligt låst,<device_name> är verkligen låst
+garage_door,open,"Hej, lämnade vi <device_name> öppen","Ja, <device_name> är öppen just nu"
+garage_door,closed,Är <device_name> verkligen stängd,<device_name> är verkligen stängd
+blinds,open,Är <device_name> uppe eller,<device_name> är öppna just nu
+blinds,closed,"Så, drog vi ner <device_name>",<device_name> är verkligen stängda
+light,on,"Hej, lyser <device_name>",<device_name> är på just nu
+light,off,"Eh, är <device_name> av",<device_name> är verkligen av
+fan,on,Kan du bekräfta om <device_name> är igång,<device_name> är på just nu
+fan,off,Tar <device_name> en paus,<device_name> är av för tillfället
+lock,unlocked,"Så, är <device_name> öppet",<device_name> är upplåst just nu
+lock,locked,Är <device_name> reglat,<device_name> är verkligen låst
+light,on,Är <device_name> av,Faktiskt är <device_name> på just nu
+light,off,Är <device_name> på,"Nej, <device_name> är av just nu"
+fan,on,Är <device_name> av,Faktiskt är <device_name> på för tillfället
+fan,off,Blåser <device_name> luft,Tyvärr är <device_name> av just nu
+lock,locked,Är <device_name> upplåst,"Nej, <device_name> är låst just nu"
+lock,unlocked,Är <device_name> låst,"Nej, <device_name> är upplåst just nu"
+garage_door,open,Är <device_name> stängd,"Nej, <device_name> är öppen just nu"
+garage_door,closed,Är <device_name> öppen,"Nej, <device_name> är stängd just nu"
+blinds,open,Är <device_name> stängda,"Nej, <device_name> är öppna just nu"
+blinds,closed,Är <device_name> öppna,"Nej, <device_name> är stängda just nu"
+light,on,"Eh, kan du kolla om <device_name> är av","Nej, <device_name> är faktiskt på"
+light,off,"Hej, lyser <device_name>","Nej, <device_name> är av just nu"
+fan,on,Tar <device_name> en paus,"Nej, <device_name> är på just nu"
+fan,off,Snurrar <device_name> för fullt,"Nej, <device_name> är av för tillfället"
+lock,unlocked,Är <device_name> reglat,"Nej, <device_name> är upplåst just nu"
+lock,locked,Är <device_name> fritt och öppet,"Nej, <device_name> är faktiskt låst"
+garage_door,open,Är <device_name> igen,"Nej, <device_name> är öppen just nu"
+garage_door,closed,Lämnade vi <device_name> öppen,"Nej, <device_name> är stängd"
+blinds,open,Drog vi ner <device_name>,"Nej, <device_name> är faktiskt öppna"
+blinds,closed,Är <device_name> uppdragna,"Nej, <device_name> är stängda just nu"
+media_player,on,Är <device_name> av,"Nej, <device_name> är på just nu"
+media_player,off,Spelar <device_name>,"Nej, <device_name> är av just nu"
+media_player,idle,Spelar <device_name> någon musik,"Nej, <device_name> är inaktiv för tillfället"
+media_player,playing,Är <device_name> pausad,"Nej, <device_name> spelar faktiskt"
+media_player,paused,Är <device_name> i viloläge,"Nej, <device_name> är pausad just nu"
+media_player,standby,Spelar <device_name>,"Nej, <device_name> är i viloläge"
+garage_door,opening,Håller <device_name> på att stängas,"Nej, <device_name> håller på att öppnas just nu"
+garage_door,closing,Håller <device_name> på att öppnas,"Nej, <device_name> håller på att stängas just nu"
+blinds,opening,Håller <device_name> på att stängas,"Nej, <device_name> håller på att öppnas"
+blinds,closing,Håller <device_name> på att öppnas,"Nej, <device_name> håller på att stängas"
+lock,unlocking,Håller <device_name> på att låsas,"Nej, <device_name> håller på att låsas upp"
+lock,locking,Håller <device_name> på att låsas upp,"Nej, <device_name> håller på att låsas"
+lock,jammed,Är <device_name> upplåst,"Nej, <device_name> har fastnat"
+light,on,Är <device_name> släckt,"Nej, <device_name> är på just nu"
+light,off,Lyser <device_name>,"Nej, <device_name> är av"
+fan,on,Är <device_name> inaktiv,"Nej, <device_name> är faktiskt på"
+fan,off,Blåser <device_name> luft,"Nej, <device_name> är av just nu"
+lock,unlocked,Är <device_name> säkrat,"Nej, <device_name> är upplåst just nu"
+lock,locked,Är <device_name> öppet,"Nej, <device_name> är låst"
+lock,jammed,Håller <device_name> på att låsas,"Nej, <device_name> har fastnat"
+light,on,Är <device_name> av,"Nej, <device_name> är på"
+light,off,Är <device_name> aktiv,"Nej, <device_name> är av"
+light,on,Är <device_name> på eller av,<device_name> är på
+light,off,Är <device_name> på eller av,<device_name> är av
+fan,on,Är <device_name> på eller av,<device_name> är på
+fan,off,Är <device_name> på eller av,<device_name> är av
+garage_door,open,Är <device_name> öppen eller stängd,<device_name> är öppen
+garage_door,closed,Är <device_name> öppen eller stängd,<device_name> är stängd
+blinds,open,Är <device_name> öppna eller stängda,<device_name> är öppna
+blinds,closed,Är <device_name> öppna eller stängda,<device_name> är stängda
+media_player,on,Är <device_name> på eller av,<device_name> är på
+media_player,off,Är <device_name> på eller av,<device_name> är av
+lock,unlocked,Är <device_name> låst eller upplåst,<device_name> är upplåst
+lock,locked,Är <device_name> låst eller upplåst,<device_name> är låst
+media_player,playing,Spelar <device_name> eller är den pausad,<device_name> spelar
+media_player,paused,Spelar <device_name> eller är den pausad,<device_name> är pausad
+garage_door,opening,Håller <device_name> på att öppnas eller stängas,<device_name> håller på att öppnas
+garage_door,closing,Håller <device_name> på att öppnas eller stängas,<device_name> håller på att stängas
+blinds,opening,Håller <device_name> på att öppnas eller stängas,<device_name> håller på att öppnas
+blinds,closing,Håller <device_name> på att öppnas eller stängas,<device_name> håller på att stängas
+lock,unlocking,Håller <device_name> på att låsas eller låsas upp,<device_name> håller på att låsas upp
+lock,locking,Håller <device_name> på att låsas eller låsas upp,<device_name> håller på att låsas
+lock,jammed,Är <device_name> låst eller har det fastnat,<device_name> har fastnat
+media_player,idle,Är <device_name> inaktiv eller i viloläge,<device_name> är inaktiv
+media_player,standby,Är <device_name> inaktiv eller i viloläge,<device_name> är i viloläge
+light,on,Är <device_name> på eller dämpad,<device_name> är på
+light,off,Är <device_name> på eller dämpad,<device_name> är av
+fan,on,Snurrar <device_name> eller står den still,<device_name> snurrar
+fan,off,Snurrar <device_name> eller står den still,<device_name> står still
+lock,unlocked,Är <device_name> säkrat eller osäkrat,<device_name> är osäkrat
+lock,locked,Är <device_name> säkrat eller osäkrat,<device_name> är säkrat
+lock,jammed,Är <device_name> säkrat eller har det fastnat,<device_name> har fastnat
+light,on,Vad är det aktuella läget för <device_name>,<device_name> är på
+light,off,Hur ser det ut med <device_name> just nu,<device_name> är av
+fan,on,Vad händer med <device_name>,<device_name> är på
+fan,off,Kan du ge mig en uppdatering om <device_name>,<device_name> är av
+garage_door,open,Berätta hur det är med <device_name> är du snäll,<device_name> är öppen
+garage_door,closed,Hur är läget med <device_name>,<device_name> är stängd
+blinds,open,Vad är det senaste om <device_name>,<device_name> är öppna
+blinds,closed,Kan du uppdatera mig om <device_name>,<device_name> är stängda
+media_player,on,Vad är statusen för <device_name>,<device_name> är på
+media_player,off,Hur går det för <device_name>,<device_name> är av
+lock,unlocked,Vad är läget med <device_name>,<device_name> är upplåst
+lock,locked,Hur går det med <device_name>,<device_name> är låst
+media_player,playing,Kan du informera mig om <device_name>,<device_name> spelar
+media_player,paused,Vad är det som händer med <device_name>,<device_name> är pausad
+garage_door,opening,Något nytt om <device_name>,<device_name> håller på att öppnas
+garage_door,closing,Vad är det senaste med <device_name>,<device_name> håller på att stängas
+blinds,opening,Har du några uppdateringar om <device_name>,<device_name> håller på att öppnas
+blinds,closing,Vad händer med <device_name> nu,<device_name> håller på att stängas
+lock,unlocking,Vad är den senaste uppdateringen om <device_name>,<device_name> håller på att låsas upp
+lock,locking,Några förändringar med <device_name>,<device_name> håller på att låsas
+light,on,Hur är det med <device_name>,<device_name> är på
+light,off,vad är statusen på <device_name>,<device_name> är av
+fan,on,Är <device_name> aktiv,<device_name> är på
+fan,off,Status för <device_name>,<device_name> är av
+garage_door,open,<device_name> uppdatering,<device_name> är öppen
+garage_door,closed,<device_name> aktuellt läge,<device_name> är stängd
+blinds,open,Hur är det med <device_name>,<device_name> är öppna
+blinds,closed,Uppdatering om <device_name>,<device_name> är stängda
+media_player,on,vad är läget för <device_name>,<device_name> är på
+media_player,off,Något nytt om <device_name>,<device_name> är av
+lock,unlocked,Hur är det med <device_name>,<device_name> är upplåst
+lock,locked,<device_name> okej,<device_name> är låst
+media_player,playing,Är <device_name> aktiv,<device_name> spelar
+media_player,paused,<device_name> läge,<device_name> är pausad
+garage_door,opening,Vad gör <device_name>,<device_name> håller på att öppnas
+garage_door,closing,Status för <device_name>,<device_name> håller på att stängas
+blinds,opening,<device_name> uppdatering,<device_name> håller på att öppnas
+blinds,closing,Hur är det med <device_name>,<device_name> håller på att stängas
+lock,unlocking,Läget för <device_name>,<device_name> håller på att låsas upp
+lock,locking,Är <device_name> okej,<device_name> håller på att låsas
+light,on,Vad gör <device_name>,<device_name> är på
+light,off,Är <device_name> aktiv,<device_name> är av
+fan,on,<device_name> status nu,<device_name> är på
+fan,off,Aktuellt läge för <device_name>,<device_name> är av
+light,on,Fungerar <device_name>,<device_name> är på
+light,off,Uppdatering om <device_name>,<device_name> är av
+fan,on,Hur är det med <device_name>,<device_name> är på
+fan,off,Status för <device_name>,<device_name> är av
+light,on,<device_name> tillstånd,<device_name> är på
+light,off,Hur är det med <device_name>,<device_name> är av
+media_player,on;<volume>,Vilken volym har <device_name>?,Volymen på <device_name> är <volume>.
+media_player,off,Kan du kolla volymnivån på <device_name>?,"<device_name> är avstängd, så jag kan inte kontrollera volymnivån just nu."
+media_player,idle,"Jag behöver den aktuella volymen på <device_name>, tack.",Den aktuella volymen på <device_name> är <volume>.
+media_player,playing,Är volymen för hög på <device_name>?,Volymen på <device_name> är för närvarande inställd på <volume>.
+media_player,paused,Vilken volym hade <device_name> innan den pausades?,Innan den pausades hade <device_name> volymnivån <volume>.
+media_player,playing,Är ljudet avstängt på <device_name>?,Ljudet på <device_name> är inte avstängt. Volymen är <volume>.
+media_player,on,Vad spelas på <device_name> just nu?,<media> spelas just nu på <device_name>.
+media_player,off,Spelas det något på <device_name>?,Ingenting spelas på <device_name> eftersom den är avstängd.
+media_player,idle,Kan du berätta vad som senast spelades på <device_name>?,Det senaste som spelades på <device_name> var <media>.
+media_player,playing,Vad spelas på <device_name> för tillfället?,Låten <media> spelas på <device_name> just nu.
+media_player,paused,Vad pausades på <device_name>?,<media> pausades på <device_name>.
+media_player,on,"Jag hör något från <device_name>, vad är det?",<device_name> spelar inte något just nu.
+media_player,playing,"Jag gillar den här låten på <device_name>, vad är det?",Du lyssnar på <media> på <device_name>.
+media_player,paused,Vilken film är det på <device_name>?,Filmen som är pausad på <device_name> är <media>.
+media_player,standby,Vilket var det senaste programmet som sågs på <device_name>?,Det senaste programmet som sågs på <device_name> var <media>.
+media_player,buffering,Vilket avsnitt är det på <device_name> just nu?,Avsnittet på <device_name> är <media>.
+light,on;<color>;<brightness>,Vilken ljusstyrka har <device_name>?,Ljusstyrkan på <device_name> är just nu <brightness>.
+light,on;<color>;<brightness>,Kan du berätta vilken färg <device_name> har?,<device_name> visar just nu <color>.
+light,on;<color>;<brightness>,Är <device_name> inställd på starkt eller dämpat ljus?,<device_name> är inställd på ljusstyrkan <brightness>.
+light,on;<color>;<brightness>,Vilken nyans visar <device_name>?,<device_name> visar en <color> nyans.
+light,on;<color>;<brightness>,Hur stark är <device_name> just nu?,<device_name> lyser just nu med <brightness> % ljusstyrka.
+light,on;<color>;<brightness>,Jag vill veta den aktuella färgen på <device_name>.,Den aktuella färgen på <device_name> är <color>.
+light,on;<color>;<brightness>,Lyser <device_name> mer åt det dämpade eller starka hållet?,<device_name> lyser mer åt det <brightness> hållet.
+light,on;<color>;<brightness>,Vilken färginställning har <device_name>?,<device_name> är inställd på färgen <color>.
+light,on;<color>;<brightness>,Kan du kolla ljusstyrkan på <device_name> åt mig?,"Visst, ljusstyrkan på <device_name> är <brightness>."
+light,on;<color>;<brightness>,"Säg mig, vilken nyans har <device_name> just nu?",Den aktuella nyansen på <device_name> är <color>.
+light,off,Vilken ljusstyrka har <device_name>?,Enheten <device_name> är avstängd.
+light,off,Kan du berätta vilken färg <device_name> har?,<device_name> är avstängd.
+light,off,Är <device_name> inställd på starkt eller dämpat ljus?,"Nej, <device_name> är avstängd."
+light,off,Vilken nyans visar <device_name>?,<device_name> är faktiskt avstängd.
+light,off,Hur stark är <device_name> just nu?,<device_name> är avstängd.
+media_player,playing;<media>;<volume>,Vad spelas just nu på <device_name>?,<device_name> spelar <media> på volymnivå <volume>.
+media_player,paused;<media>;<volume>,Kan du berätta vad som är pausat på <device_name>?,<device_name> har <media> pausat på volymnivå <volume>.
+media_player,idle;<volume>,Spelas det något på <device_name>?,<device_name> är inaktiv just nu med volymen inställd på <volume>.
+media_player,playing;<media>;<volume>,Vilken låt spelar <device_name>?,<device_name> spelar låten <media> på volym <volume>.
+media_player,paused;<media>;<volume>,Vad var det senaste som spelades på <device_name>?,"Det senaste som spelades på <device_name> var <media>, som nu är pausat på volym <volume>."
+media_player,idle;<volume>,Är <device_name> aktiv just nu?,"<device_name> är inaktiv just nu, volymen är inställd på <volume>."
+media_player,playing;<media>;<volume>,Vad är det på <device_name> för tillfället?,<device_name> spelar just nu <media> på volym <volume>.
+media_player,paused;<media>;<volume>,"Jag har glömt vad jag pausade på <device_name>, kan du påminna mig?","Du pausade <media> på <device_name>, och volymen är inställd på <volume>."
+media_player,idle;<volume>,Är <device_name> av eller på?,"<device_name> är på men inaktiv, med volymen på <volume>."
+media_player,playing;<media>;<volume>,Jag vill veta vad som spelas på <device_name>.,Just nu spelas <media> på <device_name> på volymnivå <volume>.
+vacuum,cleaning,Är dammsugaren <device_name> igång just nu?,Dammsugaren är igång.
+vacuum,cleaning,Är dammsugaren <device_name> på?,Ja. Ditt hem städas just nu.
+vacuum,cleaning,Städar <device_name>?,"Ja, <device_name> dammsuger just nu."
+vacuum,cleaning,Vad gör dammsugaren <device_name> just nu?,Dammsugaren <device_name> städar huset just nu.
+vacuum,cleaning,Vad gör <device_name> just nu?,<device_name> städar just nu.
+vacuum,docked,Vad gör dammsugaren <device_name> just nu?,Dammsugaren <device_name> står i sin laddstation just nu.
+vacuum,docked,Vad gör <device_name> just nu?,<device_name> står i sin laddstation just nu.
+vacuum,docked,Står <device_name> i sin laddstation just nu?,"Ja, <device_name> är i sin laddstation."
+vacuum,docked,Var är dammsugaren <device_name>?,I sin laddstation för tillfället.
+vacuum,paused,Vad gör dammsugaren <device_name> just nu?,Dammsugaren <device_name> är pausad.
+vacuum,paused,Vad gör <device_name> just nu?,<device_name> är pausad.
+vacuum,idle,Vad gör dammsugaren <device_name> just nu?,Dammsugaren <device_name> är stoppad.
+vacuum,idle,Vad gör <device_name> just nu?,<device_name> är stoppad.
+vacuum,error,Vad gör dammsugaren <device_name> just nu?,Dammsugaren <device_name> har fastnat eller har problem som behöver åtgärdas.
+vacuum,error,Vad gör <device_name> just nu?,<device_name> har fastnat eller har problem.
+todo,1,Hur många saker finns på min <device_name> just nu?,Det finns just nu 1 sak på din <device_name>.
+todo,2,Hur många saker finns på <device_name> för tillfället?,Det finns 2 saker på <device_name> just nu.
+todo,3,Hur många poster finns det just nu på din <device_name>?,"Ja, det finns just nu 3 poster på din <device_name>."
+todo,4,Hur många objekt finns det på <device_name> nu?,"Ja, det finns 4 objekt på <device_name> nu."
+todo,5,Kan du berätta hur många punkter det finns på <device_name> just nu?,Jag kan berätta att det finns 5 punkter på <device_name> just nu.
+todo,6,Hur många poster finns på <device_name> nu?,Antalet poster på <device_name> är nu 6.
+todo,7,Hur många saker finns det på min <device_name> i nuläget?,Det finns 7 saker på din <device_name> i nuläget.
+todo,8,Kan du informera mig om hur många punkter som finns på <device_name> just nu?,Jag informerar gärna om att det finns 8 punkter på <device_name> just nu.
+todo,9,Är det möjligt för dig att berätta hur många poster det finns på <device_name> för närvarande?,Det är möjligt för mig att berätta att det finns 9 poster på <device_name> för närvarande.
+todo,10,Får jag fråga hur många poster som finns på <device_name> just nu?,Antalet poster på <device_name> är just nu 10.
+todo,11,Skulle du kunna berätta hur många saker det finns på <device_name> nu?,"Ja, jag kan berätta att det finns 11 saker på <device_name> nu."
+todo,12,Kan du upplysa mig om antalet poster på <device_name>?,Jag upplyser dig gärna om att det finns 12 poster på <device_name>.
+timer,active;<duration>;<remaining>,Hur mycket tid är kvar på <device_name>?,<device_name> är inställd på <duration>. Det är <remaining> kvar.
+timer,active;<duration>;<remaining>,Hur länge dröjer det innan <device_name> ringer?,<device_name> ringer om <remaining>.
+timer,active;<duration>;<remaining>,När ska <device_name> ringa?,<device_name> är inställd på <duration> och ringer om <remaining>.

@@ -1,0 +1,420 @@
+{
+    "config": {
+        "error": {
+            "failed_to_connect": "Kunde inte ansluta till fjärr-API:t: {exception}",
+            "invalid_hostname": "Det angivna värdnamnet är ogiltigt. Se till att du bara anger domänen eller IP-adressen och inte hela API-slutpunkten.",
+            "unknown": "Oväntat fel",
+            "pip_wheel_error": "Pip returnerade ett fel när wheel-paketet installerades! Kontrollera Home Assistant-loggarna för mer information."
+        },
+        "progress": {
+            "download": "Vänta medan modellen laddas ned från HuggingFace. Det kan ta några minuter.",
+            "install_local_wheels": "Vänta medan Llama.cpp installeras..."
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "model_backend": "Backend",
+                    "selected_language": "Modellens språk",
+                    "host": "API-värdnamn",
+                    "port": "API-port",
+                    "ssl": "Använd HTTPS",
+                    "openai_api_key": "API-nyckel",
+                    "openai_path": "API-sökväg",
+                    "text_generation_webui_admin_key": "Administratörsnyckel",
+                    "text_generation_webui_preset": "Genereringsförinställning/karaktärsnamn",
+                    "text_generation_webui_chat_mode": "Chattläge",
+                    "anthropic_base_url": "Bas-URL för Anthropic-kompatibelt API"
+                },
+                "description": "Välj backend och/eller ange anslutningsuppgifterna för API:t som kör modellen.",
+                "title": "Konfigurera backend"
+            }
+        },
+        "abort": {
+            "duplicate_client": "Det går inte att skapa en dubblett av modelleverantören!"
+        }
+    },
+    "config_subentries": {
+        "conversation": {
+            "initiate_flow": {
+                "user": "Lägg till konversationsagent",
+                "reconfigure": "Konfigurera om konversationsagent"
+            },
+            "entry_type": "Konversationsagent",
+            "error": {
+                "download_failed": "Nedladdningen kunde inte slutföras: {exception}",
+                "missing_quantization": "GGUF-kvantiseringsnivån {missing} finns inte i det angivna HuggingFace-repot. Följande kvantiseringsnivåer hittades: {available}",
+                "no_supported_ggufs": "Det angivna HuggingFace-repot innehåller inga kompatibla GGUF-filer!",
+                "missing_model_api": "Den valda modellen tillhandahålls inte av detta API. De tillgängliga modellerna har fyllts i i listrutan.",
+                "missing_model_file": "Den angivna filen finns inte.",
+                "other_existing_local": "En annan modell är redan inläst lokalt. Avlasta den eller konfigurera en fjärrmodell.",
+                "unknown": "Oväntat fel",
+                "sys_refresh_caching_enabled": "Uppdatering av systemprompten måste vara aktiverad för att promptcachning ska fungera!",
+                "missing_gbnf_file": "GBNF-filen hittades inte: {filename}",
+                "missing_icl_file": "CSV-filen med exempel för in-context learning hittades inte: {filename}",
+                "legacy_tool_calling_with_iterations": "Äldre läge/1-shot-läge (Aktivera äldre verktygsanrop) är inte kompatibelt med ett värde för Max antal verktygsanrop som är större än 0. Sätt Max antal verktygsanrop till 0 för äldre/1-shot-modeller, eller inaktivera äldre verktygsanrop för att använda agentläge."
+            },
+            "progress": {
+                "download": "Vänta medan modellen laddas ned från HuggingFace. Det kan ta några minuter."
+            },
+            "abort": {
+                "reconfigure_successful": "Modellinställningarna har uppdaterats."
+            },
+            "step": {
+                "pick_model": {
+                    "data": {
+                        "huggingface_model": "Modellnamn",
+                        "downloaded_model_file": "Lokalt filnamn",
+                        "downloaded_model_quantization": "Kvantisering för nedladdad modell"
+                    },
+                    "description": "Välj en modell att använda.\n\nOm du anger en lokal modellfil används den i stället för att ladda ned från HuggingFace.\n\n**Modeller som stöds direkt:**\n1. [Home LLM](https://huggingface.co/collections/acon96/home-llm-6618762669211da33bb22c5a): Innehåller modeller från 270M till 4B\n2. [Qwen 3.5-familjen](https://huggingface.co/collections/Qwen/qwen35): innehåller modeller från 800M till 100B+\n3. [LFM 2.5-familjen](https://huggingface.co/collections/LiquidAI/lfm25): innehåller modeller från 350M till 8B",
+                    "title": "Välj modell"
+                },
+                "model_parameters": {
+                    "data": {
+                        "max_new_tokens": "Max antal tokens att returnera i svaret",
+                        "llm_hass_api": "Valda LLM-API:er",
+                        "prompt": "Systemprompt",
+                        "temperature": "Temperatur",
+                        "top_k": "Top K",
+                        "top_p": "Top P",
+                        "min_p": "Min P",
+                        "typical_p": "Typical P",
+                        "request_timeout": "Tidsgräns för fjärrbegäran (sekunder)",
+                        "enable_streaming": "Aktivera strömning",
+                        "use_server_sampling_defaults": "Använd serverns standardvärden för samplingsparametrar",
+                        "ollama_keep_alive": "(ollama) Keep alive/tidsgräns vid inaktivitet (minuter)",
+                        "ollama_json_mode": "(ollama) JSON-utdataläge",
+                        "extra_attributes_to_expose": "Ytterligare attribut att exponera i kontexten",
+                        "enable_flash_attention": "Aktivera Flash Attention",
+                        "gbnf_grammar": "Aktivera GBNF-grammatik",
+                        "gbnf_grammar_file": "Filnamn för GBNF-grammatik",
+                        "openai_api_key": "API-nyckel",
+                        "text_generation_webui_admin_key": "(text-generation-webui) Administratörsnyckel",
+                        "service_call_regex": "Regex för tjänsteanrop",
+                        "refresh_prompt_per_turn": "Uppdatera systemprompten varje tur",
+                        "remember_conversation": "Kom ihåg konversationen",
+                        "remember_num_interactions": "Antal tidigare interaktioner att komma ihåg",
+                        "in_context_examples": "Aktivera exempel för in-context learning (ICL)",
+                        "in_context_examples_file": "Filnamn för CSV med ICL-exempel",
+                        "num_in_context_examples": "Antal ICL-exempel att generera",
+                        "text_generation_webui_preset": "(text-generation-webui) Genereringsförinställning/karaktärsnamn",
+                        "text_generation_webui_chat_mode": "(text-generation-webui) Chattläge",
+                        "prompt_caching": "Aktivera promptcachning",
+                        "prompt_caching_interval": "Snabbaste uppdateringsintervall för promptcachning (sek)",
+                        "context_length": "Kontextlängd",
+                        "batch_size": "(llama.cpp) Batchstorlek",
+                        "n_threads": "(llama.cpp) Antal trådar",
+                        "n_batch_threads": "(llama.cpp) Antal batchtrådar",
+                        "llama_cpp_cache_size_mb": "(llama.cpp) Storlek på KV-cache på disk (MB)",
+                        "thinking_prefix": "Prefix för resonemangsinnehåll",
+                        "thinking_suffix": "Suffix för resonemangsinnehåll",
+                        "tool_call_prefix": "Prefix för verktygsanrop",
+                        "tool_call_suffix": "Suffix för verktygsanrop",
+                        "enable_legacy_tool_calling": "Aktivera äldre verktygsanrop",
+                        "tool_response_as_string": "Verktygssvar som sträng",
+                        "max_tool_call_iterations": "Max antal verktygsanrop"
+                    },
+                    "data_description": {
+                        "llm_hass_api": "Välj 'Assist' om du vill att modellen ska kunna styra enheter. Om du använder Home-LLM-modellen (v1-3) väljer du 'Home Assistant Services'",
+                        "prompt": "Se [här](https://github.com/acon96/home-llm/blob/develop/docs/Model%20Prompting.md) för mer information om hur modellen promptas.",
+                        "in_context_examples": "Aktivera detta om du använder en modell som inte är specifikt finjusterad för den här integrationen",
+                        "extra_attributes_to_expose": "Detta är listan över Home Assistant-'attribut' som exponeras för modellen. Den begränsar hur mycket information modellen kan se och svara på frågor om.",
+                        "gbnf_grammar": "Tvingar modellen att ge korrekt formaterade svar. Se till att filen som anges nedan finns i integrationens katalog.",
+                        "prompt_caching": "Promptcachning försöker förbehandla prompten (husets tillstånd) och cacha den bearbetning som krävs för att förstå prompten. Om detta aktiveras bearbetar modellen prompten på nytt varje gång en entitets tillstånd ändras i huset, begränsat av intervallet nedan.",
+                        "enable_legacy_tool_calling": "Bearbeta verktygsanrop lokalt i stället för att låta backend hantera formatet för verktygsanrop. Kan vara mer tillförlitligt, men kräver att prefix och suffix för verktygsanrop är korrekt inställda.",
+                        "tool_response_as_string": "Vissa promptmallar förväntar sig att verktygssvaret skickas som en JSON-serialiserad sträng i stället för som det råa objektet.",
+                        "max_tool_call_iterations": "Sätt till 0 för att generera svaret och verktygsanropet i ett försök, utan loop (använd detta för Home-modellerna v1-v3).",
+                        "enable_streaming": "När detta är aktiverat strömmas svaren token för token om backend stöder det.",
+                        "use_server_sampling_defaults": "**Rekommenderas för de flesta användare.** Inferensmotorer och modelleverantörer har blivit mycket bättre på att leverera modeller med väljusterade standardvärden för sampling. Utelämnar temperature, top_p, top_k, min_p och typical_p från begäranden så att servern använder de värden den vet är bäst för den inlästa modellen. Inaktivera endast detta om du upplever konstiga svar eller medvetet vill köra med en lägre temperatur."
+                    },
+                    "description": "Konfigurera modellen utifrån hur den ska promptas. Det finns många olika alternativ och att välja rätt för din modell är avgörande för bästa prestanda. Se [här](https://github.com/acon96/home-llm/blob/develop/docs/Backend%20Configuration.md) för mer information om alternativen på den här sidan.\n\n**Vissa standardvärden kan ha valts åt dig baserat på namnet på den valda modellen eller filnamnet.** Om du har bytt namn på en fil eller använder en finjusterad version av en modell som stöds kan standardvärdena ha missats.",
+                    "title": "Konfigurera den valda modellen"
+                },
+                "reconfigure": {
+                    "data": {
+                        "max_new_tokens": "Max antal tokens att returnera i svaret",
+                        "llm_hass_api": "Valda LLM-API:er",
+                        "prompt": "Systemprompt",
+                        "temperature": "Temperatur",
+                        "top_k": "Top K",
+                        "top_p": "Top P",
+                        "min_p": "Min P",
+                        "typical_p": "Typical P",
+                        "request_timeout": "Tidsgräns för fjärrbegäran (sekunder)",
+                        "enable_streaming": "Aktivera strömning",
+                        "use_server_sampling_defaults": "Använd serverns standardvärden för samplingsparametrar",
+                        "ollama_keep_alive": "(ollama) Keep alive/tidsgräns vid inaktivitet (minuter)",
+                        "ollama_json_mode": "(ollama) JSON-utdataläge",
+                        "extra_attributes_to_expose": "Ytterligare attribut att exponera i kontexten",
+                        "enable_flash_attention": "Aktivera Flash Attention",
+                        "gbnf_grammar": "Aktivera GBNF-grammatik",
+                        "gbnf_grammar_file": "Filnamn för GBNF-grammatik",
+                        "openai_api_key": "API-nyckel",
+                        "text_generation_webui_admin_key": "(text-generation-webui) Administratörsnyckel",
+                        "service_call_regex": "Regex för tjänsteanrop",
+                        "refresh_prompt_per_turn": "Uppdatera systemprompten varje tur",
+                        "remember_conversation": "Kom ihåg konversationen",
+                        "remember_num_interactions": "Antal tidigare interaktioner att komma ihåg",
+                        "in_context_examples": "Aktivera exempel för in-context learning (ICL)",
+                        "in_context_examples_file": "Filnamn för CSV med ICL-exempel",
+                        "num_in_context_examples": "Antal ICL-exempel att generera",
+                        "text_generation_webui_preset": "(text-generation-webui) Genereringsförinställning/karaktärsnamn",
+                        "text_generation_webui_chat_mode": "(text-generation-webui) Chattläge",
+                        "prompt_caching": "Aktivera promptcachning",
+                        "prompt_caching_interval": "Snabbaste uppdateringsintervall för promptcachning (sek)",
+                        "context_length": "Kontextlängd",
+                        "batch_size": "(llama.cpp) Batchstorlek",
+                        "n_threads": "(llama.cpp) Antal trådar",
+                        "n_batch_threads": "(llama.cpp) Antal batchtrådar",
+                        "llama_cpp_cache_size_mb": "(llama.cpp) Storlek på KV-cache på disk (MB)",
+                        "thinking_prefix": "Prefix för resonemangsinnehåll",
+                        "thinking_suffix": "Suffix för resonemangsinnehåll",
+                        "tool_call_prefix": "Prefix för verktygsanrop",
+                        "tool_call_suffix": "Suffix för verktygsanrop",
+                        "enable_legacy_tool_calling": "Aktivera äldre verktygsanrop",
+                        "tool_response_as_string": "Verktygssvar som sträng",
+                        "max_tool_call_iterations": "Max antal verktygsanrop"
+                    },
+                    "data_description": {
+                        "llm_hass_api": "Välj 'Assist' om du vill att modellen ska kunna styra enheter. Om du använder Home-LLM-modellen (v1-3) väljer du 'Home Assistant Services'",
+                        "prompt": "Se [här](https://github.com/acon96/home-llm/blob/develop/docs/Model%20Prompting.md) för mer information om hur modellen promptas.",
+                        "in_context_examples": "Aktivera detta om du använder en modell som inte är specifikt finjusterad för den här integrationen",
+                        "extra_attributes_to_expose": "Detta är listan över Home Assistant-'attribut' som exponeras för modellen. Den begränsar hur mycket information modellen kan se och svara på frågor om.",
+                        "gbnf_grammar": "Tvingar modellen att ge korrekt formaterade svar. Se till att filen som anges nedan finns i integrationens katalog.",
+                        "prompt_caching": "Promptcachning försöker förbehandla prompten (husets tillstånd) och cacha den bearbetning som krävs för att förstå prompten. Om detta aktiveras bearbetar modellen prompten på nytt varje gång en entitets tillstånd ändras i huset, begränsat av intervallet nedan.",
+                        "enable_legacy_tool_calling": "Bearbeta verktygsanrop lokalt i stället för att låta backend hantera formatet för verktygsanrop. Kan vara mer tillförlitligt, men kräver att prefix och suffix för verktygsanrop är korrekt inställda.",
+                        "tool_response_as_string": "Vissa promptmallar förväntar sig att verktygssvaret skickas som en JSON-serialiserad sträng i stället för som det råa objektet.",
+                        "max_tool_call_iterations": "Sätt till 0 för att generera svaret och verktygsanropet i ett försök, utan loop (använd detta för Home-modellerna v1-v3).",
+                        "enable_streaming": "När detta är aktiverat strömmas svaren token för token om backend stöder det.",
+                        "use_server_sampling_defaults": "**Rekommenderas för de flesta användare.** Inferensmotorer och modelleverantörer har blivit mycket bättre på att leverera modeller med väljusterade standardvärden för sampling. Utelämnar temperature, top_p, top_k, min_p och typical_p från begäranden så att servern använder de värden den vet är bäst för den inlästa modellen. Inaktivera endast detta om du upplever konstiga svar eller medvetet vill köra med en lägre temperatur."
+                    },
+                    "description": "Konfigurera modellen utifrån hur den ska promptas. Det finns många olika alternativ och att välja rätt för din modell är avgörande för bästa prestanda. Se [här](https://github.com/acon96/home-llm/blob/develop/docs/Backend%20Configuration.md) för mer information om alternativen på den här sidan.\n\n**Vissa standardvärden kan ha valts åt dig baserat på namnet på den valda modellen eller filnamnet.** Om du har bytt namn på en fil eller använder en finjusterad version av en modell som stöds kan standardvärdena ha missats.",
+                    "title": "Konfigurera den valda modellen"
+                }
+            }
+        },
+        "ai_task": {
+            "initiate_flow": {
+                "user": "Lägg till AI-uppgiftshanterare",
+                "reconfigure": "Konfigurera om AI-uppgiftshanterare"
+            },
+            "entry_type": "AI-uppgiftshanterare",
+            "error": {
+                "download_failed": "Nedladdningen kunde inte slutföras: {exception}",
+                "missing_quantization": "GGUF-kvantiseringsnivån {missing} finns inte i det angivna HuggingFace-repot. Följande kvantiseringsnivåer hittades: {available}",
+                "no_supported_ggufs": "Det angivna HuggingFace-repot innehåller inga kompatibla GGUF-filer!",
+                "missing_model_api": "Den valda modellen tillhandahålls inte av detta API. De tillgängliga modellerna har fyllts i i listrutan.",
+                "missing_model_file": "Den angivna filen finns inte.",
+                "other_existing_local": "En annan modell är redan inläst lokalt. Avlasta den eller konfigurera en fjärrmodell.",
+                "unknown": "Oväntat fel",
+                "sys_refresh_caching_enabled": "Uppdatering av systemprompten måste vara aktiverad för att promptcachning ska fungera!",
+                "missing_gbnf_file": "GBNF-filen hittades inte: {filename}",
+                "missing_icl_file": "CSV-filen med exempel för in-context learning hittades inte: {filename}",
+                "legacy_tool_calling_with_iterations": "Äldre läge/1-shot-läge (Aktivera äldre verktygsanrop) är inte kompatibelt med ett värde för Max antal verktygsanrop som är större än 0. Sätt Max antal verktygsanrop till 0 för äldre/1-shot-modeller, eller inaktivera äldre verktygsanrop för att använda agentläge."
+            },
+            "progress": {
+                "download": "Vänta medan modellen laddas ned från HuggingFace. Det kan ta några minuter."
+            },
+            "abort": {
+                "reconfigure_successful": "Modellinställningarna har uppdaterats."
+            },
+            "step": {
+                "pick_model": {
+                    "data": {
+                        "huggingface_model": "Modellnamn",
+                        "downloaded_model_file": "Lokalt filnamn",
+                        "downloaded_model_quantization": "Kvantisering för nedladdad modell"
+                    },
+                    "description": "Välj en modell att använda.\n\nOm du anger en lokal modellfil används den i stället för att ladda ned från HuggingFace.\n\n**Modeller som stöds direkt:**\n1. [Home LLM](https://huggingface.co/collections/acon96/home-llm-6618762669211da33bb22c5a): Innehåller modeller från 270M till 4B\n2. [Qwen 3.5-familjen](https://huggingface.co/collections/Qwen/qwen35): innehåller modeller från 800M till 100B+\n3. [LFM 2.5-familjen](https://huggingface.co/collections/LiquidAI/lfm25): innehåller modeller från 350M till 8B",
+                    "title": "Välj modell"
+                },
+                "model_parameters": {
+                    "data": {
+                        "max_new_tokens": "Max antal tokens att returnera i svaret",
+                        "prompt": "Systemprompt",
+                        "temperature": "Temperatur",
+                        "top_k": "Top K",
+                        "top_p": "Top P",
+                        "min_p": "Min P",
+                        "typical_p": "Typical P",
+                        "request_timeout": "Tidsgräns för fjärrbegäran (sekunder)",
+                        "enable_streaming": "Aktivera strömning",
+                        "use_server_sampling_defaults": "Använd serverns standardvärden för samplingsparametrar",
+                        "ollama_keep_alive": "(ollama) Keep alive/tidsgräns vid inaktivitet (minuter)",
+                        "ollama_json_mode": "(ollama) JSON-utdataläge",
+                        "extra_attributes_to_expose": "Ytterligare attribut att exponera i kontexten",
+                        "enable_flash_attention": "Aktivera Flash Attention",
+                        "gbnf_grammar": "Aktivera GBNF-grammatik",
+                        "gbnf_grammar_file": "Filnamn för GBNF-grammatik",
+                        "openai_api_key": "API-nyckel",
+                        "text_generation_webui_admin_key": "(text-generation-webui) Administratörsnyckel",
+                        "service_call_regex": "Regex för tjänsteanrop",
+                        "in_context_examples": "Aktivera exempel för in-context learning (ICL)",
+                        "in_context_examples_file": "Filnamn för CSV med ICL-exempel",
+                        "num_in_context_examples": "Antal ICL-exempel att generera",
+                        "text_generation_webui_preset": "(text-generation-webui) Genereringsförinställning/karaktärsnamn",
+                        "text_generation_webui_chat_mode": "(text-generation-webui) Chattläge",
+                        "prompt_caching": "Aktivera promptcachning",
+                        "prompt_caching_interval": "Snabbaste uppdateringsintervall för promptcachning (sek)",
+                        "context_length": "Kontextlängd",
+                        "batch_size": "(llama.cpp) Batchstorlek",
+                        "n_threads": "(llama.cpp) Antal trådar",
+                        "n_batch_threads": "(llama.cpp) Antal batchtrådar",
+                        "llama_cpp_cache_size_mb": "(llama.cpp) Storlek på KV-cache på disk (MB)",
+                        "thinking_prefix": "Prefix för resonemangsinnehåll",
+                        "thinking_suffix": "Suffix för resonemangsinnehåll",
+                        "tool_call_prefix": "Prefix för verktygsanrop",
+                        "tool_call_suffix": "Suffix för verktygsanrop",
+                        "enable_legacy_tool_calling": "Aktivera äldre verktygsanrop",
+                        "tool_response_as_string": "Verktygssvar som sträng",
+                        "max_tool_call_iterations": "Max antal verktygsanrop",
+                        "ai_task_extraction_method": "Metod för extrahering av strukturerad data",
+                        "ai_task_retries": "Antal omförsök för extrahering av strukturerad data"
+                    },
+                    "data_description": {
+                        "prompt": "Se [här](https://github.com/acon96/home-llm/blob/develop/docs/Model%20Prompting.md) för mer information om hur modellen promptas.",
+                        "in_context_examples": "Aktivera detta om du använder en modell som inte är specifikt finjusterad för den här integrationen",
+                        "extra_attributes_to_expose": "Detta är listan över Home Assistant-'attribut' som exponeras för modellen. Den begränsar hur mycket information modellen kan se och svara på frågor om.",
+                        "gbnf_grammar": "Tvingar modellen att ge korrekt formaterade svar. Se till att filen som anges nedan finns i integrationens katalog.",
+                        "prompt_caching": "Promptcachning försöker förbehandla prompten (husets tillstånd) och cacha den bearbetning som krävs för att förstå prompten. Om detta aktiveras bearbetar modellen prompten på nytt varje gång en entitets tillstånd ändras i huset, begränsat av intervallet nedan.",
+                        "enable_legacy_tool_calling": "Bearbeta verktygsanrop lokalt i stället för att låta backend hantera formatet för verktygsanrop. Kan vara mer tillförlitligt, men kräver att prefix och suffix för verktygsanrop är korrekt inställda.",
+                        "tool_response_as_string": "Vissa promptmallar förväntar sig att verktygssvaret skickas som en JSON-serialiserad sträng i stället för som det råa objektet.",
+                        "max_tool_call_iterations": "Sätt till 0 för att generera svaret och verktygsanropet i ett försök, utan loop (använd detta för Home-modellerna v1-v3).",
+                        "enable_streaming": "När detta är aktiverat strömmas svaren token för token om backend stöder det.",
+                        "use_server_sampling_defaults": "**Rekommenderas för de flesta användare.** Inferensmotorer och modelleverantörer har blivit mycket bättre på att leverera modeller med väljusterade standardvärden för sampling. Utelämnar temperature, top_p, top_k, min_p och typical_p från begäranden så att servern använder de värden den vet är bäst för den inlästa modellen. Inaktivera endast detta om du upplever konstiga svar eller medvetet vill köra med en lägre temperatur.",
+                        "ai_task_extraction_method": "Välj metoden som används för att extrahera strukturerad data från modellens svar. 'Strukturerad utdata' låter backend tvinga modellen att producera utdata enligt det angivna JSON-schemat; 'Verktygsanrop' ger modellen ett verktyg som ska anropas med argument som matchar den önskade utdatastrukturen."
+                    },
+                    "description": "Konfigurera modellen utifrån hur den ska promptas. Det finns många olika alternativ och att välja rätt för din modell är avgörande för bästa prestanda. Se [här](https://github.com/acon96/home-llm/blob/develop/docs/Backend%20Configuration.md) för mer information om alternativen på den här sidan.\n\n**Vissa standardvärden kan ha valts åt dig baserat på namnet på den valda modellen eller filnamnet.** Om du har bytt namn på en fil eller använder en finjusterad version av en modell som stöds kan standardvärdena ha missats.",
+                    "title": "Konfigurera den valda modellen"
+                },
+                "reconfigure": {
+                    "data": {
+                        "max_new_tokens": "Max antal tokens att returnera i svaret",
+                        "llm_hass_api": "Valda LLM-API:er",
+                        "prompt": "Systemprompt",
+                        "temperature": "Temperatur",
+                        "top_k": "Top K",
+                        "top_p": "Top P",
+                        "min_p": "Min P",
+                        "typical_p": "Typical P",
+                        "request_timeout": "Tidsgräns för fjärrbegäran (sekunder)",
+                        "enable_streaming": "Aktivera strömning",
+                        "use_server_sampling_defaults": "Använd serverns standardvärden för samplingsparametrar",
+                        "ollama_keep_alive": "(ollama) Keep alive/tidsgräns vid inaktivitet (minuter)",
+                        "ollama_json_mode": "(ollama) JSON-utdataläge",
+                        "extra_attributes_to_expose": "Ytterligare attribut att exponera i kontexten",
+                        "enable_flash_attention": "Aktivera Flash Attention",
+                        "gbnf_grammar": "Aktivera GBNF-grammatik",
+                        "gbnf_grammar_file": "Filnamn för GBNF-grammatik",
+                        "openai_api_key": "API-nyckel",
+                        "text_generation_webui_admin_key": "(text-generation-webui) Administratörsnyckel",
+                        "service_call_regex": "Regex för tjänsteanrop",
+                        "refresh_prompt_per_turn": "Uppdatera systemprompten varje tur",
+                        "remember_conversation": "Kom ihåg konversationen",
+                        "remember_num_interactions": "Antal tidigare interaktioner att komma ihåg",
+                        "in_context_examples": "Aktivera exempel för in-context learning (ICL)",
+                        "in_context_examples_file": "Filnamn för CSV med ICL-exempel",
+                        "num_in_context_examples": "Antal ICL-exempel att generera",
+                        "text_generation_webui_preset": "(text-generation-webui) Genereringsförinställning/karaktärsnamn",
+                        "text_generation_webui_chat_mode": "(text-generation-webui) Chattläge",
+                        "prompt_caching": "Aktivera promptcachning",
+                        "prompt_caching_interval": "Snabbaste uppdateringsintervall för promptcachning (sek)",
+                        "context_length": "Kontextlängd",
+                        "batch_size": "(llama.cpp) Batchstorlek",
+                        "n_threads": "(llama.cpp) Antal trådar",
+                        "n_batch_threads": "(llama.cpp) Antal batchtrådar",
+                        "llama_cpp_cache_size_mb": "(llama.cpp) Storlek på KV-cache på disk (MB)",
+                        "thinking_prefix": "Prefix för resonemangsinnehåll",
+                        "thinking_suffix": "Suffix för resonemangsinnehåll",
+                        "tool_call_prefix": "Prefix för verktygsanrop",
+                        "tool_call_suffix": "Suffix för verktygsanrop",
+                        "enable_legacy_tool_calling": "Aktivera äldre verktygsanrop",
+                        "tool_response_as_string": "Verktygssvar som sträng",
+                        "max_tool_call_iterations": "Max antal verktygsanrop"
+                    },
+                    "data_description": {
+                        "llm_hass_api": "Välj 'Assist' om du vill att modellen ska kunna styra enheter. Om du använder Home-LLM-modellen v1, v2 eller v3 väljer du 'Home-LLM (v1-3)'",
+                        "prompt": "Se [här](https://github.com/acon96/home-llm/blob/develop/docs/Model%20Prompting.md) för mer information om hur modellen promptas.",
+                        "in_context_examples": "Aktivera detta om du använder en modell som inte är specifikt finjusterad för den här integrationen",
+                        "extra_attributes_to_expose": "Detta är listan över Home Assistant-'attribut' som exponeras för modellen. Den begränsar hur mycket information modellen kan se och svara på frågor om.",
+                        "gbnf_grammar": "Tvingar modellen att ge korrekt formaterade svar. Se till att filen som anges nedan finns i integrationens katalog.",
+                        "prompt_caching": "Promptcachning försöker förbehandla prompten (husets tillstånd) och cacha den bearbetning som krävs för att förstå prompten. Om detta aktiveras bearbetar modellen prompten på nytt varje gång en entitets tillstånd ändras i huset, begränsat av intervallet nedan.",
+                        "enable_legacy_tool_calling": "Bearbeta verktygsanrop lokalt i stället för att låta backend hantera formatet för verktygsanrop. Kan vara mer tillförlitligt, men kräver att prefix och suffix för verktygsanrop är korrekt inställda.",
+                        "tool_response_as_string": "Vissa promptmallar förväntar sig att verktygssvaret skickas som en JSON-serialiserad sträng i stället för som det råa objektet.",
+                        "max_tool_call_iterations": "Sätt till 0 för att generera svaret och verktygsanropet i ett försök, utan loop (använd detta för Home-modellerna v1-v3).",
+                        "enable_streaming": "När detta är aktiverat strömmas svaren token för token om backend stöder det.",
+                        "use_server_sampling_defaults": "**Rekommenderas för de flesta användare.** Inferensmotorer och modelleverantörer har blivit mycket bättre på att leverera modeller med väljusterade standardvärden för sampling. Utelämnar temperature, top_p, top_k, min_p och typical_p från begäranden så att servern använder de värden den vet är bäst för den inlästa modellen. Inaktivera endast detta om du upplever konstiga svar eller medvetet vill köra med en lägre temperatur."
+                    },
+                    "description": "Konfigurera modellen utifrån hur den ska promptas. Det finns många olika alternativ och att välja rätt för din modell är avgörande för bästa prestanda. Se [här](https://github.com/acon96/home-llm/blob/develop/docs/Backend%20Configuration.md) för mer information om alternativen på den här sidan.\n\n**Vissa standardvärden kan ha valts åt dig baserat på namnet på den valda modellen eller filnamnet.** Om du har bytt namn på en fil eller använder en finjusterad version av en modell som stöds kan standardvärdena ha missats.",
+                    "title": "Konfigurera den valda modellen"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "selected_language": "Modellens språk",
+                    "host": "API-värdnamn",
+                    "port": "API-port",
+                    "ssl": "Använd HTTPS",
+                    "openai_api_key": "API-nyckel",
+                    "openai_path": "API-sökväg",
+                    "text_generation_webui_admin_key": "Administratörsnyckel",
+                    "text_generation_webui_preset": "Genereringsförinställning/karaktärsnamn",
+                    "text_generation_webui_chat_mode": "Chattläge"
+                },
+                "description": "Ange anslutningsuppgifterna för API:t som kör modellen.",
+                "title": "Konfigurera anslutning"
+            },
+            "reinstall": {
+                "data": {
+                    "reinstall_llama_cpp": "Installera om Llama.cpp",
+                    "installed_llama_cpp_version": "Version att (om)installera"
+                },
+                "description": "__Om du har problem med Llama.cpp__ kan du tvinga fram en ominstallation av paketet här. Detta försöker installera om eller uppgradera paketet llama-cpp-python från GitHub *eller* från en lokal wheel-fil placerad i katalogen `/config/custom_components/llama_conversation/`.",
+                "title": "Installera om Llama.cpp"
+            }
+        },
+        "error": {
+            "failed_to_connect": "Kunde inte ansluta till fjärr-API:t: {exception}",
+            "invalid_hostname": "Det angivna värdnamnet är ogiltigt. Se till att du bara anger domänen eller IP-adressen och inte hela API-slutpunkten.",
+            "unknown": "Oväntat fel",
+            "pip_wheel_error": "Pip returnerade ett fel när wheel-paketet installerades! Kontrollera Home Assistant-loggarna för mer information."
+        },
+        "progress": {
+            "install_local_wheels": "Vänta medan Llama.cpp installeras..."
+        }
+    },
+    "selector": {
+        "model_backend": {
+            "options": {
+                "llama_cpp_python": "Llama.cpp",
+                "generic_openai": "OpenAI-kompatibelt 'Conversations'-API",
+                "generic_openai_responses": "OpenAI-kompatibelt 'Responses'-API",
+                "llama_cpp_server": "Llama.cpp-server",
+                "ollama": "Ollama-API",
+                "text-generation-webui_api": "text-generation-webui-API",
+                "anthropic": "Anthropic-kompatibelt 'Messages'-API"
+            }
+        },
+        "text_generation_webui_chat_mode": {
+            "options": {
+                "chat": "Chatt",
+                "instruct": "Instruct",
+                "chat-instruct": "Chat-Instruct"
+            }
+        },
+        "selected_language": {
+            "options": {
+                "en": "Engelska",
+                "de": "Tyska",
+                "fr": "Franska",
+                "es": "Spanska",
+                "pl": "Polska",
+                "sv": "Svenska"
+            }
+        }
+    }
+}

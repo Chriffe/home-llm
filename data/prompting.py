@@ -7,7 +7,8 @@ CURRENT_DATE_PROMPT = {
     "polish": "Aktualna godzina i data to",
     "german": "Die aktuelle Uhrzeit und das aktuelle Datum sind",
     "french": "L'heure et la date actuelles sont",
-    "spanish": "La hora y fecha actuales son"
+    "spanish": "La hora y fecha actuales son",
+    "swedish": "Aktuell tid och datum är"
 }
 
 DEVICES_PROMPT = {
@@ -15,7 +16,8 @@ DEVICES_PROMPT = {
     "polish": "Urządzenia",
     "german": "Ger\u00e4te",
     "french": "Appareils",
-    "spanish": "Dispositivos"
+    "spanish": "Dispositivos",
+    "swedish": "Enheter"
 }
 
 SERVICES_PROMPT = {
@@ -23,7 +25,8 @@ SERVICES_PROMPT = {
     "polish": "Usługi",
     "german": "Dienste",
     "french": "Services",
-    "spanish": "Servicios"
+    "spanish": "Servicios",
+    "swedish": "Tjänster"
 }
 
 BABEL_LOCALE = {
@@ -31,7 +34,8 @@ BABEL_LOCALE = {
     "polish": "pl_PL",
     "german": "de_DE",
     "french": "fr_FR",
-    "spanish": "es_ES"
+    "spanish": "es_ES",
+    "swedish": "sv_SE"
 }
 
 BABEL_FORMAT = {
@@ -39,7 +43,8 @@ BABEL_FORMAT = {
     "polish": "H:m 'w' EEEE, d MMMM yyyy",
     "german": "H:m EEEE, d MMMM yyyy",
     "french": "H:m EEEE, d MMMM yyyy",
-    "spanish": "H:m EEEE, d 'de' MMMM 'de' yyyy"
+    "spanish": "H:m EEEE, d 'de' MMMM 'de' yyyy",
+    "swedish": "HH:mm EEEE d MMMM yyyy"
 }
 
 USER_INSTRUCTION_PROMPT = {
@@ -47,7 +52,8 @@ USER_INSTRUCTION_PROMPT = {
     "german": "Benutzeranweisung",
     "french": "Instruction de l'utilisateur ",
     "spanish": "Instrucción del usuario",
-    "polish": "Instrukcja użytkownika"
+    "polish": "Instrukcja użytkownika",
+    "swedish": "Användarinstruktion"
 }
 
 

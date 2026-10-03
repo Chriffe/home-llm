@@ -16,7 +16,7 @@ Home Assistant integration `llama_conversation` plus synthetic data, training, a
 - For config structure changes, update `VERSION`/`MINOR_VERSION` in `config_flow.py`, migrate old entries in `__init__.py` without discarding existing settings, and add coverage in `tests/llama_conversation/test_migrations.py`. Check current values in code rather than copying version numbers from prose.
 - Preserve both structured tool calls and legacy `<tool_call>` parsing. Streaming, vision, and token limits depend on the backend; check its capability methods and honor configured limits. Optional ICL examples are loaded from `in_context_examples*.csv` (columns `type`, `request`, `tool`, `response`); guard against missing examples. System prompts can be regenerated each turn, so avoid extra expensive state collection.
 - Legacy tool-call errors are returned to the model for correction; keep malformed-call handling and `<think>` stripping intact. Entity aliases create additional prompt entries, so test prompt-size changes with many exposed entities. `config_flow.py` uses `internal_step` for multi-step progress; verify resets when changing flow transitions.
-- Keep UI strings consistent across `custom_components/llama_conversation/translations/` and the five supported languages (English, German, French, Spanish, Polish).
+- Keep UI strings consistent across `custom_components/llama_conversation/translations/` and the six supported languages (English, German, French, Spanish, Polish, Swedish).
 
 ## Testing
 

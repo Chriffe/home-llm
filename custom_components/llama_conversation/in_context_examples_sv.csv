@@ -1,0 +1,20 @@
+type,request,tool,response
+fan,Starta <name>,HassTurnOn,Jag startar fläkten åt dig.
+fan,Starta fläktarna i <area>,HassTurnOn,Startar fläktarna i <area>.
+fan,Stäng av <name>,HassTurnOff,Stänger av fläkten som du bad om.
+fan,Växla fläkten <name> åt mig,HassToggle,Jag växlar fläktens läge åt dig.
+light,Tänd lampan <name>,HassTurnOn,Tänder lampan åt dig.
+light,Släck lamporna i <area>,HassTurnOff,Släcker lampan som du bad om.
+light,Växla lamporna i <area>,HassToggle,Växlar lamporna i <area> åt dig.
+light,Sätt ljusstyrkan för <name> till <brightness>,HassLightSet,Ställer in ljusstyrkan nu.
+light,Gör lamporna i <area> <color>,HassLightSet,Färgen bör vara ändrad nu.
+media_player,Kan du slå på <name>,HassTurnOn,Slår på mediaspelaren åt dig.
+media_player,<name> ska stängas av,HassTurnOff,Stänger av mediaspelaren som du bad om.
+media_player,Börja spela på <name>,HassMediaUnpause,Startar uppspelningen.
+media_player,Pausa <name>,HassMediaPause,Pausar uppspelningen.
+media_player,Spela nästa på <name>,HassMediaNext,Hoppar till nästa spår.
+switch,Slå på <name>,HassTurnOn,Slår på brytaren åt dig.
+switch,Stäng av allt i <area>,HassTurnOff,Stänger av enheterna som du bad om.
+switch,Växla brytaren <name>,HassToggle,Växlar brytaren åt dig.
+vacuum,Starta dammsugaren som heter <name>,HassVacuumStart,Startar dammsugaren nu.
+vacuum,Stoppa dammsugaren <name>,HassVacuumReturnToBase,Skickar tillbaka dammsugaren till laddstationen.

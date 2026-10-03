@@ -1,0 +1,601 @@
+service_name,device_name,phrase
+blinds.close_cover,kok,Sänk kökspersiennerna
+blinds.close_cover,vardagsrum,Stäng persiennerna i vardagsrummet
+blinds.close_cover,sovrum,Dra ner persiennerna i sovrummet
+blinds.open_cover,kok,Kan du höja kökspersiennerna
+blinds.open_cover,vardagsrum,Öppna persiennerna i vardagsrummet
+blinds.open_cover,sovrum,Dra upp persiennerna i sovrummet
+blinds.stop_cover,kok,Stoppa kökspersiennerna där de är
+blinds.stop_cover,vardagsrum,Sluta justera persiennerna i vardagsrummet
+blinds.stop_cover,sovrum,Stoppa persiennerna i sovrummet
+blinds.toggle,kok,Växla läget på kökspersiennerna
+blinds.toggle,vardagsrum,Växla persiennerna i vardagsrummet
+blinds.toggle,sovrum,Vänd på persiennerna i sovrummet
+fan.decrease_speed,vind_1,Sakta ner vindsfläkten
+fan.decrease_speed,vind_1,Skruva ner vindsfläkten
+fan.decrease_speed,vind,Sakta ner fläkten på vinden
+fan.decrease_speed,sovrum_stora,Sakta ner fläkten i stora sovrummet
+fan.decrease_speed,garage,Skruva ner fläkten i garaget
+fan.decrease_speed,gastrum,Sänk fläkthastigheten i gästrummet
+fan.decrease_speed,hall,Sänk fläkthastigheten i hallen
+fan.decrease_speed,kok,Sakta ner köksfläkten
+fan.decrease_speed,kok,Skruva ner köksfläkten
+fan.decrease_speed,vardagsrum,Sänk hastigheten på vardagsrumsfläkten
+fan.decrease_speed,vardagsrum,Skruva ner vardagsrumsfläkten
+fan.decrease_speed,arbetsrum,Minska fläkthastigheten i arbetsrummet
+fan.increase_speed,vind_1,Öka hastigheten på vindsfläkten
+fan.increase_speed,vind,Snabba upp fläkten på vinden
+fan.increase_speed,sovrum_stora,Skruva upp hastigheten på fläkten i stora sovrummet
+fan.increase_speed,garage,Skruva upp fläkten i garaget
+fan.increase_speed,gastrum,Öka fläkthastigheten i gästrummet
+fan.increase_speed,hall,Höj fläkthastigheten i hallen
+fan.increase_speed,vardagsrum,Öka hastigheten på vardagsrumsfläkten
+fan.increase_speed,arbetsrum,Skruva upp fläkthastigheten i arbetsrummet
+fan.toggle,vind_2,Växla vindsfläkten
+fan.toggle,vind,Ändra fläktens läge på vinden
+fan.toggle,kallare,Växla källarfläkten
+fan.toggle,sovrum_stora,Växla läget på fläkten i stora sovrummet
+fan.toggle,sovrum,Växla sovrumsfläkten
+fan.toggle,over_matbordet,Växla fläkten ovanför matbordet
+fan.toggle,uppfart,Slå om fläkten vid uppfarten
+fan.toggle,garage,Slå om fläkten i garaget
+fan.toggle,gastrum,Kan du växla fläkten i gästrummet
+fan.toggle,hall,Växla läget på fläkten i hallen
+fan.toggle,kok,Växla köksfläkten
+fan.toggle,vardagsrum,Växla fläkten i vardagsrummet
+fan.toggle,kontor,Växla kontorsfläkten
+fan.toggle,ute,Växla utomhusfläkten
+fan.toggle,pool,Ändra läget på poolfläkten
+fan.toggle,bod,Slå på eller av fläkten i boden
+fan.toggle,arbetsrum,Ändra fläktens läge i arbetsrummet
+fan.turn_off,vind_1,Inaktivera vindsfläkten
+fan.turn_off,sovrum_stora,Inaktivera fläkten i stora sovrummet
+fan.turn_off,matplats,Stäng av fläkten vid matplatsen
+fan.turn_off,matsal,Stäng av matsalsfläkten
+fan.turn_off,garage,Stäng ner garagefläkten
+fan.turn_off,garage,Slå av garagefläkten
+fan.turn_off,gastrum,Stäng av gästrumsfläkten
+fan.turn_off,kok,Stäng av köksfläkten
+fan.turn_off,vardagsrum,Stäng av vardagsrumsfläkten
+fan.turn_off,kontor,Kan du inaktivera kontorsfläkten
+fan.turn_off,kontor,Stäng av kontorsfläkten
+fan.turn_off,altan,Stäng av altanfläkten
+fan.turn_off,arbetsrum,Slå av fläkten i arbetsrummet
+fan.turn_off,arbetsrum,Stäng av fläkten i arbetsrummet
+fan.turn_on,badrum,Aktivera badrumsfläkten
+fan.turn_on,badrum,Slå på badrumsfläkten
+fan.turn_on,sovrum_stora,Aktivera fläkten i stora sovrummet
+fan.turn_on,matplats,Slå på fläkten vid matplatsen
+fan.turn_on,garage,Slå på garagefläkten
+fan.turn_on,hall,Aktivera hallfläkten
+fan.turn_on,kok,Aktivera köksfläkten
+fan.turn_on,vardagsrum,Starta vardagsrumsfläkten
+fan.turn_on,vardagsrum,Slå på vardagsrumsfläkten
+fan.turn_on,kontor,Kan du aktivera kontorsfläkten
+fan.turn_on,arbetsrum,Aktivera fläkten i arbetsrummet
+fan.turn_on,arbetsrum,Slå på fläkten i arbetsrummet
+garage_door.close_cover,cykelforrad,Stäng cykelgaraget
+garage_door.close_cover,huvud,Stäng huvudgarageporten
+garage_door.close_cover,enkelgarage,Se till att enkelgaraget är stängt
+garage_door.close_cover,sida,Sänk sidogarageporten
+garage_door.open_cover,kallare,Höj garageporten i källaren
+garage_door.open_cover,cykelforrad,Öppna cykelgaraget
+garage_door.open_cover,huvud,Öppna huvudgarageporten
+garage_door.open_cover,sida,Kan du lyfta sidogarageporten
+garage_door.open_cover,dubbelgarage,Öppna dubbelgaraget
+garage_door.stop_cover,huvud,Stoppa huvudgarageporten
+garage_door.stop_cover,sida,Stanna sidogarageporten
+garage_door.toggle,huvud,Växla huvudgarageporten
+garage_door.toggle,sida,Växla läget på sidogarageporten
+light.toggle,vind,Ändra lampans läge på vinden
+light.toggle,sovrum_1,Växla sovrumslampan
+light.toggle,over_matbordet,Växla lampan ovanför matbordet
+light.toggle,uppfart,Slå om lampan vid uppfarten
+light.toggle,garage,Slå om lampan i garaget
+light.toggle,gastrum,Kan du växla lampan i gästrummet
+light.toggle,gastrum,Växla gästrumslampan
+light.toggle,hall,Växla läget på lampan i hallen
+light.toggle,hall,Växla hallampan
+light.toggle,kok_1,Växla kökslampan
+light.toggle,kok_2,Växla kökslampan
+light.toggle,kontor,Växla kontorslampan
+light.toggle,ute,Växla utomhuslampan
+light.toggle,altan,Växla altanlampan
+light.toggle,pool,Ändra läget på poolbelysningen
+light.toggle,bod,Tänd eller släck lampan i boden
+light.toggle,arbetsrum,Ändra lampans läge i arbetsrummet
+light.toggle,arbetsrum,Växla arbetsrumslampan
+light.turn_off,badrum_1,Släck badrumslampan
+light.turn_off,badrum,Slå av badrumslampan
+light.turn_off,badrum,Släck badrumslampan
+light.turn_off,sovrum_1,Inaktivera sovrumslampan
+light.turn_off,sovrum_2,Slå av sovrumslampan
+light.turn_off,matsal,Slå av matsalslampan
+light.turn_off,matsal,Släck matsalslampan
+light.turn_off,tradgard_1,Inaktivera trädgårdsbelysningen
+light.turn_off,gastrum,Inaktivera gästrumslampan
+light.turn_off,gastrum,Slå av gästrumslampan
+light.turn_off,hall,Slå av hallampan
+light.turn_off,hall,Släck hallampan
+light.turn_off,kok_2,Slå av kökslampan
+light.turn_off,koksbank,Släck lampan över köksbänken
+light.turn_off,vardagsrum_1,Slå av vardagsrumslampan
+light.turn_off,vardagsrum,Släck vardagsrumslampan
+light.turn_off,stora_sovrummet_1,Inaktivera lampan i stora sovrummet
+light.turn_off,stora_sovrummet_lampa,Släck lampan i sovrummet
+light.turn_off,kontor,Inaktivera kontorslampan
+light.turn_off,altan,Inaktivera altanlampan
+light.turn_off,altan,Stäng av altanbelysningen
+light.turn_off,pool,Släck poolbelysningen
+light.turn_off,arbetsrum,Släck arbetsrumslampan
+light.turn_on,badrum_1,Kan du tända i badrummet
+light.turn_on,badrum,Aktivera badrumslampan
+light.turn_on,sovrum_1,Aktivera sovrumslampan
+light.turn_on,matsal_1,Tänd belysningen i matsalen
+light.turn_on,matsal,Aktivera matsalslampan
+light.turn_on,uppfart,Tänd lampan vid uppfarten
+light.turn_on,garage,Aktivera garagelampan
+light.turn_on,garage,Tänd garagelampan
+light.turn_on,tradgard_1,Tänd trädgårdsbelysningen
+light.turn_on,tradgard_1,Slå på trädgårdsbelysningen
+light.turn_on,tradgard_2,Aktivera trädgårdsbelysningen
+light.turn_on,tradgard,Tänd trädgårdslampan
+light.turn_on,gastrum,Tänd gästrumslampan
+light.turn_on,hall,Tänd hallampan
+light.turn_on,kok_1,Tänd köksbelysningen
+light.turn_on,kok_1,Tänd kökslampan
+light.turn_on,koksbank,Tänd lampan över köksbänken
+light.turn_on,vardagsrum,Tänd vardagsrumslampan
+light.turn_on,stora_sovrummet_1,Aktivera lampan i stora sovrummet
+light.turn_on,kontor_1,Slå på kontorslampan
+light.turn_on,altan,Aktivera altanlampan
+light.turn_on,altan,Slå på altanbelysningen
+light.turn_on,altan,Tänd altanlampan
+light.turn_on,pool,Aktivera poolbelysningen
+light.turn_on,pool,Tänd poolbelysningen
+light.turn_on,bod,Aktivera lampan i boden
+light.turn_on,bod,Tänd lampan i boden
+light.turn_on,arbetsrum,Aktivera arbetsrumslampan
+light.turn_on,matsal_ljuskrona,Tänd matsalslampan
+light.turn_on,ljuskrona_framre_hall,Hej kan du tända ljuskronan i främre hallen
+lock.lock,bakdorr,Aktivera låset på bakdörren
+lock.lock,ytterdorr,Lås ytterdörren
+lock.lock,barnkammare,Kan du säkra dörren till barnkammaren
+lock.lock,kontor,Lås kontoret
+lock.lock,vinkallare,Kan du låsa vinkällaren
+lock.lock,ytterdorr,Lås ytterdörren tack.
+lock.lock,garageport,Jag vill att garageporten låses.
+lock.lock,huvudgrind,Se till att huvudgrinden är låst.
+lock.lock,kontorsdorr,Kan vi låsa kontorsdörren?
+lock.lock,kallardorr,Lås källardörren.
+lock.lock,tradgardsgrind,Säkra trädgårdsgrinden tack.
+lock.lock,jordkallardorr,Jordkällardörren ska vara låst nu.
+lock.lock,boddorr,Se till att boddörren är ordentligt låst.
+lock.lock,tvattstugedorr,Kan du låsa tvättstugedörren?
+lock.lock,gastrumsdorr,Lås gästrumsdörren tack.
+lock.lock,staketgrind,Se till att staketgrinden är låst.
+lock.lock,vindsdorr,Vindsdörren behöver låsas.
+lock.lock,forradsdorr,Lås förrådsdörren tack.
+lock.lock,carportgrind,Carportgrinden måste låsas.
+lock.lock,verandadorr,Lås verandadörren.
+lock.lock,vinkallare,Se till att vinkällaren är låst.
+lock.lock,hemmakontor,Jag vill att hemmakontoret låses.
+lock.lock,atelje,Ateljén ska vara låst.
+lock.lock,hemmagym,Lås dörren till hemmagymmet.
+lock.lock,biblioteksdorr,Lås biblioteksdörren tack.
+lock.unlock,bakdorr,Kan du lossa låset på bakdörren
+lock.unlock,cykelforrad,Lossa låset på cykelförrådet
+lock.unlock,ytterdorr,Lås upp ytterdörren
+lock.unlock,kontor,Lås upp kontoret
+lock.unlock,redskapsbod,Lås upp redskapsboden
+lock.unlock,bakdorr,Kan du låsa upp bakdörren?
+lock.unlock,altandorr,"Lås upp altandörren, tack."
+lock.unlock,koksfonster,Öppna låset på köksfönstret.
+lock.unlock,sovrumsfonster,Sovrumsfönstret behöver låsas upp.
+lock.unlock,badrumsfonster,Kan du låsa upp badrumsfönstret?
+lock.unlock,takdorr,Öppna låset på takdörren.
+lock.unlock,poolgrind,Jag vill att poolgrinden låses upp.
+lock.unlock,balkongdorr,Lås upp balkongdörren åt mig.
+lock.unlock,barnkammardorr,Dörren till barnkammaren behöver låsas upp.
+lock.unlock,sidoingang,Lås upp vår sidoingång.
+lock.unlock,garage_sidodorr,Garagets sidodörr ska vara upplåst.
+lock.unlock,brandtrappa,Kan du låsa upp brandtrappan?
+lock.unlock,bathusdorr,Lås upp dörren till båthuset.
+lock.unlock,bakgardsgrind,Kan vi få grinden till bakgården upplåst?
+lock.unlock,bakre_terrassdorr,Öppna låset på bakre terrassdörren.
+lock.unlock,uterumsdorr,Lås upp dörren till uterummet tack.
+lock.unlock,lekrumsdorr,Kan du låsa upp lekrumsdörren?
+lock.unlock,musikrum,"Lås upp musikrummet, tack."
+lock.unlock,biorum,Biorummet behöver låsas upp.
+lock.unlock,orangeri,Kan orangeriet låsas upp?
+media_player.media_next_track,vardagsrum,Hoppa till nästa spår i vardagsrummet
+media_player.media_next_track,kallare_hemmabio,Hoppa till nästa spår i källaren.
+media_player.media_next_track,gym_musikspelare,Hoppa till nästa låt i gymmet.
+media_player.media_next_track,yogarum_musik,Nästa spår för musiken i yogarummet.
+media_player.media_next_track,tradgard_musik,Nästa spår för musiken i trädgården.
+media_player.media_pause,sovrum,Pausa uppspelningen i sovrummet
+media_player.media_pause,badrum_ljud,Pausa ljudet i badrummet.
+media_player.media_pause,loft_tv,Pausa TV:n på loftet.
+media_player.media_pause,tvattstuga_radio,Pausa radion i tvättstugan.
+media_player.media_pause,korridor_porttelefon,Pausa porttelefonen i korridoren.
+media_player.media_play,barnkammare,Spela upp media i barnkammaren
+media_player.media_play,altan_hogtalare,Börja spela musik i altanhögtalaren.
+media_player.media_play,uterum_stereo,Spela på stereon i uterummet.
+media_player.media_play,barnrum_sagoberattare,Starta sagoberättaren i barnrummet.
+media_player.media_play,kallare_jukebox,Spela på jukeboxen i källaren.
+media_player.media_previous_track,kok,Spela föregående spår i köket
+media_player.media_previous_track,barnkammare_vaggvisa,Gå tillbaka till föregående vaggvisa i barnkammaren.
+media_player.media_previous_track,arbetsrum_radio,Gå tillbaka till föregående kanal i arbetsrummet.
+media_player.media_previous_track,orangeri_cd_spelare,Föregående spår på CD-spelaren i orangeriet.
+media_player.media_previous_track,uppfart_hogtalare,Föregående spår på högtalarna vid uppfarten.
+media_player.media_stop,barnkammare,Stoppa uppspelningen i barnkammaren
+media_player.media_stop,gastrum_media,Stoppa mediaspelaren i gästrummet.
+media_player.media_stop,pool_media,Stoppa mediasystemet vid poolen.
+media_player.media_stop,balkong_hogtalare,Stoppa balkonghögtalarna.
+media_player.media_stop,veranda_ljudsystem,Stoppa ljudsystemet på verandan.
+media_player.turn_off,koksradio,Stäng av köksradion.
+media_player.turn_off,lounge_underhallning,Stäng av underhållningscentret i loungen.
+media_player.turn_off,entre_echo,Stäng av Echo i entrén.
+media_player.turn_off,vinkallare_hogtalare,Stäng av högtalarna i vinkällaren.
+media_player.turn_off,grovingang_mediaspelare,Stäng av mediaspelaren i groventrén.
+media_player.turn_on,kok,Kan du starta media i köket
+media_player.turn_on,vardagsrum,Aktivera media i vardagsrummet
+media_player.turn_on,sovrum,Slå på mediaspelaren i sovrummet
+media_player.turn_on,vardagsrum_tv,Slå på TV:n i vardagsrummet tack.
+media_player.turn_on,altan_musiksystem,Slå på musiksystemet på altanen.
+media_player.turn_on,bakgard_hogtalare,Slå på högtalarna på bakgården.
+media_player.turn_on,foaje_ljudsystem,Starta ljudsystemet i foajén.
+media_player.turn_on,hall_ljud,Slå på ljudsystemet i hallen.
+media_player.volume_down,barnkammare,Sänk volymen i barnkammaren
+media_player.volume_down,kontor,Kan du sänka volymen på kontoret
+media_player.volume_down,kontor_ljudsystem,Sänk volymen på kontoret.
+media_player.volume_down,spelrum_hogtalare,Skruva ner högtalarna i spelrummet.
+media_player.volume_down,verkstad_ljudsystem,Sänk volymen på ljudsystemet i verkstaden.
+media_player.volume_down,vind_ljudsystem,Sänk volymen på ljudsystemet på vinden.
+media_player.volume_down,bod_ljudsystem,Skruva ner ljudsystemet i boden.
+media_player.volume_mute,vardagsrum,Stäng av ljudet på mediaspelaren i vardagsrummet
+media_player.volume_mute,garage_stereo,Stäng av ljudet på stereon i garaget.
+media_player.volume_mute,bibliotek_soundbar,Stäng av ljudet på soundbaren i biblioteket.
+media_player.volume_mute,atelje_spelare,Stäng av ljudet på mediaspelaren i ateljén.
+media_player.volume_mute,bathus_stereo,Stäng av ljudet på stereon i båthuset.
+media_player.volume_mute,tradkoja_hogtalare,Stäng av ljudet på högtalarna i trädkojan.
+media_player.volume_up,kok,Höj volymen i köket
+media_player.volume_up,vardagsrum,Skruva upp volymen i vardagsrummet
+media_player.volume_up,sovrum,Kan du höja volymen på mediaspelaren i sovrummet
+media_player.volume_up,sovrum_hogtalare,Kan du höja volymen i sovrummet?
+media_player.volume_up,matplats_jukebox,Höj volymen på jukeboxen vid matplatsen.
+media_player.volume_up,takterrass_ljud,Höj volymen på takterrassen.
+media_player.volume_up,vaxthus_radio,Höj volymen på radion i växthuset.
+media_player.volume_up,grovkok_radio,Skruva upp radion i grovköket.
+switch.toggle,tp_link_kasa_veranda,Växla verandabelysningen.
+switch.toggle,honeywell_hemmakontor,Växla kontorsbelysningen.
+switch.toggle,sonoff_matsal,Växla matsalsbelysningen.
+switch.toggle,osram_hall,Växla hallbelysningen.
+switch.toggle,koogeek_kallare,Växla källarbelysningen.
+switch.toggle,arlo_stralkastare,Växla säkerhetsstrålkastarna.
+switch.toggle,broadlink_pentry,Växla belysningen i pentryt.
+switch.toggle,kasa_vardagsrum,Växla vardagsrumsbelysningen.
+switch.toggle,hemmakontor_dimmer,Växla dimmern på hemmakontoret.
+switch.toggle,kok_bankbelysning,Växla bänkbelysningen i köket.
+switch.turn_off,belkin_wemo_garage,Stäng av garagebrytaren.
+switch.turn_off,lutron_caseta_sovrum,Släck sovrumsbelysningen.
+switch.turn_off,samsung_smartthings_larm,Stäng av larmsystemet.
+switch.turn_off,fibaro_pool,Släck poolbelysningen.
+switch.turn_off,ecobee_tradgard,Släck trädgårdsbelysningen.
+switch.turn_off,insteon_altan,Släck altanbelysningen.
+switch.turn_off,yeelight_uterum,Släck belysningen i uterummet.
+switch.turn_off,meross_gang,Släck gångbelysningen.
+switch.turn_off,xiaomi_sanglampa,Släck sänglampan.
+switch.turn_off,ikea_gastrum,Släck gästrumsbelysningen.
+switch.turn_off,tuya_bod,Stäng av strömbrytaren för lampan i boden.
+switch.turn_off,hue_sovrum_2,Släck belysningen i andra sovrummet.
+switch.turn_off,radiant_kontor,Släck kontorsbelysningen.
+switch.turn_off,z_wave_gastbadrum,Stäng av fläkten i gästbadrummet.
+switch.turn_off,altan_terrassvarmare,Stäng av terrassvärmaren.
+switch.turn_off,koksflakt,Stäng av köksfläkten tack.
+switch.turn_off,pool_lyktor,Släck lyktorna vid poolen.
+switch.turn_off,bakgard_stralkastare,Kan du släcka strålkastaren på bakgården?
+switch.turn_off,tvattomrade,Släck belysningen vid tvättområdet tack.
+switch.turn_off,kallare_vagglampor,Kan vi släcka vägglamporna i källaren?
+switch.turn_off,uterum_persienner,"Jag vill att persiennerna i uterummet stängs, tack."
+switch.turn_off,altan_ljusslinga,Släck ljusslingan på altanen.
+switch.turn_off,kokso,Inaktivera belysningen över köksön.
+switch.turn_off,garage_arbetslampa,Kan vi stänga av arbetslampan i garaget?
+switch.turn_off,hemmabio,Släck belysningen i hemmabion tack.
+switch.turn_off,matsal_dimmer,Ställ matsalsbelysningen på av.
+switch.turn_off,atelje_spotlights,Inaktivera spotlightsen i ateljén tack.
+switch.turn_off,bakre_entre,Släck belysningen vid bakre entrén.
+switch.turn_off,veranda_ljusslinga,"Släck ljusslingan på verandan, tack."
+switch.turn_off,kladkammare,Inaktivera belysningen i klädkammaren.
+switch.turn_off,badrumsspegel,Kan du släcka spegelbelysningen i badrummet?
+switch.turn_off,forrad,Stäng av belysningen i förrådet tack.
+switch.turn_off,naturomrade,Inaktivera belysningen i naturområdet.
+switch.turn_off,hobbyrum,Kan vi släcka belysningen i hobbyrummet?
+switch.turn_off,bakre_terrass,Kan du dämpa belysningen på bakre terrassen?
+switch.turn_on,philips_hue_vardagsrum,Tänd vardagsrumsbelysningen.
+switch.turn_on,legrand_radiant_kok,Tänd köksbelysningen.
+switch.turn_on,ge_z_wave_badrum,Slå på badrumsfläkten.
+switch.turn_on,eve_energy_balkong,Tänd balkongbelysningen.
+switch.turn_on,nest_termostat_terrass,Slå på termostaten på terrassen.
+switch.turn_on,wink_relay_uppfart,Tänd belysningen vid uppfarten.
+switch.turn_on,sengled_altan,Tänd altanbelysningen.
+switch.turn_on,gosund_vind,Slå på strömbrytaren för vindsbelysningen.
+switch.turn_on,nanoleaf_trappa,Tänd trappbelysningen.
+switch.turn_on,wyze_arbetsrum,Tänd belysningen i arbetsrummet.
+switch.turn_on,netatmo_framsida,Tänd belysningen på framsidan.
+switch.turn_on,moeshouse_gym,Tänd belysningen i gymmet.
+switch.turn_on,wemo_tvattstuga,Tänd belysningen i tvättstugan.
+switch.turn_on,caseta_hall_2,Tänd belysningen i andra hallen.
+switch.turn_on,overvakningskamera_lampa,Tänd lampan vid övervakningskameran.
+switch.turn_on,hall_dimmer,Kan du dämpa hallbelysningen?
+switch.turn_on,tradgard_spotlights,Aktivera spotlightsen i trädgården.
+switch.turn_on,framre_veranda_sensor,Aktivera sensorlampan på främre verandan.
+switch.turn_on,trappa_ljuslist,Kan du tända ljuslisten i trappan?
+switch.turn_on,kontor_skrivbordslampa,Tänd skrivbordslampan på mitt kontor.
+switch.turn_on,bibliotek_tak,Aktivera taklamporna i biblioteket.
+switch.turn_on,gastbadrum,"Tänd i gästbadrummet, tack."
+switch.turn_on,entre_ljuskrona,Tänd ljuskronan i entrén.
+switch.turn_on,sovrum_skenbelysning,Tänd skenbelysningen i sovrummet.
+switch.turn_on,balkong_stamningsbelysning,Aktivera stämningsbelysningen på balkongen.
+switch.turn_on,lekrum_nattlampa,Kan du tända nattlampan i lekrummet?
+switch.turn_on,foaje_vagglampa,Tänd vägglampan i foajén.
+switch.turn_on,korridor_skena,Tänd skenbelysningen i korridoren.
+switch.turn_on,master_svit,Ställ huvudsviten i nattläge.
+switch.turn_on,takterrass,Aktivera belysningen på takterrassen.
+switch.turn_on,vinkallare,Tänd i vinkällaren.
+switch.turn_on,gym_tak,Tänd taklamporna i gymmet.
+switch.turn_on,framre_grasmatta,Aktivera spotlightsen på främre gräsmattan.
+vacuum.start,kok,Slå på köksdammsugaren.
+vacuum.start,vardagsrum,Kan du aktivera dammsugaren i vardagsrummet?
+vacuum.start,matsal,Dammsugaren i matsalen behöver startas.
+vacuum.start,sovrum1,Vi startar dammsugaren i sovrum ett.
+vacuum.start,sovrum2,Kan du slå på dammsugaren för sovrum två?
+vacuum.start,arbetsrum,Dammsugaren i arbetsrummet ska aktiveras.
+vacuum.start,bibliotek,Får jag be dig starta dammsugaren i biblioteket?
+vacuum.start,kontor,Starta kontorsdammsugaren.
+vacuum.start,entrehall,Kan du slå på dammsugaren i entréhallen?
+vacuum.start,uterum,Dammsugaren i uterummet behöver startas.
+vacuum.start,altan,Vi aktiverar altandammsugaren.
+vacuum.start,garage,"Kan vi städa garaget, tack?"
+vacuum.start,verkstad,Får jag be dig slå på verkstadsdammsugaren?
+vacuum.start,grovkok,Städa grovköket tack.
+vacuum.start,grovingang,Kan du städa groventrén?
+vacuum.start,gasttoalett,Gästtoaletten behöver städas.
+vacuum.start,hall,Vi slår på halldammsugaren.
+vacuum.start,trappa,Kan vi starta trappdammsugaren?
+vacuum.start,balkong,Får jag be dig städa balkongen?
+vacuum.start,takterrass,Takterrassen är smutsig.
+vacuum.start,vind,Vi startar vindsdammsugaren.
+vacuum.start,kallare,"Kan vi slå på källardammsugaren, tack?"
+vacuum.start,poolomrade,Dammsugaren vid poolen behöver startas.
+vacuum.start,tradgard,Kan du aktivera trädgårdsdammsugaren?
+vacuum.start,terrass,Får jag be dig starta terrassdammsugaren?
+vacuum.start,veranda,Starta verandadammsugaren.
+vacuum.start,bod,"Kan vi slå på dammsugaren i boden, tack?"
+vacuum.start,verkstad2,Den andra verkstaden är ganska smutsig just nu.
+vacuum.start,studio,Får jag be dig starta studiodammsugaren?
+vacuum.start,vaxthus,Starta växthusdammsugaren.
+vacuum.start,planteringsbod,"Kan vi slå på dammsugaren i planteringsboden, tack?"
+vacuum.start,sommarstuga,Dammsugaren i sommarstugan behöver startas.
+vacuum.start,garage2,Vi startar dammsugaren i det andra garaget.
+vacuum.start,redskapsbod,Får jag be dig aktivera dammsugaren i redskapsboden?
+vacuum.start,lada,Kan vi slå på dammsugaren i ladan?
+vacuum.start,vinkallare,Vinkällaren borde städas.
+vacuum.start,forrad,Vi startar städningen av förrådet.
+vacuum.start,vaxthus2,Får jag be dig aktivera dammsugaren i det andra växthuset?
+vacuum.start,bathus,Slå på dammsugaren i båthuset.
+vacuum.start,marina,Kan vi starta marinadammsugaren?
+vacuum.start,bb8,Slå på BB8.
+vacuum.start,c3po,Kan du starta C3PO?
+vacuum.start,hal,Slå på Hal.
+vacuum.start,r2d2,Kan du säga åt R2D2 att städa?
+light.turn_off,barlampa,Släck barlampan
+light.turn_off,barlampa,Släck barlampa
+light.turn_off,barlampa,Stäng av barlampan
+light.turn_off,matsalslampa,Inaktivera matsalslampa
+light.turn_off,matsalslampa,Stäng av matsalslampa
+light.turn_off,matsalslampa,Växla matsalslampan
+light.turn_off,framre_lampa,Kan vi stänga av lampan på framsidan?
+light.turn_off,framre_lampa,Kan vi dämpa lampan på framsidan?
+light.turn_off,framre_lampa,Kan du släcka lamporna på framsidan?
+light.turn_off,gymlampa,Kan du stänga av gymlampan?
+light.turn_off,gymlampa,Kan du släcka gymlampan?
+light.turn_off,gymlampa,Kan vi släcka lamporna i gymmet?
+light.turn_off,kokso_lampa,Kan du inaktivera lampan över köksön
+light.turn_off,kokso_lampa,Inaktivera lampan över köksön
+light.turn_off,kokso_lampa,Inaktivera belysningen vid köksön.
+light.turn_off,kokslampa,Inaktivera kökslampan
+light.turn_off,kokslampa,Inaktivera lamporna i köket.
+light.turn_off,kokslampa,Stäng av belysningen i köket.
+light.turn_off,vardagsrumslampa,vardagsrumslampa av
+light.turn_off,vardagsrumslampa,Stäng av vardagsrumsbelysningen.
+light.turn_off,vardagsrumslampa,Inaktivera vardagsrumslampan.
+light.turn_off,kallare_huvudlampa,Släck huvudlampan i källaren
+light.turn_off,kallare_huvudlampa,Stäng av belysningen i stora källaren.
+light.turn_off,kallare_huvudlampa,Släck huvudlampan i källaren tack
+light.turn_off,mansgrotta_lampa,Släck belysningen i mansgrottan.
+light.turn_off,mansgrotta_lampa,Släck lamporna i mansgrottan.
+light.turn_off,mansgrotta_lampa,Släck lampan i mansgrottan.
+light.turn_off,sovrumslampa,Stäng av belysningen i sovrummet.
+light.turn_off,sovrumslampa,Ställ sovrumsbelysningen på av.
+light.turn_off,sovrumslampa,Stäng ner sovrumsbelysningen.
+light.turn_off,biljardbord_lampa,Stäng ner lampan över biljardbordet
+light.turn_off,biljardbord_lampa,Slå av lampan över biljardbordet
+light.turn_off,biljardbord_lampa,Slå av lampan över biljardbordet tack
+light.turn_off,biljardbord_lampa,Slå av lampan över biljardbordet nu
+light.turn_off,biljardbord_lampa,Slå av lamporna över biljardbordet
+light.turn_off,biljardbord_lampa,Slå av lampan vid biljardbordet
+light.turn_off,biljardbord_lampa,Slå av biljardlampan
+light.turn_off,biljardbord_lampa,Släck lampan över biljardbordet
+light.turn_off,biljardbord_lampa,Släck lampan över biljardbordet tack
+light.turn_off,biljardbord_lampa,Släck lampan över biljardbordet nu
+light.turn_off,biljardbord_lampa,Du kan släcka lampan över biljardbordet nu
+light.turn_off,biljardbord_lampa,Släck lamporna över biljardbordet.
+light.turn_off,biljardbord_lampa,Släck lampan över biljardbordet tack.
+light.turn_off,biljardbord_lampa,Släck biljardlampan
+light.turn_off,biljardbord_lampa,Släck lampan vid biljardbordet.
+light.turn_off,biljardbord_lampa,Stäng av biljardlampan
+light.turn_off,biljardbord_lampa,Släck lampan vid biljardbordet
+light.turn_off,biljardbord_lampa,Stäng av lampan över biljardbordet
+light.turn_off,verandalampa,Släck verandalampan tack
+light.turn_off,verandalampa,Släck verandalampa
+light.turn_off,verandalampa,Släck verandalampan
+light.turn_off,verandalampa,Inaktivera verandalampa
+light.turn_off,verandalampa,Stäng av verandalampa
+light.turn_off,verandalampa,Växla verandalampan
+light.turn_off,verandalampa,Kan vi stänga av verandalampan?
+light.turn_off,verandalampa,Kan vi dämpa verandalampan?
+light.turn_off,verandalampa,Kan du släcka lamporna på verandan?
+light.turn_off,verandalampa,Kan du stänga av verandalampan?
+light.turn_off,verandalampa,Kan du släcka verandalampan?
+light.turn_off,verandalampa,Kan vi släcka verandalamporna?
+light.turn_off,verandalampa,Kan du inaktivera verandalampan
+light.turn_off,verandalampa,Inaktivera verandalampan
+light.turn_off,verandalampa,Inaktivera belysningen på verandan.
+light.turn_off,verandalampa,Inaktivera verandalampan
+light.turn_off,verandalampa,Inaktivera lampan på verandan
+light.turn_off,verandalampa,Inaktivera verandalampan
+light.turn_off,verandalampa,Inaktivera verandalampan
+light.turn_off,verandalampa,Inaktivera verandalampan
+light.turn_off,verandalampa,Inaktivera lamporna vid verandan.
+light.turn_off,verandalampa,Stäng av belysningen på verandan.
+light.turn_off,verandalampa,verandalampa av
+light.turn_off,verandalampa,Stäng av verandalamporna.
+light.turn_off,verandalampa,Inaktivera verandalampan tack.
+light.turn_off,verandalampa,Släck verandalampan tack
+light.turn_off,verandalampa,Stäng av lamporna på verandan tack.
+light.turn_off,verandalampa,Slå av verandalampan tack
+light.turn_off,verandalampa,Slå av belysningen på verandan tack.
+light.turn_off,verandalampa,Släck verandalamporna tack.
+light.turn_off,verandalampa,Släck verandalampan tack.
+light.turn_off,verandalampa,Stäng av lamporna på verandan.
+light.turn_off,verandalampa,Ställ verandalamporna på av.
+light.turn_off,verandalampa,Stäng ner verandalamporna.
+light.turn_off,verandalampa,Stäng ner verandalampan
+light.turn_off,verandalampa,Slå av verandalampan
+light.turn_off,verandalampa,Slå av verandalampan tack
+light.turn_off,verandalampa,Slå av verandalampan nu
+light.turn_off,verandalampa,Slå av verandalamporna
+light.turn_off,verandalampa,Slå av lampan på verandan
+light.turn_off,verandalampa,Slå av verandalampan
+light.turn_off,verandalampa,Släck verandalampan
+light.turn_off,verandalampa,Släck verandalampan tack
+light.turn_off,verandalampa,Släck verandalampan nu
+light.turn_off,verandalampa,Du kan släcka verandalampan nu
+light.turn_off,verandalampa,Släck verandalamporna.
+light.turn_off,verandalampa,Släck verandalampan tack.
+light.turn_off,verandalampa,Släck verandalampan
+light.turn_off,verandalampa,Släck lampan på verandan.
+light.turn_off,verandalampa,Släck verandalampan
+light.turn_off,verandalampa,Släck lampan på verandan
+light.turn_off,verandalampa,Stäng av verandalampan
+light.turn_off,duschlampa,Släck duschlampan tack
+light.turn_off,duschlampa,Släck duschlampa
+light.turn_off,duschlampa,Släck duschlampan
+light.turn_off,duschlampa,Inaktivera duschlampa
+light.turn_off,duschlampa,Stäng av duschlampa
+light.turn_off,trapplampa,trapplampa av
+light.turn_off,trapplampa,Stäng av trappbelysningen.
+light.turn_off,trapplampa,Stäng av lampan i trapphuset
+light.turn_off,trapplampa,Växla lampan i trapphuset
+light.turn_off,trapplampa,Kan vi stänga av lampan i trapphuset?
+light.turn_off,taklampa,Släck taklampan tack
+light.turn_off,taklampa,Släck taklampa
+light.turn_off,taklampa,Släck taklampan
+light.turn_off,ganglampa,Stäng ner gångbelysningen.
+light.turn_off,ganglampa,Släck gånglampan
+light.turn_off,ganglampa,Stäng av gånglampan
+light.turn_off,bosses_lampa,Släck Bosses lampa tack
+light.turn_off,jannes_lampa,Släck Jannes lampa
+light.turn_off,ruths_lampa,Släck Ruths lampa tack
+light.turn_off,kalles_lampa,Släck Kalles lampa
+light.turn_off,ninas_lampa,Släck Ninas lampa
+light.turn_off,roberts_lampa,Inaktivera Roberts lampa
+light.turn_off,pauls_lampa,Stäng av Pauls lampa
+light.turn_off,peters_lampa,Växla Peters lampa
+light.turn_off,annas_lampa,Kan vi stänga av Annas lampa?
+light.turn_off,entrelampa,Släck entrélampan tack
+light.turn_off,entrelampa,Släck entrélampa
+light.turn_off,entrelampa,Släck lampan i entrén tack
+light.turn_off,entrelampa,Stäng av lampan i entrén tack
+light.turn_off,entrelampa,Stäng av lamporna i entrén tack.
+light.turn_off,entrelampa,Inaktivera entrébelysningen
+light.turn_on,barlampa,Tänd lampan i min bar.
+light.turn_on,barlampa,Tänd i baren.
+light.turn_on,barlampa,Barlampa på
+light.turn_on,barlampa,Lys upp baren.
+light.turn_on,matsalslampa,Tänd lamporna i matsalen
+light.turn_on,matsalslampa,Slå på matsalslampan tack
+light.turn_on,matsalslampa,Aktivera belysningen i matsalen.
+light.turn_on,framre_lampa,Tänd lampan på framsidan tack
+light.turn_on,framre_lampa,Aktivera lampan på framsidan
+light.turn_on,framre_lampa,Tänd lampan på framsidan nu
+light.turn_on,gymlampa,Tänd gymlampan tack
+light.turn_on,gymlampa,Tänd gymlampan
+light.turn_on,gymlampa,gymlampa på
+light.turn_on,kokso_lampa,Tänd lampan över köksön
+light.turn_on,kokso_lampa,köksö-lampa på
+light.turn_on,kokso_lampa,Slå på lampan över köksön
+light.turn_on,kokslampa,kökslampa på
+light.turn_on,kokslampa,Slå på kökslampan
+light.turn_on,kokslampa,Hej kan du tända kökslampan
+light.turn_on,vardagsrumslampa,Tänd vardagsrumsbelysningen.
+light.turn_on,vardagsrumslampa,Tänd vardagsrumsbelysningen tack.
+light.turn_on,vardagsrumslampa,Kan du tända lamporna i vardagsrummet.
+light.turn_on,vardagsrumslampa,Slå på belysningen i vardagsrummet.
+light.turn_on,kallare_huvudlampa,Tänd huvudlampan i källaren
+light.turn_on,kallare_huvudlampa,Tänd källarens huvudlampa
+light.turn_on,mansgrotta_lampa,Aktivera lampan i mansgrottan.
+light.turn_on,mansgrotta_lampa,Tänd lamporna i mansgrottan
+light.turn_on,mansgrotta_lampa,Kan du lysa upp mansgrottan?
+light.turn_on,mansgrotta_lampa,Slå på lampan i mansgrottan
+light.turn_on,sovrumslampa,Kan du tända i sovrummet
+light.turn_on,biljardbord_barlampa,biljardbordets barlampa på
+light.turn_on,biljardbord_barlampa,Tänd barlampan vid biljardbordet
+light.turn_on,biljardbord_barlampa,Kan du tända barlampan vid biljardbordet?
+light.turn_on,biljardbord_lampa,Tänd lampan över biljardbordet tack
+light.turn_on,verandalampa,Tänd verandalampa
+light.turn_on,verandalampa,Kan du tända verandalampan?
+light.turn_on,verandalampa,Skulle du kunna tända verandalampan?
+light.turn_on,duschlampa,Tänd duschlampan
+light.turn_on,duschlampa,Tänd duschlampa
+light.turn_on,duschlampa,Aktivera duschlampan
+light.turn_on,duschlampa,Kan du tända i duschen
+light.turn_on,duschlampa,Tänd lamporna vid duschen
+light.turn_on,duschlampa,Lys upp duschen tack
+light.turn_on,duschlampa,Tänd duschlampan tack
+light.turn_on,duschlampa,Slå på duschlampan
+light.turn_on,duschlampa,duschlampa på
+light.turn_on,trapplampa,Tänd trapplampan tack
+light.turn_on,trapplampa,Aktivera trapplampan
+light.turn_on,trapplampa,Kan du lysa upp trapphuset?
+light.turn_on,trapplampa,Aktivera lampan i trapphuset
+light.turn_on,trapplampa,Tänd lampan vid trapphuset
+light.turn_on,taklampa,Tänd taklampan.
+light.turn_on,taklampa,Slå på taklampan tack
+light.turn_on,taklampa,Kan du tända lampan i taket?
+light.turn_on,ganglampa,Aktivera gånglampan
+light.turn_on,ganglampa,Tänd lampan längs gången
+light.turn_on,ganglampa,Slå på gångbelysningen.
+light.turn_on,fredriks_lampa,Tänd Fredriks lampa
+light.turn_on,kalles_lampa,Tänd Kalles lampa
+light.turn_on,roberts_lampa,Aktivera Roberts lampa
+light.turn_on,pers_lampa,Tänd Pers lampa tack
+light.turn_on,jennys_lampa,Slå på Jennys lampa
+light.turn_on,julias_lampa,Julias lampa på
+light.turn_on,ninas_lampa,Slå på Ninas lampa
+light.turn_on,patriks_lampa,Kan du tända Patriks lampa?
+light.turn_on,sams_lampa,Tänd hos Sam.
+light.turn_on,johans_lampa,Lys upp Johans lampa.
+light.turn_on,jonas_lampa,Aktivera Jonas belysning.
+light.turn_on,linus_lampa,Tänd Linus lampor.
+light.turn_on,agnes_lampa,Kan du tända Agnes lampa?
+light.turn_on,lars_lampa,Skulle du kunna tända Lars lampa?
+light.turn_on,karins_lampa,Kan du aktivera Karins lampa
+light.turn_on,viktors_lampa,Aktivera Viktors lampa
+light.turn_on,samuels_lampa,Aktivera Samuels lampa tack
+light.turn_on,entrelampa,Tänd entrélampa
+light.turn_on,entrelampa,Aktivera lampan i entrén
+light.turn_on,entrelampa,Tänd lampan vid entrén tack
+light.turn_on,entrelampa,Tänd entrébelysningen
+light.turn_on,entrelampa,Slå på belysningen i entrén.

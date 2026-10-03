@@ -18,7 +18,7 @@ size_categories:
 
 This dataset contains a list of requests and responses for a user interacting with a personal assistant that controls an instance of [Home Assistant](https://www.home-assistant.io/).
 
-The updated V2 of the dataset is now multilingual, containing data in English, German, French, Spanish, and Polish. The dataset also contains multiple "personalities" for the assistant to respond in, such as a formal assistant, a sarcastic assistant, and a friendly assistant. Lastly, the dataset has been updated to fully support modern tool-calling formats.
+The updated V2 of the dataset is now multilingual, containing data in English, German, French, Spanish, Polish, and Swedish. The dataset also contains multiple "personalities" for the assistant to respond in, such as a formal assistant, a sarcastic assistant, and a friendly assistant. Lastly, the dataset has been updated to fully support modern tool-calling formats.
 
 ## Assembling the dataset
 
@@ -40,11 +40,11 @@ pip3 install -r requirements.txt
 
 ### Generating the dataset from piles
 
-`python3 generate_data.py --train --test --small --language english german french spanish polish`
+`python3 generate_data.py --train --test --small --language english german french spanish polish swedish`
 
 Supported dataset splits are `--test`, `--train`, & `--sample`
 Arguments to set the train dataset size are `--small`, `--medium`, `--large`, & `--xl`.
-Languages can be enabled using `--language english german french spanish polish`
+Languages can be enabled using `--language english german french spanish polish swedish`
 
 ## Adding a new personality
 In order to add a new personality, you need to define a new system prompt and new set of responses for the assistant. The system prompt is the description of the assistant's behavior that occurs at the start of the context. The responses are what is said back to the user when performing a task. The model should still respond with the correct service call no matter what the assistant's response is. The list of system prompts are stored in `pile_of_system_prompts.csv`, and the list of responses are stored in `pile_of_responses.csv`

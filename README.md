@@ -16,7 +16,7 @@ Home LLM is a complete solution for adding AI-powered voice and chat control to 
 - 🏠 **Fully Local** – Everything runs on your hardware. Your data never leaves your control (unless you want to!)
 - 🗣️ **Voice & Chat Control** – Use as a conversation agent with voice assistants or chat interfaces
 - 🤖 **AI Task Automation** – Generate dynamic content and structured data for automations
-- 🌍 **Multi-Language Support** – Built-in support for English, German, French, Spanish, and Polish (better translations are welcome!)
+- 🌍 **Multi-Language Support** – Built-in support for English, German, French, Spanish, Polish, and Swedish (better translations are welcome!)
 - ⚡ **Runs on Low-Power Devices** – Models work on Raspberry Pi and other modest hardware -- no GPU required!
 - 🔌 **Flexible Backends** – Run models locally as part of Home Assistant **or** connect to external model providers
 
